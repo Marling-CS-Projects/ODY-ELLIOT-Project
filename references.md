@@ -31,3 +31,23 @@ description: A list of all the references used in this project (Harvard style)
 [Lindsay Grace, The Conversation, 2018. The Original “Space Invaders” Is a Meditation on 1970s America’s Deepest Fears. Smithsonian Magazine.](https://www.smithsonianmag.com/science-nature/original-space-invaders-icon-1970s-America-180969393/)
 
 [Sakurai, M., 2022. Risk and Reward  \[Game Essence\]. YouTube.](https://www.youtube.com/watch?v=FXqEykD5Ub4)
+
+### [Concerning rogue-like games](analysis/1.1-problem-identification.md#concerning-rogue-like-games)
+
+[Creswell, J., 2022. What Makes a Good Roguelike? CBR.](https://www.cbr.com/roguelike-game-genre-good/)
+
+[Gough, R.H., 2020. I Hate Roguelikes, And So Should You! Game Developer.](https://www.gamedeveloper.com/design/i-hate-roguelikes-and-so-should-you-)
+
+[Miller, C., 2020. Rogue, The Game That Spawned An Entire Genre In 1980, Has Released On Steam. HappyGamer.](https://happygamer.com/rogue-the-game-that-spawned-an-entire-genre-in-1980-has-released-on-steam-89152/)
+
+### [Rogue-like popularity](analysis/1.1-problem-identification.md#rogue-like-popularity)
+
+[Creswell, J., 2022. What Makes a Good Roguelike? CBR.](https://www.cbr.com/roguelike-game-genre-good/)
+
+[Khan, Z., 2022. What is Steam: The popular gaming platform explained \[WWW Document\]. Android Authority. URL https://www.androidauthority.com/what-is-steam-3254981/.](https://www.androidauthority.com/what-is-steam-3254981/)
+
+[Richards, J., 2017. Return of the roguelikes and why we love to punish ourselves \[WWW Document\]. Grown Gaming. URL https://growngaming.com/feature/return-of-the-roguelikes/.](https://growngaming.com/feature/return-of-the-roguelikes/)
+
+[SteamDB, 2023. Most played Rogue-like Games Steam Charts \[WWW Document\]. Https://steamdb.info/. URL https://steamdb.info/charts/?tagid=1716](https://steamdb.info/charts/?tagid=1716)
+
+[zukalous, 2022. What genres are popular on Steam in 2022 – How To Market A Game \[WWW Document\]. Https://howtomarketagame.com/. URL https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/.](https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/)
