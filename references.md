@@ -34,11 +34,19 @@ description: A list of all the references used in this project (Harvard style)
 
 ### [Concerning rogue-like games](analysis/1.1-problem-identification.md#concerning-rogue-like-games)
 
+[Avery-Weir, G., 2018. Why is permadeath essential to a roguelike design? \[WWW Document\]. Game Development Stack Exchange. URL https://gamedev.stackexchange.com/questions/43801/why-is-permadeath-essential-to-a-roguelike-design.](https://gamedev.stackexchange.com/questions/43801/why-is-permadeath-essential-to-a-roguelike-design)
+
 [Creswell, J., 2022. What Makes a Good Roguelike? CBR.](https://www.cbr.com/roguelike-game-genre-good/)
 
 [Gough, R.H., 2020. I Hate Roguelikes, And So Should You! Game Developer.](https://www.gamedeveloper.com/design/i-hate-roguelikes-and-so-should-you-)
 
+[Hawkes, E., 2013. What Separates a Roguelike from a Roguelite? \[WWW Document\]. Hardcore Gamer. URL https://hardcoregamer.com/features/articles/what-separates-a-roguelike-from-a-roguelite/47151/.](https://hardcoregamer.com/features/articles/what-separates-a-roguelike-from-a-roguelite/47151/)
+
 [Miller, C., 2020. Rogue, The Game That Spawned An Entire Genre In 1980, Has Released On Steam. HappyGamer.](https://happygamer.com/rogue-the-game-that-spawned-an-entire-genre-in-1980-has-released-on-steam-89152/)
+
+[Pseychie, 2022. Why You Can’t Get Good at Roguelikes. YouTube.](https://www.youtube.com/watch?v=34-ywHzXzFQ)
+
+[Van Allen, E., 2022. Roguelike vs. Roguelite: What’s the difference between the two? \[WWW Document\]. Destructoid. URL https://www.destructoid.com/the-difference-between-roguelike-and-roguelite-games/.](https://www.destructoid.com/the-difference-between-roguelike-and-roguelite-games/)
 
 ### [Rogue-like popularity](analysis/1.1-problem-identification.md#rogue-like-popularity)
 
