@@ -56,6 +56,10 @@ description: A list of all the references used in this project (Harvard style)
 
 [Richards, J., 2017. Return of the roguelikes and why we love to punish ourselves \[WWW Document\]. Grown Gaming. URL https://growngaming.com/feature/return-of-the-roguelikes/.](https://growngaming.com/feature/return-of-the-roguelikes/)
 
+[Steam, 2014. The Binding of Isaac: Rebirth on Steam \[WWW Document\]. Steam. URL https://store.steampowered.com/app/250900/The\_Binding\_of\_Isaac\_Rebirth/.](https://store.steampowered.com/app/250900/The\_Binding\_of\_Isaac\_Rebirth/)
+
+[Steam, 2019. Slay the Spire on Steam \[WWW Document\]. Steam. URL https://store.steampowered.com/app/646570/Slay\_the\_Spire/.](https://store.steampowered.com/app/646570/Slay\_the\_Spire/)
+
 [SteamDB, 2023. Most played Rogue-like Games Steam Charts \[WWW Document\]. Https://steamdb.info/. URL https://steamdb.info/charts/?tagid=1716](https://steamdb.info/charts/?tagid=1716)
 
 [zukalous, 2022. What genres are popular on Steam in 2022 – How To Market A Game \[WWW Document\]. Https://howtomarketagame.com/. URL https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/.](https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/)
