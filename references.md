@@ -68,6 +68,10 @@ description: A list of all the references used in this project (Harvard style)
 
 ### [Age ratings](analysis/1.2-stakeholders.md#age-ratings)
 
+[internetmatters.org, 2022. Video games age ratings explained \[WWW Document\]. Internet Matters. URL https://www.internetmatters.org/resources/video-games-age-ratings-explained/.](https://www.internetmatters.org/resources/video-games-age-ratings-explained/)
+
+[Whitehead, T., 2014. Feature: Lifting the curtain on game ratings and the headache of worldwide releases. Nintendo Life.](https://www.nintendolife.com/news/2014/03/feature\_lifting\_the\_curtain\_on\_game\_ratings\_and\_the\_headache\_of\_worldwide\_releases)
+
 ### [Target audience](analysis/1.2-stakeholders.md#target-audience)
 
 ### [How PEGI games are rated](analysis/1.2-stakeholders.md#how-pegi-games-are-rated)
