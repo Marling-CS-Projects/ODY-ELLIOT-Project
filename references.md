@@ -63,3 +63,8 @@ description: A list of all the references used in this project (Harvard style)
 [SteamDB, 2023. Most played Rogue-like Games Steam Charts \[WWW Document\]. Https://steamdb.info/. URL https://steamdb.info/charts/?tagid=1716](https://steamdb.info/charts/?tagid=1716)
 
 [zukalous, 2022. What genres are popular on Steam in 2022 – How To Market A Game \[WWW Document\]. Https://howtomarketagame.com/. URL https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/.](https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/)
+
+## [1.2 Stakeholders](references.md#1.2-stakeholders)
+
+### [Age ratings](analysis/1.2-stakeholders.md#age-ratings)
+
