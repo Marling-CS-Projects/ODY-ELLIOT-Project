@@ -68,3 +68,6 @@ description: A list of all the references used in this project (Harvard style)
 
 ### [Age ratings](analysis/1.2-stakeholders.md#age-ratings)
 
+### [Target audience](analysis/1.2-stakeholders.md#target-audience)
+
+### [How PEGI games are rated](analysis/1.2-stakeholders.md#how-pegi-games-are-rated)
