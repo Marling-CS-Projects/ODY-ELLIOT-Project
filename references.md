@@ -75,3 +75,9 @@ description: A list of all the references used in this project (Harvard style)
 ### [Target audience](analysis/1.2-stakeholders.md#target-audience)
 
 ### [How PEGI games are rated](analysis/1.2-stakeholders.md#how-pegi-games-are-rated)
+
+[PEGI, 2002a. PEGI age ratings \[WWW Document\]. Pegi Public Site. URL https://pegi.info/page/pegi-age-ratings.](https://pegi.info/page/pegi-age-ratings)
+
+[PEGI, 2002b. What do the labels mean? \[WWW Document\]. Pegi Public Site. URL https://pegi.info/what-do-the-labels-mean.](https://pegi.info/what-do-the-labels-mean)
+
+[Robertson, A., 2018. PEGI Ratings Offer Parents Much More Than Age Limits \[WWW Document\]. www.askaboutgames.com. URL https://www.askaboutgames.com/pegi-ratings-offer-parents-much-more-than-age-limits.](https://www.askaboutgames.com/pegi-ratings-offer-parents-much-more-than-age-limits)
