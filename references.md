@@ -74,6 +74,10 @@ description: A list of all the references used in this project (Harvard style)
 
 ### [Target audience](analysis/1.2-stakeholders.md#target-audience)
 
+[SuprisinglyNot, 2017. Roguelike/Roguelite gamer survey \[WWW Document\]. Google Docs. URL https://docs.google.com/forms/d/e/1FAIpQLScR2iR\_lln4O4x8gh9DuDXzfJTDmsaczXYm633TzQZndBv8Cg/viewanalytics.](https://docs.google.com/forms/d/e/1FAIpQLScR2iR\_lln4O4x8gh9DuDXzfJTDmsaczXYm633TzQZndBv8Cg/viewanalytics)
+
+[Todorov, G., 2021. How to promote your blog \[WWW Document\]. Learn Digital Marketing. URL https://thrivemyway.com/reddit-statistics/.](https://thrivemyway.com/reddit-statistics/)
+
 ### [How PEGI games are rated](analysis/1.2-stakeholders.md#how-pegi-games-are-rated)
 
 [PEGI, 2002a. PEGI age ratings \[WWW Document\]. Pegi Public Site. URL https://pegi.info/page/pegi-age-ratings.](https://pegi.info/page/pegi-age-ratings)
