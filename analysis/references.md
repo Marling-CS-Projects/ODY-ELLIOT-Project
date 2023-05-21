@@ -85,3 +85,34 @@ description: A list of all the references used in this project (Harvard style)
 [PEGI, 2002b. What do the labels mean? \[WWW Document\]. Pegi Public Site. URL https://pegi.info/what-do-the-labels-mean.](https://pegi.info/what-do-the-labels-mean)
 
 [Robertson, A., 2018. PEGI Ratings Offer Parents Much More Than Age Limits \[WWW Document\]. www.askaboutgames.com. URL https://www.askaboutgames.com/pegi-ratings-offer-parents-much-more-than-age-limits.](https://www.askaboutgames.com/pegi-ratings-offer-parents-much-more-than-age-limits)
+
+## [1.3 Research](references.md#1.3-research)
+
+### [Soul Knight](1.3-research-the-problem.md#soul-knight)
+
+[Fandom, 2017a. About the Game \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/About\_the\_Game.](https://soul-knight.fandom.com/wiki/About\_the\_Game)
+
+[Fandom, 2017b. Playing the Game \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Playing\_the\_Game.](https://soul-knight.fandom.com/wiki/Playing\_the\_Game)
+
+[Fandom, 2017c. Multiplayer \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Multiplayer.](https://soul-knight.fandom.com/wiki/Multiplayer)
+
+[Fandom, 2017d. Chests \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Chests.](https://soul-knight.fandom.com/wiki/Chests)
+
+[Fandom, 2017e. Characters \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Characters.](https://soul-knight.fandom.com/wiki/Characters)
+
+[Fandom, 2017f. Weapons \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Weapons#Weapon\_Categories.](https://soul-knight.fandom.com/wiki/Weapons#Weapon\_Categories)
+
+[Fandom, 2017g. HUD \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/HUD).](https://soul-knight.fandom.com/wiki/HUD\))
+
+[Fandom, 2017h. Followers \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Followers#Mercenaries.](https://soul-knight.fandom.com/wiki/Followers#Mercenaries)
+
+[Fandom, 2017i. Shops \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Shops.](https://soul-knight.fandom.com/wiki/Shops)
+
+[Fandom, 2017j. Stats \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Stats#Energy.](https://soul-knight.fandom.com/wiki/Stats#Energy)
+
+[Gamer Ray, 2021. Soul Knight full game walkthrough\[Knight gameplay\]. YouTube.](https://www.youtube.com/watch?v=IBfVI077M6k)
+
+[Koziara, A., 2017. ‘Soul Knight’ Review – All the Guns. All of Them. – TouchArcade \[WWW Document\]. toucharcade. URL https://toucharcade.com/2017/03/10/soul-knight-review/.](https://toucharcade.com/2017/03/10/soul-knight-review/)
+
+[Nintendo of Europe, 2019. Soul Knight \[WWW Document\]. Nintendo of Europe GmbH. URL https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Soul-Knight-1652172.html.](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Soul-Knight-1652172.html)
+
