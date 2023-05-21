@@ -4,9 +4,9 @@ description: A list of all the references used in this project (Harvard style)
 
 # References
 
-## [1.1 Problem Identification](analysis/1.1-problem-identification.md)
+## [1.1 Problem Identification](1.1-problem-identification.md)
 
-### [The current state of the game industry](analysis/1.1-problem-identification.md#the-current-state-of-the-game-industry)
+### [The current state of the game industry](1.1-problem-identification.md#the-current-state-of-the-game-industry)
 
 [Bach, D., 2021. Mind games: How gaming can play a positive role in mental health \[WWW Document\]. Source. URL https://news.microsoft.com/source/features/work-life/mind-games-how-gaming-can-play-a-positive-role-in-mental-health/.](https://news.microsoft.com/source/features/work-life/mind-games-how-gaming-can-play-a-positive-role-in-mental-health/)
 
@@ -24,7 +24,7 @@ description: A list of all the references used in this project (Harvard style)
 
 [Witkowski, W., 2020. Videogames are a bigger industry than movies and North American sports combined, thanks to the pandemic. MarketWatch.](https://www.marketwatch.com/story/videogames-are-a-bigger-industry-than-sports-and-movies-combined-thanks-to-the-pandemic-11608654990)
 
-### [Risk and reward in computer-games](analysis/1.1-problem-identification.md#risk-and-reward-in-computer-games)
+### [Risk and reward in computer-games](1.1-problem-identification.md#risk-and-reward-in-computer-games)
 
 [Corona, V., 2020. What Makes Video Games So Fun and Entertaining? \[WWW Document\]. Scholarly Open Access 2023. URL https://scholarlyoa.com/what-makes-video-games-so-fun/.](https://scholarlyoa.com/what-makes-video-games-so-fun/)
 
@@ -32,7 +32,7 @@ description: A list of all the references used in this project (Harvard style)
 
 [Sakurai, M., 2022. Risk and Reward  \[Game Essence\]. YouTube.](https://www.youtube.com/watch?v=FXqEykD5Ub4)
 
-### [Concerning rogue-like games](analysis/1.1-problem-identification.md#concerning-rogue-like-games)
+### [Concerning rogue-like games](1.1-problem-identification.md#concerning-rogue-like-games)
 
 [Avery-Weir, G., 2018. Why is permadeath essential to a roguelike design? \[WWW Document\]. Game Development Stack Exchange. URL https://gamedev.stackexchange.com/questions/43801/why-is-permadeath-essential-to-a-roguelike-design.](https://gamedev.stackexchange.com/questions/43801/why-is-permadeath-essential-to-a-roguelike-design)
 
@@ -48,7 +48,7 @@ description: A list of all the references used in this project (Harvard style)
 
 [Van Allen, E., 2022. Roguelike vs. Roguelite: What’s the difference between the two? \[WWW Document\]. Destructoid. URL https://www.destructoid.com/the-difference-between-roguelike-and-roguelite-games/.](https://www.destructoid.com/the-difference-between-roguelike-and-roguelite-games/)
 
-### [Rogue-like popularity](analysis/1.1-problem-identification.md#rogue-like-popularity)
+### [Rogue-like popularity](1.1-problem-identification.md#rogue-like-popularity)
 
 [Creswell, J., 2022. What Makes a Good Roguelike? CBR.](https://www.cbr.com/roguelike-game-genre-good/)
 
@@ -66,19 +66,19 @@ description: A list of all the references used in this project (Harvard style)
 
 ## [1.2 Stakeholders](references.md#1.2-stakeholders)
 
-### [Age ratings](analysis/1.2-stakeholders.md#age-ratings)
+### [Age ratings](1.2-stakeholders.md#age-ratings)
 
 [internetmatters.org, 2022. Video games age ratings explained \[WWW Document\]. Internet Matters. URL https://www.internetmatters.org/resources/video-games-age-ratings-explained/.](https://www.internetmatters.org/resources/video-games-age-ratings-explained/)
 
 [Whitehead, T., 2014. Feature: Lifting the curtain on game ratings and the headache of worldwide releases. Nintendo Life.](https://www.nintendolife.com/news/2014/03/feature\_lifting\_the\_curtain\_on\_game\_ratings\_and\_the\_headache\_of\_worldwide\_releases)
 
-### [Target audience](analysis/1.2-stakeholders.md#target-audience)
+### [Target audience](1.2-stakeholders.md#target-audience)
 
 [SuprisinglyNot, 2017. Roguelike/Roguelite gamer survey \[WWW Document\]. Google Docs. URL https://docs.google.com/forms/d/e/1FAIpQLScR2iR\_lln4O4x8gh9DuDXzfJTDmsaczXYm633TzQZndBv8Cg/viewanalytics.](https://docs.google.com/forms/d/e/1FAIpQLScR2iR\_lln4O4x8gh9DuDXzfJTDmsaczXYm633TzQZndBv8Cg/viewanalytics)
 
 [Todorov, G., 2021. How to promote your blog \[WWW Document\]. Learn Digital Marketing. URL https://thrivemyway.com/reddit-statistics/.](https://thrivemyway.com/reddit-statistics/)
 
-### [How PEGI games are rated](analysis/1.2-stakeholders.md#how-pegi-games-are-rated)
+### [How PEGI games are rated](1.2-stakeholders.md#how-pegi-games-are-rated)
 
 [PEGI, 2002a. PEGI age ratings \[WWW Document\]. Pegi Public Site. URL https://pegi.info/page/pegi-age-ratings.](https://pegi.info/page/pegi-age-ratings)
 
