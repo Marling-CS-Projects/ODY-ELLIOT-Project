@@ -2,9 +2,9 @@
 
 ## Systems Diagram
 
-![](https://github.com/Marling-School/alevel-project-template/blob/docs/.gitbook/assets/System%20Diagram.jpg)
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-This diagram shows the different parts of the game that I will focus on creating. I have split each section into smaller sub-sections. Throughout the development stage, I will pick one or two of these sections to focus on at a time to gradually build up and piece together the game. I have broken the project down this way as it roughly corresponds to the success criteria.
+The diagram above shows different sections of the game which I'll focus on making. I have put my [success criteria](../analysis/1.5-success-criteria.md) headers and split them into smaller sub-sections which I can choose to focus on throughout the development cycle (1 or 2 at a time). As I complete these sub-sections, the game will slowly piece together.
 
 ## Usability Features
 
