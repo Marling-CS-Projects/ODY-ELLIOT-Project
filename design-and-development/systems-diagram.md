@@ -8,57 +8,61 @@ The diagram above shows different sections of the game which I'll focus on makin
 
 ## Usability Features
 
-Usability is an important aspect to my game as I want it to be accessible to all. There are 5 key points of usability to create the best user experience that I will be focusing on when developing my project. These are:
+Usability is a vital aspect to my game as I want my game to be accessible to as many people as possible. To create the best possible user experience there are 5 key points which I will use while developing my project.
+
+These are:
 
 ### Effective
 
-Users can achieve the goal with completeness and accuracy. To do this, I will make it easy for the players to realise that they need to reach a goal in order to complete a level. I will make this goal clear to see so there is no confusion over where the players need to go.
+Effective usability is when the user completes a target / goal with both completeness and accuracy. In order to achieve this, I will make the player know what their goal is via the "how to play" button in both the [Main Menu](../analysis/1.4a-features-of-the-proposed-solution.md#main-menu) and the [Pause Menu](../analysis/1.4a-features-of-the-proposed-solution.md#pause-menu). As well as that, the dungeon will be quite linear to the player will be naturally drawn to the goal.
 
 #### Aims
 
-* Create a clear goal to reach to determine the end of a level
-* Create a clear goal for any multiplayer modes
+* Create and intuitive "how to play" screen.
+* Create a linear dungeon generation algorithm to naturally draw the player to the goal.
 
 ### Efficiency
 
-The speed and accuracy to which a user can complete the goal. To do this, I will create a menu system which is easy to navigate through in order for to find what you are looking for. The information which is more important can be found with less clicks.
+Efficiency refers to the speed and accuracy a user can complete a goal. To make an efficient game I will create a menu system which is intuitive and easy to navigate as well as an easy [control scheme](../analysis/1.4a-features-of-the-proposed-solution.md#controls).
 
 #### Aims
 
-* Create a menu system that is quick and easy to navigate through
-* Create a controls system that isn't too complicated but allows the player to do multiple actions
+* Create a menu system that is intuitive and easy to navigate.
+* Create an easy control scheme.
 
 ### Engaging
 
-The solution is engaging for the user to use. To do this, I will create 5 levels and an online multiplayer mode to keep the players engaged and allow them to have fun while playing the game. Using vector style art will also make the game nicer to look at than blocks, so will draw more people in, keeping them engaged.
+Engagement is arguable the most important usability feature as it requires the solution to be engaging for the player while playing. To achieve this, I will create a procedural algorithm for each level as well as randomizing enemies and weapon drops (from chests) in order to create a unique experience each run which will help engage the player for a long time. As well as that, the[ pixel artwork](../analysis/1.4a-features-of-the-proposed-solution.md#character) will also help add to user engagement.
 
 #### Aims
 
-* Create a series of levels to work through
-* Create a multiplayer mode to play
-* Incorporate a style of game art the suits the game
+* Create a procedural dungeon generation algorithm.
+* Random enemies and weapon spawning.
+* Pixel art for the game's sprites.
 
 ### Error Tolerant
 
-The solution should have as few errors as possible and if one does occur, it should be able to correct itself. To do this, I will write my code to manage as many different game scenarios as possible so that it will not crash when someone is playing it.
+The game must have as few errors as possible and, if an error occurs, it should be corrected by the solution. To do this, I will write code to manage a variety of scenarios and keep testing the game (trying to break it) to prevent it crashing or breaking the game when someone is playing it.
 
 #### Aims
 
-* The game doesn't crash
-* The game does not contain any bugs that damage the user experience
+* The game doesn't crash.
+* The game does not contain any bugs that damage the user experience (e.g. going out of bounds)
 
 ### Easy To Learn
 
-The solution should be easy to use and not be over complicated. To do this, I will create simple controls for the game. I will make sure that no more controls are added than are needed in order to keep them as simple as possible for the players.
+The game should be intuitive and not over-complicated as players often get frustrated when the game isn't responding to what they want to do. I will make the controls similar to other games so players can easily pick them up if they've played similar games. The controls also will be simple so new gamers can quickly learn how to play the game.
+
+The "how to play" screen will also help players understand the [controls](../analysis/1.4a-features-of-the-proposed-solution.md#controls).
 
 #### Aims
 
-* Create a list of controls for the game
-* Create an in-level guide that helps players learn how to play the game
+* Create a "how to play" screen.
+* Create intuitive controls.
 
-## Pseudocode for the Game
+## Pseudo-code for the Game
 
-### Pseudocode for game
+### Pseudo-code for game
 
 This is the basic layout of the object to store the details of the game. This will be what is rendered as it will inherit all important code for the scenes.
 
@@ -75,7 +79,7 @@ end object
 render Game to HTML web page
 ```
 
-### Pseudocode for a level
+### Pseudo-code for a level
 
 This shows the basic layout of code for a Phaser scene. It shows where each task will be executed.
 
