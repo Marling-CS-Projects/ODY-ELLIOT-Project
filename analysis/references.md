@@ -2,7 +2,7 @@
 description: A list of all the references used in this project (Harvard style)
 ---
 
-# References
+# 📖 References
 
 ## [1.1 Problem Identification](1.1-problem-identification.md)
 
@@ -96,19 +96,7 @@ description: A list of all the references used in this project (Harvard style)
 
 [Fandom, 2017c. Multiplayer \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Multiplayer.](https://soul-knight.fandom.com/wiki/Multiplayer)
 
-[Fandom, 2017d. Chests \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Chests.](https://soul-knight.fandom.com/wiki/Chests)
-
-[Fandom, 2017e. Characters \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Characters.](https://soul-knight.fandom.com/wiki/Characters)
-
-[Fandom, 2017f. Weapons \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Weapons#Weapon\_Categories.](https://soul-knight.fandom.com/wiki/Weapons#Weapon\_Categories)
-
-[Fandom, 2017g. HUD \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/HUD).](https://soul-knight.fandom.com/wiki/HUD\))
-
-[Fandom, 2017h. Followers \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Followers#Mercenaries.](https://soul-knight.fandom.com/wiki/Followers#Mercenaries)
-
-[Fandom, 2017i. Shops \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Shops.](https://soul-knight.fandom.com/wiki/Shops)
-
-[Fandom, 2017j. Stats \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Stats#Energy.](https://soul-knight.fandom.com/wiki/Stats#Energy)
+[Fandom, 2017d. Followers \[WWW Document\]. Soul Knight Wiki. URL https://soul-knight.fandom.com/wiki/Followers#Mercenaries.](https://soul-knight.fandom.com/wiki/Followers#Mercenaries)
 
 [Gamer Ray, 2021. Soul Knight full game walkthrough\[Knight gameplay\]. YouTube.](https://www.youtube.com/watch?v=IBfVI077M6k)
 
@@ -116,3 +104,12 @@ description: A list of all the references used in this project (Harvard style)
 
 [Nintendo of Europe, 2019. Soul Knight \[WWW Document\]. Nintendo of Europe GmbH. URL https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Soul-Knight-1652172.html.](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Soul-Knight-1652172.html)
 
+### [Moonlighter](1.3-research-the-problem.md#moonlighter)
+
+[Digital Sun, 2022. Moonlighter \[WWW Document\]. Every adventure has to pay off – Moonlighter shows you two sides of the coin, revealing the everyday routines of Will, an adventurous shopkeeper who secretly dreams of becoming a hero. URL https://moonlighterthegame.com/.](https://moonlighterthegame.com/)
+
+[HotAndCrunchy, 2020. Reddit \[WWW Document\]. Dive into anything. URL https://www.reddit.com/r/Moonlighter/comments/gsfcm3/interface\_repeatedly\_switches\_between\_controller/.](https://www.reddit.com/r/Moonlighter/comments/gsfcm3/interface\_repeatedly\_switches\_between\_controller/)
+
+[Nintendo of Europe, 2018. Every adventure has to pay off! \[WWW Document\]. Nintendo of Europe GmbH. URL https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Moonlighter-1423773.html.](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Moonlighter-1423773.html)
+
+###
