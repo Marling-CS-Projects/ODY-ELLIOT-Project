@@ -8,9 +8,9 @@ In this cycle I aim to:
 
 * [ ] Set up a C++ project in VS 2019
 * [ ] Incorporate the SDL2 library into the project ([https://www.libsdl.org/](https://www.libsdl.org/))
-* [ ] Create a black, re-sizable window
+* [ ] Create a blank, re-sizable window
 * [ ] Render a sprite to that window
-* [ ] Move that sprite around the window using the WASD keys
+* [ ] Move the created sprite in a chosen direction
 
 ### Usability Features
 
