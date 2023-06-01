@@ -1,3 +1,3 @@
-# I . O . U
+# Cycles
 
-Your project code will go on `main`
+This branch will store the cycles made during developemnt of "Bucket Knight"
