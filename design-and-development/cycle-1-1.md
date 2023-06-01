@@ -25,11 +25,38 @@ In this cycle I aim to:
 
 ### Pseudocode
 
+{% code title="Game Loop" %}
+```cpp
+while game is running
+{
+    get_inputs()
+    update()
+    render()
+}
+
+clean_memory() // Memory is cleaned to free up the user's RAM
+
 ```
-procedure do_something
-    
-end procedure
+{% endcode %}
+
+{% code title="Movement Inputs" fullWidth="false" %}
+```cpp
+if W is pressed { move(UP) }
+
+else if S is pressed { move(DOWN) }
+
+if A is pressed { move(LEFT) }
+
+else if D is pressed { move(RIGHT) }
 ```
+{% endcode %}
+
+{% code title="Render Sprite" %}
+```cpp
+texture = load_texture("character.png")
+draw_sprite(texture, position)
+```
+{% endcode %}
 
 ## Development
 
