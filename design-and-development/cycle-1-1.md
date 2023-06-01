@@ -10,7 +10,7 @@ In this cycle I aim to:
 * [x] Incorporate the SDL2 library into the project ([https://www.libsdl.org/](https://www.libsdl.org/))
 * [x] Create a black, re-sizable window
 * [x] Render a sprite to that window
-* [x] Move the created sprite in a chosen direction
+* [x] Move the sprite around the scene using WASD
 
 ### Usability Features
 
@@ -51,3 +51,7 @@ Evidence for testing
 | 2    | Press buttons | Something happens | As expected           | Pass      |
 
 ### Evidence
+
+{% file src="../.gitbook/assets/Bucket Knight - Cycle 1.mp4" %}
+This video was made using OBS Studio ([https://obsproject.com/](https://obsproject.com/)) and has no sound
+{% endfile %}
