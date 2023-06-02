@@ -124,7 +124,13 @@ int main(int argc, char *arg[])
 ```
 {% endcode %}
 
-`main.cpp` Is the first script to be run when the program is started. It instances a new object `game` which inherits from the `Game class` and creates a resizable window
+`main.cpp` Is the first script to be run when the program is started. It instances a new object `game` which inherits from the `Game class` and creates a resizable window.&#x20;
+
+As well as that, `main.cpp` sets the frame rate to 60FPS in order to make the game the same for all devices.
+
+{% hint style="info" %}
+When the game is run without the frame rate set to 60FPS, the game will run at the maximum possible frame rate resulting in faster computers calling the update function more frequently than slower computers. By setting the frame rate, all users will experience the game as intended.
+{% endhint %}
 
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
 
