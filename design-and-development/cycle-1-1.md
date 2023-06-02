@@ -141,3 +141,5 @@ The main challenges of this cycle was the initial struggle of importing the SDL2
 {% file src="../.gitbook/assets/2023-06-01_18-07-04.mp4" %}
 This video was made using OBS Studio ([https://obsproject.com/](https://obsproject.com/)) and has no sound
 {% endfile %}
+
+In the video above a black, resizable screen is created as well as a player in the top left. This player has a rendered sprite attatched to it and can move around the window using the WASD keys.
