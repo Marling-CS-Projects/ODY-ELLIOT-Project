@@ -7,15 +7,18 @@
 In this cycle I aim to:
 
 * [x] Create a tile-map system
-* [x] Create a dungeon generation system
+* [x] Create a wall with collision
+* [x] Add appropriate render layers
 
 ### Usability Features
 
 ### Key Variables
 
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
+| Variable Name | Use                                            |
+| ------------- | ---------------------------------------------- |
+| tiles         | stores all the entities in the 'tilemap' group |
+| players       | stores all the entities in the 'players' group |
+| enemies       | stores all the entities in the 'enemies' group |
 
 ### Pseudocode
 
