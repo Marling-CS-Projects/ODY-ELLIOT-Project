@@ -22,11 +22,53 @@ In this cycle I aim to:
 
 ### Pseudocode
 
+{% code title="TileMap.cpp" %}
+```cpp
+tilemap = OpenFile("tiles.txt")
+tileType1 = OpenFile("tile1texture.png") // represented by a 0
+tileType2 = OpenFile("tile2texture.png") // represented by a 1
+
+void LoadTiles(tilemap){
+    for (tile in tilemap)
+    {
+        if (tile == 0)
+        {
+            createTile(tileType1)
+        }
+        else if (tile == 1)
+        {
+            createTile(tyleType2)
+        }
+        // I could also use a switch statement to achieve the same effect
+    }
+}
 ```
-procedure do_something
-    
-end procedure
+{% endcode %}
+
+Using this system I can create a tilemap system that imports an external text file to quickly make tilemaps appear in the game.
+
+{% code title="Collisions.cpp" %}
+```cpp
+bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
+{
+    if (
+    rectA.x + rectA.w >= rectB.x &&
+    rectB.x + rectB.w >= rectA.x &&
+    rectA.y + rectA.h >= rectB.y &&
+    rectB.y + rectB.h >= rectA.y
+    )
+    {
+        return true
+    }
+    else
+    {
+        return false
+    }
+}
 ```
+{% endcode %}
+
+If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wall.hitbox)` will return `true`.
 
 ## Development
 
