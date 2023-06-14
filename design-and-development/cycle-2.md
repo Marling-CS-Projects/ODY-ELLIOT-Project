@@ -33,13 +33,15 @@ void LoadTiles(tilemap){
     {
         if (tile == 0)
         {
-            createTile(tileType1)
+            newtile = createTile(tileType1)
         }
         else if (tile == 1)
         {
-            createTile(tyleType2)
+            newtile = createTile(tyleType2)
         }
         // I could also use a switch statement to achieve the same effect
+        
+        newTile.addToGroup(tiles) // stores all the tiles to render
     }
 }
 ```
@@ -70,9 +72,53 @@ bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
 
 If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wall.hitbox)` will return `true`.
 
+{% code title="Game.cpp" %}
+```cpp
+// this is an extract of the Game.cpp file
+
+void render()
+{
+    tiles->draw()
+    players->draw()
+    enemies->draw()
+}
+```
+{% endcode %}
+
+Draws each layer in order in order for the player and enemies to be displayed above the tilemap.
+
 ## Development
 
 ### Outcome
+
+{% code title="Tilemap.cpp" %}
+```cpp
+#include "TileMap.h"
+#include "Game.h"
+#include <fstream>
+
+void TileMap::LoadTiles(std::string path, int sizeX, int sizeY)
+{
+	char tile;
+	std::fstream tilemapFile;
+	tilemapFile.open(path);
+
+	for (int y = 0; y < sizeY; y++)
+	{
+		for (int x = 0; x < sizeX; x++)
+		{
+			tilemapFile.get(tile);
+			Game::AddTile(atoi(&tile), x * 24, y * 24);
+			tilemapFile.ignore();
+		}
+	}
+
+	tilemapFile.close();
+}
+```
+{% endcode %}
+
+LoadTiles() loads the tilemap from an external file path and requests the size of the tilemap in order to display in properly. This function is called in Game.cpp and the relevant information is passed through.
 
 ### Challenges
 
