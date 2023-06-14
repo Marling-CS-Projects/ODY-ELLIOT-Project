@@ -120,9 +120,11 @@ void TileMap::LoadTiles(std::string path, int sizeX, int sizeY)
 
 LoadTiles() loads the tilemap from an external file path and requests the size of the tilemap in order to display in properly. This function is called in Game.cpp and the relevant information is passed through.
 
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%202).
+
 ### Challenges
 
-Description of challenges
+The main challenges was creating the tilemap system where you can use external files to create an array of tiles.
 
 ## Testing
 
