@@ -2,7 +2,7 @@
 
 ## Systems Diagram
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 The diagram above shows different sections of the game which I'll focus on making. I have put my [success criteria](../analysis/1.5-success-criteria.md) headers and split them into smaller sub-sections which I can choose to focus on throughout the development cycle (1 or 2 at a time). As I complete these sub-sections, the game will slowly piece together.
 

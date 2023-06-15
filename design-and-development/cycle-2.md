@@ -124,7 +124,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-The main challenges was creating the tilemap system where you can use external files to create an array of tiles.
+The main challenges was creating the tilemap system where you can use external files to create an array of tiles that will be displayed to the user.
 
 ## Testing
 
@@ -132,6 +132,16 @@ Evidence for testing
 
 ### Tests
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>All tiles were jumbled.</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Move the player into the wall</td><td>A console log stating there has been a collision between the player and the wall.</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-15 093249.png" alt=""><figcaption><p>A screenshot of the console and the game before the player collides with the wall</p></figcaption></figure>
+
+Before the player collides with the wall there is no collision log in the console.
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>A screenshot of the console and the game afterthe player collides with the wall</p></figcaption></figure>
+
+After the player collided with the wall, however, there is a collision log in the console which demonstrates the collision detection works.
+
+As well as that, the tilemap (imported from an external file) clearly prints a smiley face which proves the tilemap system works.
