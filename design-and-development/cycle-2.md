@@ -145,3 +145,9 @@ Before the player collides with the wall there is no collision log in the consol
 After the player collided with the wall, however, there is a collision log in the console which demonstrates the collision detection works.
 
 As well as that, the tilemap (imported from an external file) clearly prints a smiley face which proves the tilemap system works.
+
+{% embed url="https://youtu.be/-B1UMLdatTE" %}
+The video above shows the second cycle of my game ([https://youtu.be/-B1UMLdatTE](https://youtu.be/-B1UMLdatTE))
+{% endembed %}
+
+The YouTube video (shown above) demonstrates render correct render layering as the player is displayed on top of the tiles. However, the player shouldn't be above the wall but that is due to me grouping the wall object with tile objects temporarily while the wall has no collision.
