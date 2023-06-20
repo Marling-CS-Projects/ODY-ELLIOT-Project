@@ -7,7 +7,7 @@
 In this cycle I aim to:
 
 * [x] Create a tile-map system
-* [x] Create a wall with collision
+* [x] Create a wall with collision detection
 * [x] Add appropriate render layers
 
 ### Usability Features
