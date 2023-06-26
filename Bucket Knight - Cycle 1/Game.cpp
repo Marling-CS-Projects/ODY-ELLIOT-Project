@@ -79,7 +79,6 @@ void Game::handleEvents()
 void Game::update()
 {
 	manager.update();
-	player.update();
 	std::cout << player.getComponent<TransformComponent>().position.x << "," <<
 		player.getComponent<TransformComponent>().position.y << std::endl;
 
@@ -88,7 +87,7 @@ void Game::update()
 void Game::render()
 {
 	SDL_RenderClear(renderer);
-	player.draw();
+	manager.draw();
 	SDL_RenderPresent(renderer);
 }
 
