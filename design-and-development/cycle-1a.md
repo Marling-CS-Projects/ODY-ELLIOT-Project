@@ -20,13 +20,12 @@ In this cycle I aim to:
 
 ### Key Variables
 
-| Variable Name | Use                                                                                  |
-| ------------- | ------------------------------------------------------------------------------------ |
-| speed         | determines how fast the character moves in the scene                                 |
-| texture       | stores the SDL\_Texture used to render a sprite to the screen                        |
-| is\_running   | tells the game loop whether to run the game when true                                |
-| player        | stores everything about the player and its components (such as the sprite component) |
-| game          | an object (an instance of the game class) used to initialize and run the game        |
+| Variable Name | Use                                                                           |
+| ------------- | ----------------------------------------------------------------------------- |
+| speed         | determines how fast the character moves in the scene                          |
+| texture       | stores the SDL\_Texture used to render a sprite to the screen                 |
+| is\_running   | tells the game loop whether to run the game when true                         |
+| game          | an object (an instance of the game class) used to initialize and run the game |
 
 ### Pseudocode
 
@@ -64,24 +63,6 @@ draw_sprite(texture, position)
 {% endcode %}
 
 Renders a sprite to the window (part of the SpriteComponent in [Cycle 1b](cycle-1b.md))
-
-{% code title="Player" %}
-```cpp
-initialize()
-{
-    player = create_entity()
-    player->add_sprite(texture)
-}
-
-update() // The update method is called every frame. The game's frame rate is 60FPS
-{
-    player->handle_inputs()
-    player->draw()
-}
-```
-{% endcode %}
-
-Creates a player
 
 ## Development
 
@@ -154,6 +135,10 @@ The main challenges of this cycle was the initial struggle of importing the SDL2
 {% embed url="https://youtu.be/wLS_OUcNmBI" %}
 The video above shows the first cycle of my game ([https://youtu.be/wLS\_OUcNmBI](https://youtu.be/wLS\_OUcNmBI))
 {% endembed %}
+
+{% hint style="warning" %}
+In the video above, the player has double the intended speed due to the player being updated twice every frame. This has been fixed in the GitHub files for cycle 1 which you can find [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
+{% endhint %}
 
 In the video above a black, resizable screen is created as well as a player in the top left. This player has a rendered sprite attatched to it and can move around the window using the WASD keys.
 
