@@ -22,7 +22,7 @@ In this cycle I aim to:
 
 ### Pseudocode
 
-{% code title="TileMap.cpp" %}
+{% code title="Tile Map" %}
 ```cpp
 tilemap = OpenFile("tiles.txt")
 tileType1 = OpenFile("tile1texture.png") // represented by a 0
@@ -49,7 +49,7 @@ void LoadTiles(tilemap){
 
 Using this system I can create a tilemap system that imports an external text file to quickly make tilemaps appear in the game.
 
-{% code title="Collisions.cpp" %}
+{% code title="Check Collisions" %}
 ```cpp
 bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
 {
@@ -72,7 +72,7 @@ bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
 
 If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wall.hitbox)` will return `true`.
 
-{% code title="Game.cpp" %}
+{% code title="Game Loop" %}
 ```cpp
 // this is an extract of the Game.cpp file
 

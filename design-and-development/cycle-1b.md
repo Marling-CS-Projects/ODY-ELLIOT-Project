@@ -24,7 +24,7 @@ In this cycle I will:
 
 ### Pseudocode
 
-{% code title="Game.cpp" %}
+{% code title="Game Implementation" %}
 ```cpp
 manager = new Manager()
 player = manager.AddEntity()

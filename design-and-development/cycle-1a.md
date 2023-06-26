@@ -1,4 +1,4 @@
-# 2.2.1 Cycle 1
+# 2.2.1 Cycle 1a
 
 Design
 
@@ -24,7 +24,7 @@ In this cycle I aim to:
 | ------------- | ------------------------------------------------------------------------------------ |
 | speed         | determines how fast the character moves in the scene                                 |
 | texture       | stores the SDL\_Texture used to render a sprite to the screen                        |
-| is running    | tells the game loop whether to run the game when true                                |
+| is\_running   | tells the game loop whether to run the game when true                                |
 | player        | stores everything about the player and its components (such as the sprite component) |
 | game          | an object (an instance of the game class) used to initialize and run the game        |
 
@@ -33,7 +33,7 @@ In this cycle I aim to:
 <pre class="language-cpp" data-title="Game Loop"><code class="lang-cpp">game = new Game
 game->initialize_game(title, size)
 
-while game is running
+while game is_running
 {
     game->get_inputs()
     game->update()
@@ -41,8 +41,9 @@ while game is running
 }
 
 <strong>game->clean_memory() // Memory is cleaned to free up the user's RAM
-</strong>
-</code></pre>
+</strong></code></pre>
+
+Creates the game loop so the game while the game is running everything is updated and rendered, the game gets the inputs, and the memory is cleaned when the game is closed.
 
 <pre class="language-cpp" data-title="Movement Inputs" data-full-width="false"><code class="lang-cpp"><strong>if W is pressed { move(UP, speed) }
 </strong>
@@ -53,12 +54,16 @@ if A is pressed { move(LEFT, speed) }
 else if D is pressed { move(RIGHT, speed) }
 </code></pre>
 
+Gets the players inputs (part of the InputComponent in [Cycle 1b](cycle-1b.md))
+
 {% code title="Render Sprite" %}
 ```cpp
 texture = load_texture("character.png")
 draw_sprite(texture, position)
 ```
 {% endcode %}
+
+Renders a sprite to the window (part of the SpriteComponent in [Cycle 1b](cycle-1b.md))
 
 {% code title="Player" %}
 ```cpp
@@ -75,6 +80,8 @@ update() // The update method is called every frame. The game's frame rate is 60
 }
 ```
 {% endcode %}
+
+Creates a player
 
 ## Development
 
