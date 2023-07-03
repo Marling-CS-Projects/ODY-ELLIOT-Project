@@ -17,7 +17,7 @@
 
 * [2.1 Design Frame](design-and-development/systems-diagram.md)
 * [Template Cycle](design-and-development/cycle-0.md)
-* [2.2.1 Cycle 1a](design-and-development/cycle-1a.md)
+* [2.2.1a Cycle 1a](design-and-development/cycle-1a.md)
 * [2.2.1b Cycle 1b](design-and-development/cycle-1b.md)
 * [2.2.2 Cycle 2](design-and-development/cycle-2.md)
 * [2.2.3 Cycle 3](design-and-development/cycle-3.md)

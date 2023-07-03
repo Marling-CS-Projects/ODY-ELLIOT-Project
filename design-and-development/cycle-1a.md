@@ -1,8 +1,6 @@
-# 2.2.1 Cycle 1a
+# 2.2.1a Cycle 1a
 
-Design
-
-### Objectives
+## Design
 
 In this cycle I aim to:
 

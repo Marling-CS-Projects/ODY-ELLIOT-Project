@@ -1,6 +1,6 @@
 # 2.2.1b Cycle 1b
 
-This cycle is part of cycle 1 but I have split the cycle up to better explain it.
+This cycle is a sub-section of[ Cycle 1a](cycle-1a.md) due to it being the creation of the game's entity component system, which basically creating the game's game engine. The system will need to handle everything in the game from the player entity to the tiles rendered on the ground.
 
 ## Design
 
@@ -129,24 +129,67 @@ class Input : Component
 
 ### Outcome
 
+{% code title="Game.cpp" %}
 ```cpp
-
 #include "TextureManager.h"
 #include "Components.h"
 #include "Vector2D.h"
 
 Manager manager;
-auto& player(manager.addEntity()); // creates an entity
+auto& player(manager.addEntity()); // creates the player entity
 SDL_Event Game::event;
 SDL_Renderer* Game::renderer = nullptr;
 
+Game::Game()
+{}
+
+Game::~Game()
+{}
+
+// Initialises the game window and the objects in the game
 void Game::init(const char* title, int xpos, int ypos, int width, int height, bool fullscreen)
 {
-	// Adds components to the player
-	player.addComponent<TransformComponent>();
-	player.addComponent<SpriteComponent>("Assets/Bucket Knight Concept.png");
-	player.addComponent<KeyboardController>();
-}
+
+	int flags = 0;
+	
+	if (fullscreen)
+	{
+		flags = SDL_WINDOW_FULLSCREEN;
+	}
+	else
+	{
+		flags = SDL_WINDOW_RESIZABLE;
+	}
+
+	if (SDL_Init(SDL_INIT_EVERYTHING) == 0)
+	{
+		std::cout << "Subsystems Initialised..." << std::endl;
+
+		window = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
+
+		if (window)
+		{
+			std::cout << "Window Created" << std::endl;
+		}
+
+		renderer = SDL_CreateRenderer(window, -1, 0);
+
+		if (renderer)
+		{
+			SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+			std::cout << "Renderer Created" << std::endl;
+		}
+
+		isRunning = true;
+		
+		/*
+		Implementation
+		*/
+		
+		player.addComponent<TransformComponent>();
+		player.addComponent<SpriteComponent>("Assets/Bucket Knight Concept.png");
+		player.addComponent<KeyboardController>();
+	}
 
 	else
 	{
@@ -157,7 +200,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 
 void Game::handleEvents()
 {
-	// Handles all inputs made by the player
+	
 	SDL_PollEvent(&event);
 
 	switch (event.type)
@@ -173,13 +216,17 @@ void Game::handleEvents()
 
 void Game::update()
 {
-	manager.update(); // updates all the entities components
+	manager.update();
+
+	std::cout << player.getComponent<TransformComponent>().position.x << "," <<
+		player.getComponent<TransformComponent>().position.y << std::endl;
+
 }
 
 void Game::render()
 {
 	SDL_RenderClear(renderer);
-	manager.draw(); // Draws the sprite components, in the game, to the screen
+	manager.draw();
 	SDL_RenderPresent(renderer);
 }
 
@@ -188,18 +235,16 @@ void Game::clean()
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
-	std::cout << "Game Cleaned" << std::endl; // Debug Statemanet
+	std::cout << "Game Cleaned" << std::endl;
 }
-
 ```
+{% endcode %}
 
-{% hint style="info" %}
-Most uneccasry code for this cycle has been deleted from the solution above.
-{% endhint %}
+`Game.cpp` handles the implementation of the entities in the game as it creates, adds components, and can delete the entities from the scene.
 
 ### Challenges
 
-Description of challenges
+The main challenges when creating&#x20;
 
 ## Testing
 
