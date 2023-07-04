@@ -12,6 +12,8 @@ In this cycle I aim to:
 
 ### Usability Features
 
+
+
 ### Key Variables
 
 | Variable Name | Use                                            |
@@ -118,7 +120,46 @@ void TileMap::LoadTiles(std::string path, int sizeX, int sizeY)
 ```
 {% endcode %}
 
-LoadTiles() loads the tilemap from an external file path and requests the size of the tilemap in order to display in properly. This function is called in Game.cpp and the relevant information is passed through.
+`LoadTiles()` loads the tilemap from an external file path and requests the size of the tilemap in order to display in properly. This function is called in `Game.cpp` and the relevant information is passed through.
+
+{% code title="Collision.cpp" %}
+```cpp
+#include "Collision.h"
+#include "ColliderComponent.h"
+
+bool Collision::AABB(const SDL_Rect& rectA, const SDL_Rect& rectB)
+{
+
+	if (
+		rectA.x + rectA.w >= rectB.x &&
+		rectB.x + rectB.w >= rectA.x &&
+		rectA.y + rectA.h >= rectB.y &&
+		rectB.y + rectB.h >= rectA.y
+		)
+	{
+		return true;
+	}
+
+	return false;
+}
+
+// ColliderComponent& is a reference to the entity's collider component
+bool Collision::AABB(const ColliderComponent& colA, const ColliderComponent& colB)
+{
+	if (AABB(colA.collider, colB.collider) && colA.tag != colB.tag)
+	{
+		std::cout << colA.tag << " hit " << colB.tag << std::endl;
+		return true;
+	}
+
+	return false;
+}
+```
+{% endcode %}
+
+My game uses AABB collision detection which detects whether or not entities are overlapping. In the solution above, there are two ways to call the method to detect collision (I use the second method much more frequently as it is easier to pass in the collider component reference than the `SDL_Rect`.
+
+The collider component also has a tag to tell what has hit what.&#x20;
 
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%202).
 
@@ -127,10 +168,6 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 The main challenges was creating the tilemap system where you can use external files to create an array of tiles that will be displayed to the user.
 
 ## Testing
-
-Evidence for testing
-
-### Tests
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>All tiles were jumbled.</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Move the player into the wall</td><td>A console log stating there has been a collision between the player and the wall.</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 

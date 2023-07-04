@@ -6,10 +6,11 @@
 
 In this cycle I aim to:
 
-* [ ] Create a Dungeon Layout Generator
-* [ ] Create an array of different Rooms for the Dungeon
-* [ ] Have each room connect to each other
-* [ ] Streamlined Entity Creation System
+* [x] Create a Dungeon Layout Generator
+* [x] Create an array of different Rooms for the Dungeon
+* [x] Have each room connect to each other
+* [x] Dungeon Walls with Collision
+* [x] Streamlined Entity Creation System
 
 ### Usability Features
 
