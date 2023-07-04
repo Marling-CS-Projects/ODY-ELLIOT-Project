@@ -216,17 +216,13 @@ void Game::handleEvents()
 
 void Game::update()
 {
-	manager.update();
-
-	std::cout << player.getComponent<TransformComponent>().position.x << "," <<
-		player.getComponent<TransformComponent>().position.y << std::endl;
-
+	manager.update(); // updates every entity and their components
 }
 
 void Game::render()
 {
 	SDL_RenderClear(renderer);
-	manager.draw();
+	manager.draw(); // renders every entities sprite components
 	SDL_RenderPresent(renderer);
 }
 
@@ -242,16 +238,56 @@ void Game::clean()
 
 `Game.cpp` handles the implementation of the entities in the game as it creates, adds components, and can delete the entities from the scene.
 
+{% code title="TransformComponent.h" %}
+```cpp
+#pragma once
+#include "Components.h"
+#include "Vector2D.h"
+
+class TransformComponent : public Component // Inherits from the component class
+{
+public:
+
+	Vector2D position;
+	Vector2D velocity;
+
+	float speed = 3;
+
+	TransformComponent()
+	{
+		position.x = 0.0f;
+		position.y = 0.0f;
+	}
+
+	TransformComponent(float x, float y)
+	{
+		position.x = x;
+		position.y = y;
+	}
+
+	void init() override
+	{
+		velocity.x = velocity.y = 0;
+	}
+
+	void update() override
+	{
+		position.x += velocity.x * speed;
+		position.y += velocity.y * speed;
+	}
+
+};
+```
+{% endcode %}
+
+The transform component is the most important component in the game as it handles every entity's position in the scene. It also is required for other components to work (such as the sprite component as it needs a position to get rendered).
+
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
+
 ### Challenges
 
-The main challenges when creating&#x20;
-
-## Testing
-
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+The main challenges when creating an entity component system is making it simple to create entities and add the necessary components to them. It was also difficult to create a function that updates every entity and their components automatically so I can create entities at my leisure without worrying about calling the update function.
 
 ### Evidence
+
+Evidence for testing and cycle completion can be found in [Cycle 1a](cycle-1a.md).
