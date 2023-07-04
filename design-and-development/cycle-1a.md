@@ -118,11 +118,80 @@ As well as that, `main.cpp` sets the frame rate to 60FPS in order to make the ga
 When the game is run without the frame rate set to 60FPS, the game will run at the maximum possible frame rate resulting in faster computers calling the update function more frequently than slower computers. By setting the frame rate, all users will experience the game as intended.
 {% endhint %}
 
+{% code title="InputController.h" %}
+```cpp
+#pragma once
+
+#include "Game.h"
+#include "Components.h"
+
+class KeyboardController : public Component // inherits from the base component class
+{
+public:
+	TransformComponent* transform; // a pointer to the transform component
+
+	void init() override
+	{
+		transform = &entity->getComponent<TransformComponent>();
+	}
+
+	void update() override
+	{
+		if (Game::event.type == SDL_KEYDOWN)
+		{
+			switch (Game::event.key.keysym.sym)
+			{
+			case SDLK_w:
+				transform->velocity.y = -1;
+				break;
+			case SDLK_s:
+				transform->velocity.y = 1;
+				break;
+			case SDLK_d:
+				transform->velocity.x = 1;
+				break;
+			case SDLK_a:
+				transform->velocity.x = -1;
+				break;
+
+			default:
+				break;
+			}
+		}
+
+		if (Game::event.type == SDL_KEYUP)
+		{
+			switch (Game::event.key.keysym.sym)
+			{
+			case SDLK_w:
+				transform->velocity.y = 0;
+				break;
+			case SDLK_s:
+				transform->velocity.y = 0;
+				break;
+			case SDLK_d:
+				transform->velocity.x = 0;
+				break;
+			case SDLK_a:
+				transform->velocity.x = 0;
+				break;
+
+			default:
+				break;
+			}
+		}
+	}
+};
+```
+{% endcode %}
+
+In `InputComponent.h` the entities transform component's velocity (which should have been direction due to it creating a direction vector) is updated using the player's inputs (which is handled by the SDL library). The keyboard controller class inherits from the component class which is defined in the `ECS.h` file. Components are gone into more detail in [Cycle 1b](cycle-1b.md) (which is a sub-section of this cycle).
+
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
 
 ### Challenges
 
-The main challenges of this cycle was the initial struggle of importing the SDL2 library, in order to render the game, as well as creating components to allow the player to have a sprite and the ability to move.
+The main challenges of this cycle was the initial struggle of importing the SDL library, in order to render the game, as well as creating components to allow the player to have a sprite and the ability to move.
 
 ## Testing
 
