@@ -11,6 +11,7 @@ In this cycle I aim to:
 * [x] Have each room connect to each other
 * [x] Dungeon Walls with Collision
 * [x] Streamlined Entity Creation System
+* [x] Viewport Scaling
 
 ### Usability Features
 
