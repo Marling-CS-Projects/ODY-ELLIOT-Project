@@ -23,11 +23,35 @@ In this cycle I aim to:
 
 ### Pseudocode
 
+{% code title="Dungeon Creator" %}
+```cpp
+Dungeon(int numRooms) // acts as a class constructor
+{
+    this.numRooms = numRooms
+    this.rooms = GetRooms()
+    this.currentRoom = 0
+}
+
+vector<string> GetRooms()
+{
+    // returns all the names of the text files the rooms are stored in 
+    return vector<string>
+    {
+        "Room1.txt",
+        "Room2.txt",
+        "Room3.txt"
+    }
+}
+
+void GenerateLayout()
+void DrawCurrentRoom()
+
+int numRooms
+vector<string> rooms{}
+vector<Level*> currentLayout
+int currentRoom
 ```
-procedure do_something
-    
-end procedure
-```
+{% endcode %}
 
 ## Development
 
