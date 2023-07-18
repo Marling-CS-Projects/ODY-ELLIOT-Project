@@ -44,6 +44,21 @@ vector<string> GetRooms()
 }
 
 void GenerateLayout()
+{	
+    this->currentLayout = {}
+    currentLayout.size = numRooms
+    
+    currentLayout[0] = new Level("RoomSTART") // adds the start room
+
+    for (int i = 0; i < numRooms - 2; i++)
+    {
+        currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)) + 2])
+    }
+
+    currentLayout[numRooms-1] = new Level("RoomEND") // adds the end room
+    currentLayout[numRooms-1]->tag = "end"
+}
+
 void DrawCurrentRoom()
 
 int numRooms
