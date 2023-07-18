@@ -2,6 +2,10 @@
 
 ## Design
 
+This is the first cycle of my game 'Bucket Knight' so the primary goal is to set-up the project by incorporating the SDL2 library into the solution and creating a basic player.
+
+### Objectives
+
 In this cycle I aim to:
 
 * [x] Set up a C++ project in VS 2019

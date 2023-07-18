@@ -1,8 +1,10 @@
 # 2.2.1b Cycle 1b
 
-This cycle is a sub-section of[ Cycle 1a](cycle-1a.md) due to it being the creation of the game's entity component system, which basically creating the game's game engine. The system will need to handle everything in the game from the player entity to the tiles rendered on the ground.
-
 ## Design
+
+In this cycle I aim to create an Entity Component System which will streamline development&#x20;
+
+This cycle is a sub-section of[ Cycle 1a](cycle-1a.md) due to it being the creation of the game's entity component system, which basically creating the game's game engine. The system will need to handle everything in the game from the player entity to the tiles rendered on the ground.
 
 ### Objectives
 
