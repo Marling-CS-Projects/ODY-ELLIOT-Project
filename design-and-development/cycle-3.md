@@ -9,6 +9,7 @@ In this cycle I aim to:
 * [x] Create a Dungeon Layout Generator
 * [x] Create an array of different Rooms for the Dungeon
 * [x] Have each room connect to each other
+* [x] New Level Creation System
 * [x] Dungeon Walls with Collision
 * [x] Streamlined Entity Creation System
 * [x] Viewport Scaling

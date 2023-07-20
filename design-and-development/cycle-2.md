@@ -2,7 +2,11 @@
 
 ## Design
 
-Cycle 2 revolves around the the game's tile-map system which will work by accessing external files  (stored as .txt) and then&#x20;
+Cycle 2 revolves around the the game's tile system which will work by accessing external '.txt' files and then create a tile-map using the external files and the tile-set.
+
+An example of what may be in the external file is shown below where the 0s and 1s correspond to different tiles, to be rendered, from the tile-set.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
 
 ### Objectives
 
