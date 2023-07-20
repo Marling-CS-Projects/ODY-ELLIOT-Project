@@ -2,6 +2,8 @@
 
 ## Design
 
+Cycle 2 revolves around the the game's tile-map system which will work by accessing external files  (stored as .txt) and then&#x20;
+
 ### Objectives
 
 In this cycle I aim to:
@@ -12,7 +14,7 @@ In this cycle I aim to:
 
 ### Usability Features
 
-
+* Render Groups/Layers - The players group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
 
 ### Key Variables
 
