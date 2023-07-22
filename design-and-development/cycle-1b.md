@@ -127,6 +127,8 @@ class Input : Component
 ```
 {% endcode %}
 
+All these components will inherit a base component class called `Component`.
+
 ## Development
 
 ### Outcome
