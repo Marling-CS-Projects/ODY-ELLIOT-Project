@@ -320,10 +320,12 @@ For reference, the trigger with the white circle is the `backTrigger` and the tr
 
 <figure><img src="../.gitbook/assets/image (7).png" alt="" width="563"><figcaption><p>A screenshot from YouTube (<a href="https://youtu.be/dw7ssOx5V9M">https://youtu.be/dw7ssOx5V9M</a>)</p></figcaption></figure>
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Player touches frontTigger</td><td>The next room appears</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Player touches backTigger</td><td>The previous room appears</td><td>As expected</td><td>Pass</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Player touches frontTigger</td><td>The next room appears</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Player touches backTigger</td><td>The previous room appears</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Player walks into the wall</td><td>The player doesn't pass through the wall</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Player touches frontTigger while in the final room</td><td>The player stays in the final room</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Player touches backTigger</td><td>The player stays in the first room</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
 {% embed url="https://youtu.be/dw7ssOx5V9M" %}
 The video above shows the third cycle of my game ([https://youtu.be/dw7ssOx5V9M](https://youtu.be/dw7ssOx5V9M))
 {% endembed %}
+
+The YouTube video (shown above) demonstrates the dungeon generation system working correctly as well as the wall collisions working properly. It also shows the viewport scaling to the correct size.&#x20;
