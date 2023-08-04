@@ -4,7 +4,7 @@
 
 ### Objectives
 
-This cycle will be focused around the basic Melee Enemy type in my game.
+This cycle will be focused around the basic Melee Enemy type in my game as well as allowing the Player to shoot bullets.
 
 * [ ] Create a health system for the Player with UI
 * [ ] Create an Enemy
