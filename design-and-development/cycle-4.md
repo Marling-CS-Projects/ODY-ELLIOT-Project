@@ -6,9 +6,11 @@
 
 This cycle will be focused around the basic Melee Enemy type in my game.
 
+* [ ] Create a health system for the Player with UI
 * [ ] Create an Enemy
 * [ ] Make the Enemy move towards the Player
 * [ ] Make the Enemy be Destroyed when Shot
+* [ ] Have the enemy reduce the Player's health on Impact
 
 ### Usability Features
 
