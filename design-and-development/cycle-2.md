@@ -2,15 +2,15 @@
 
 ## Design
 
-Cycle 2 revolves around the the game's tile system which will work by accessing external '.txt' files and then create a tile-map using the external files and the tile-set.
+Cycle 2 revolves around the game's tile system which will work by accessing external '.txt' files and then creating a tile map using the external files and the tile set.
 
-An example of what may be in the external file is shown below where the 0s and 1s correspond to different tiles, to be rendered, from the tile-set.
+An example of what may be in the external file is shown below where the 0s and 1s correspond to different tiles, to be rendered, from the tile set.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
 
 ### Objectives
 
-In this cycle I aim to:
+In this cycle, I aim to:
 
 * [x] Create a tile-map system
 * [x] Create a wall with collision detection
@@ -18,7 +18,7 @@ In this cycle I aim to:
 
 ### Usability Features
 
-* Render Groups/Layers - The players group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
+* Render Groups/Layers - The player's group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
 
 ### Key Variables
 
@@ -171,7 +171,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-The main challenges was creating the tilemap system where you can use external files to create an array of tiles that will be displayed to the user.
+The main challenge was creating the tilemap system where you can use external files to create an array of tiles that will be displayed to the user.
 
 ## Testing
 

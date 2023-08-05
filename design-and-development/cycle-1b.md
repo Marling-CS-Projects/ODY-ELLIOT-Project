@@ -2,13 +2,13 @@
 
 ## Design
 
-In this cycle I aim to create an Entity Component System (ECS) which will streamline development by handling everything about the entities in the game (such as position). The ECS is the backbone of the game's game engine.
+In this cycle, I aim to create an Entity Component System (ECS) which will streamline development by handling everything about the entities in the game (such as position). The ECS is the backbone of the game's game engine.
 
 This cycle is a sub-section of[ Cycle 1a](cycle-1a.md).
 
 ### Objectives
 
-In this cycle I will:
+In this cycle, I will:
 
 * [x] Create an Entity Management System
 * [x] Create a Transform Component (to manage an entities position)
@@ -19,14 +19,14 @@ In this cycle I will:
 
 ### Key Variables
 
-| Variable Name | Use                                                                                                                   |
-| ------------- | --------------------------------------------------------------------------------------------------------------------- |
-| player        | Stores the reference to the player entity.                                                                            |
-| manager       | Stores a reference to the manager class.                                                                              |
-| position      | Stores an object's position.                                                                                          |
-| velocity      | <p>Stores the direction the object is moving.<br>(In hindsight, velocity should of actually been named direction)</p> |
-| speed         | Stores the speed the object will travel at.                                                                           |
-| texture       | Stores the sprite's SDL\_Texture so it can be rendered to the screen.                                                 |
+| Variable Name | Use                                                                                                                     |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| player        | Stores the reference to the player entity.                                                                              |
+| manager       | Stores a reference to the manager class.                                                                                |
+| position      | Stores an object's position.                                                                                            |
+| velocity      | <p>Stores the direction the object is moving.<br>(In hindsight, velocity should have actually been named direction)</p> |
+| speed         | Stores the speed the object will travel at.                                                                             |
+| texture       | Stores the sprite's SDL\_Texture so it can be rendered to the screen.                                                   |
 
 ### Pseudocode
 
@@ -290,7 +290,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-The main challenges when creating an entity component system is making it simple to create entities and add the necessary components to them. It was also difficult to create a function that updates every entity and their components automatically so I can create entities at my leisure without worrying about calling the update function.
+The main challenge when creating an entity component system is making it simple to create entities and add the necessary components to them. It was also difficult to create a function that updates every entity and its components automatically so I can create entities at my leisure without worrying about calling the update function.
 
 ### Evidence
 

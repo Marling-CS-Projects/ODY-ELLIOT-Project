@@ -6,7 +6,7 @@ This is the first cycle of my game 'Bucket Knight' so the primary goal is to set
 
 ### Objectives
 
-In this cycle I aim to:
+In this cycle, I aim to:
 
 * [x] Set up a C++ project in VS 2019
 * [x] Incorporate the SDL2 library into the project ([https://www.libsdl.org/](https://www.libsdl.org/))
@@ -17,7 +17,7 @@ In this cycle I aim to:
 
 ### Usability Features
 
-* Controls - Simple controls as it currently will just be movement controls.
+* Controls - Simple controls as they currently will just be movement controls.
 * Sprite Contrast - The sprite will have a white outline to contrast with the black background.
 
 ### Key Variables
@@ -55,7 +55,7 @@ if A is pressed { move(LEFT, speed) }
 else if D is pressed { move(RIGHT, speed) }
 </code></pre>
 
-Gets the players inputs (part of the InputComponent in [Cycle 1b](cycle-1b.md))
+Gets the player's inputs (part of the InputComponent in [Cycle 1b](cycle-1b.md))
 
 {% code title="Render Sprite" %}
 ```cpp
@@ -195,7 +195,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-The main challenges of this cycle was the initial struggle of importing the SDL library, in order to render the game, as well as creating components to allow the player to have a sprite and the ability to move.
+The main challenges of this cycle were the initial struggle of importing the SDL library, in order to render the game and creating components to allow the player to have a sprite and the ability to move.
 
 ## Testing
 
@@ -211,7 +211,7 @@ The video above shows the first cycle of my game ([https://youtu.be/wLS\_OUcNmBI
 In the video above, the player has double the intended speed due to the player being updated twice every frame. This has been fixed in the GitHub files for cycle 1 which you can find [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
 {% endhint %}
 
-In the video above a black, resizable screen is created as well as a player in the top left. This player has a rendered sprite attatched to it and can move around the window using the WASD keys.
+In the video above a black, resizable screen is created as well as a player in the top left. This player has a rendered sprite attached to it and can move around the window using the WASD keys.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>This is a screenshot from the video above</p></figcaption></figure>
 
