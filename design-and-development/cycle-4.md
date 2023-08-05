@@ -6,11 +6,12 @@
 
 This cycle will be focused around the basic Melee Enemy type in my game as well as allowing the Player to shoot bullets.
 
-* [ ] Create a health system for the Player with UI
-* [ ] Create an Enemy
-* [ ] Make the Enemy move towards the Player
-* [ ] Make the Enemy be Destroyed when Shot
-* [ ] Have the enemy reduce the Player's health on Impact
+* [x] Create a health system for the Player with UI
+* [x] Add a basic ranged weapon for the Player to use
+* [x] Create an Enemy
+* [x] Make the Enemy move towards the Player
+* [x] Make the Enemy be Destroyed when Shot
+* [x] Have the enemy reduce the Player's health on Impact
 
 ### Usability Features
 
