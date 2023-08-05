@@ -2,15 +2,15 @@
 
 ## Design
 
-This cycle is about creating the dungeon generator which will create the layout of the dungeon the player has to play through.
+This cycle is about creating the dungeon generator which will create the dungeon layout the player has to play through.
 
-In this cycle I have also added some quality-of-life features for development such as a new `Object` class to make it easier to create entities.
+In this cycle, I have also added some quality-of-life features for development such as a new `Object` class to make it easier to create entities.
 
 As well as that, I added viewport scaling so the user can play the game at any window size.
 
 ### Objectives
 
-In this cycle I aim to:
+In this cycle, I aim to:
 
 * [x] Create a Dungeon Layout Generator
 * [x] Have each room connect to each other
@@ -21,7 +21,7 @@ In this cycle I aim to:
 
 ### Usability Features
 
-Viewport Scaling - Allows the user to play the game at any window size.
+Viewport Scaling - This allows the user to play the game at any window size.
 
 ### Key Variables
 
@@ -312,7 +312,7 @@ A big challenge of this was getting collisions to work properly but I eventually
 
 An easier part of this cycle is making the viewport scale as I found SDL has a function called `SDL_RenderSetLogicalSize` which does this for me.
 
-However, the biggest challenge of this cycle was memory. When switching between rooms the memory incremented by approximately 3MB as the previous room wasn't being disposed of properly. This caused the game to crash as all the rooms visited were all trying to be rendered at the same time. This was solved by fixing the tile-map deletion algorithm so these rooms where no longer in memory and being rendered underneath the current room.
+However, the biggest challenge of this cycle was memory. When switching between rooms the memory incremented by approximately 3MB as the previous room wasn't being disposed of properly. This caused the game to crash as all the rooms visited were trying to be rendered at the same time. This was solved by fixing the tile-map deletion algorithm so these rooms were no longer in memory and were being rendered underneath the current room.
 
 ## Testing
 
