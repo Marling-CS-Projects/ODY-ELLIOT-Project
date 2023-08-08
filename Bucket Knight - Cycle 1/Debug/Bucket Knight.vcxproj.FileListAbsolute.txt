@@ -1,3 +1,0 @@
-C:\Users\ellio\Documents\SDL2 Games\Bucket Knight\Bucket Knight\Debug\Bucket Knight.exe
-C:\Users\ellio\Documents\SDL2 Games\Bucket Knight\Bucket Knight - Copy\Debug\Bucket Knight.exe
-C:\Users\ellio\Documents\SDL2 Games\Bucket Knight\Bucket Knight - Cycle 1\Debug\Bucket Knight.exe
