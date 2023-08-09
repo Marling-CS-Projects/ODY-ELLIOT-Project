@@ -2,9 +2,7 @@
 
 ## Design
 
-This cycle will be focused around the basic Melee Enemy type in my game as well as allowing the Player to shoot bullets and take damage.
-
-### Objectives
+This cycle will focus on the basic Melee Enemy type in my game, while also allowing the Player to shoot bullets and take damage.
 
 In this cycle, I aim to:
 
