@@ -31,14 +31,14 @@ In this cycle, I aim to:
 
 ### Pseudocode
 
-<pre class="language-cpp" data-title="Game Loop"><code class="lang-cpp">game = new Game
-game->initialize_game(title, size)
+<pre class="language-cpp" data-title="Game Loop"><code class="lang-cpp">game = new Game();
+game->initialize_game(title, size);
 
 while game is_running
 {
-    game->get_inputs()
-    game->update()
-    game->render()
+    game->get_inputs();
+    game->update();
+    game->render();
 }
 
 <strong>game->clean_memory() // Memory is cleaned to free up the user's RAM
@@ -46,21 +46,21 @@ while game is_running
 
 Creates the game loop so the game while the game is running everything is updated and rendered, the game gets the inputs, and the memory is cleaned when the game is closed.
 
-<pre class="language-cpp" data-title="Movement Inputs" data-full-width="false"><code class="lang-cpp"><strong>if W is pressed { move(UP, speed) }
+<pre class="language-cpp" data-title="Movement Inputs" data-full-width="false"><code class="lang-cpp"><strong>if W is pressed { move(UP, speed); }
 </strong>
-else if S is pressed { move(DOWN, speed) }
+else if S is pressed { move(DOWN, speed); }
 
-if A is pressed { move(LEFT, speed) }
+if A is pressed { move(LEFT, speed); }
 
-else if D is pressed { move(RIGHT, speed) }
+else if D is pressed { move(RIGHT, speed); }
 </code></pre>
 
 Gets the player's inputs (part of the InputComponent in [Cycle 1b](cycle-1b.md))
 
 {% code title="Render Sprite" %}
 ```cpp
-texture = load_texture("character.png")
-draw_sprite(texture, position)
+texture = load_texture("character.png");
+draw_sprite(texture, position);
 ```
 {% endcode %}
 

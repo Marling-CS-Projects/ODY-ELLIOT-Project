@@ -37,9 +37,9 @@ Viewport Scaling - This allows the user to play the game at any window size.
 ```cpp
 Dungeon(int numRooms) // acts as a class constructor
 {
-    this.numRooms = numRooms
-    this.rooms = GetRooms()
-    this.currentRoom = 0
+    this->numRooms = numRooms;
+    this->rooms = GetRooms();
+    this->currentRoom = 0;
 }
 
 vector<string> GetRooms()
@@ -50,35 +50,35 @@ vector<string> GetRooms()
         "Room1.txt",
         "Room2.txt",
         "Room3.txt"
-    }
+    };
 }
 
 void GenerateLayout()
 {	
-    this->currentLayout = {}
-    currentLayout.size() = numRooms
+    this->currentLayout = {};
+    currentLayout.size() = numRooms;
     
-    currentLayout.start() = new Level("RoomSTART") // adds the start room
+    currentLayout.start() = new Level("RoomSTART"); // adds the start room
 
     for (int i = 0; i < numRooms - 2; i++)
     {
-        currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)) + 2])
+        currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)); + 2])
     }
 
-    currentLayout.end() = new Level("RoomEND") // adds the end room
+    currentLayout.end() = new Level("RoomEND"); // adds the end room
 }
 
 void DrawCurrentRoom()
 {
-    if (currentRoom < 0) { currentRoom = 0 }
-    else if (currentRoom > currentLayout.size() - 1) { currentRoom = currentLayout.size() - 1 }
-    currentLayout.at(currentRoom)->BuildLevel()
+    if (currentRoom < 0) { currentRoom = 0; }
+    else if (currentRoom > currentLayout.size() - 1) { currentRoom = currentLayout.size() - 1; }
+    currentLayout.at(currentRoom)->BuildLevel();
 }
 
-int numRooms
-vector<string> rooms{}
-vector<Level*> currentLayout
-int currentRoom
+int numRooms;
+vector<string> rooms{};
+vector<Level*> currentLayout;
+int currentRoom;
 ```
 {% endcode %}
 

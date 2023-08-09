@@ -39,9 +39,9 @@ void Game::init()
 {
     // there will be other pieces of code here
         
-    player.AddComponent(TransformComponent)
-    player.AddComponent(SpriteComponent)
-    player.AddComponent(InputComponent)
+    player.AddComponent(TransformComponent);
+    player.AddComponent(SpriteComponent);
+    player.AddComponent(InputComponent);
 }
 
 void Game::update()
@@ -62,14 +62,14 @@ The above code does not represent the entire solution but rather the elements re
 ```cpp
 class Transform : Component
 {
-    Vector2D position 
-    Vector2D velocity
+    Vector2D position ;
+    Vector2D velocity;
     // Vector2D is a custom class
     float speed
     
     void onUpdate()
     {
-        position = velocity * speed
+        position = velocity * speed;
     }
 }
 ```
@@ -79,17 +79,17 @@ class Transform : Component
 ```cpp
 class Sprite : Component
 {
-    SDL_Texture texture
-    Transform transform // reference to the object's transform component
+    SDL_Texture texture;
+    Transform transform; // reference to the object's transform component
     
     void init(path)
     {
-        texture = LoadTexture(path) // path will be the path to the image file
+        texture = LoadTexture(path); // path will be the path to the image file
     }
     
     void draw()
     {
-        render(texture, transform.position)
+        render(texture, transform.position);
     }
 }
 ```

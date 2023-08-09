@@ -32,24 +32,24 @@ In this cycle, I aim to:
 
 {% code title="Tile Map" %}
 ```cpp
-tilemap = OpenFile("tiles.txt")
-tileType1 = OpenFile("tile1texture.png") // represented by a 0
-tileType2 = OpenFile("tile2texture.png") // represented by a 1
+tilemap = OpenFile("tiles.txt");
+tileType1 = OpenFile("tile1texture.png"); // represented by a 0
+tileType2 = OpenFile("tile2texture.png"); // represented by a 1
 
 void LoadTiles(tilemap){
     for (tile in tilemap)
     {
         if (tile == 0)
         {
-            newtile = createTile(tileType1)
+            newtile = createTile(tileType1);
         }
         else if (tile == 1)
         {
-            newtile = createTile(tyleType2)
+            newtile = createTile(tyleType2);
         }
         // I could also use a switch statement to achieve the same effect
         
-        newTile.addToGroup(tiles) // stores all the tiles to render
+        newTile.addToGroup(tiles); // stores all the tiles to render
     }
 }
 ```
@@ -68,11 +68,11 @@ bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
     rectB.y + rectB.h >= rectA.y
     )
     {
-        return true
+        return true;
     }
     else
     {
-        return false
+        return false;
     }
 }
 ```
@@ -86,9 +86,9 @@ If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wa
 
 void render()
 {
-    tiles->draw()
-    players->draw()
-    enemies->draw()
+    tiles->draw();
+    players->draw();
+    enemies->draw();
 }
 ```
 {% endcode %}
@@ -126,7 +126,7 @@ void TileMap::LoadTiles(std::string path, int sizeX, int sizeY)
 ```
 {% endcode %}
 
-`LoadTiles()` loads the tilemap from an external file path and requests the size of the tilemap in order to display in properly. This function is called in `Game.cpp` and the relevant information is passed through.
+`LoadTiles()` loads the tilemap from an external file path and requests the size of the tilemap in order to display it properly. This function is called in `Game.cpp` and the relevant information is passed through.
 
 {% code title="Collision.cpp" %}
 ```cpp
