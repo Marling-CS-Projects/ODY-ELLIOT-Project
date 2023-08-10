@@ -15,6 +15,8 @@ In this cycle, I aim to:
 
 ### Usability Features
 
+Outlines - Every non-player sprite won't have a white outline so the user will know where they are.
+
 ### Key Variables
 
 | Variable Name | Use                   |
@@ -25,59 +27,45 @@ In this cycle, I aim to:
 
 {% code title="Normalize Function" %}
 ```cpp
-Vector2D normalize(Vector2D source)
-{
-    float length = SquareRoot((source.x * source.x) + (source.y * source.y));
-    Vector2D direction = source.x / length, source.y / length;
+VVector2D normalize(Vector2D source):
+    length = SquareRoot((source.x * source.x) + (source.y * source.y))
+    direction = Vector2D(source.x / length, source.y / length)
 
-    return direction;
-}
+    return direction
 ```
 {% endcode %}
 
 The `normalize` function returns a new vector with a length of 1 while preserving the vector's direction, using Pythagoras (`a² + b² = c²`).
 
-<pre class="language-cpp" data-title="Player Component"><code class="lang-cpp"><strong>#pragma once
-</strong>#include "Components.h"
+{% code title="Player Component" %}
+```cpp
+Include "Components.h"
 
-class PlayerComponent : public Component
-{
+class PlayerComponent extends Component:
+    // Constructor
+    PlayerComponent(health, cooldownTime):
+        health = health
+        cooldown = cooldownTime
 
-public:
+    // Override update function
+    function update():
+        if health < 1:
+            player.destroy()
+        else if CooldownFinished():
+            canBeHit = true
 
-PlayerComponent(int health, int cooldownTime) // Constructor
-	{
-		this->health = health;
-		this->cooldown = cooldownTime;
-	}
+    // Function to handle the player being hit by an enemy
+    function hit(enemy):
+        if canBeHit:
+            health = health - 1
+            canBeHit = false
+            StartCooldown()
 
-	void update() override
-	{
-		if (health &#x3C; 1)
-		{
-			player.destroy()
-		}
-		else if (CooldownFinished())
-		{
-			canBeHit = true; // makes the cooldown work
-		}
-	}
-
-	void hit(Entity* enemy) 
-	{
-		if (canBeHit)
-		{
-			health -= 1;
-			canBeHit = false;
-			StartCooldown();
-		}
-	}
-
-	bool canBeHit;
-	bool onCooldown;
-	int health;
-};
-</code></pre>
+    boolean canBeHit
+    boolean onCooldown
+    int health
+```
+{% endcode %}
 
 The `Player Component` is attached to the Player and tracks the player's health and if the player can be hit.
 
@@ -85,44 +73,45 @@ The `hit()` function takes a pointer to the Entity which hits the player and may
 
 {% code title="Enemy Component" %}
 ```cpp
-#pragma once
-#include "Components.h"
+Include "Components.h"
 
-class EnemyComponent : public Component
-{
-public:
-	EnemyComponent()
-	{
-		this->destination = nullptr;
-		this->transform = nullptr;
-		this->health = 0;
-	}
-	~EnemyComponent()
-	{
-		this->entity->destroy();
-	}
+class EnemyComponent extends Component:
+    // Constructor
+    EnemyComponent():
+        destination = null
+        transform = null
+        health = 0
+        speed = 0.0
 
-	bool isAlive()
-	{
-		if (health > 0)
-		{
-			return true;
-		}
+    // Destructor
+    ~EnemyComponent():
+        entity.destroy()
 
-		return false;
-	}
+    // Function to check if the enemy is alive
+    function isAlive():
+        if health > 0:
+            return true
+        else:
+            return false
 
-	virtual void hit()
-	{
-		health -= 1;
-	}
+    // Function to simulate the enemy being hit
+    function hit():
+        health = health - 1
 
-	TransformComponent* destination;
-	TransformComponent* transform;
-	int health;
-	float speed;
-};
+    TransformComponent destination
+    TransformComponent transform
+    int health
+    float speed
+```
+{% endcode %}
 
+The `Enemy Component` will be the base for every enemy as it contains basic functions that every enemy will use (such as `hit()`).
+
+## Development
+
+### Outcome
+
+```cpp
 class MeleeEnemy : public EnemyComponent
 {
 public:
@@ -165,13 +154,6 @@ public:
 	}
 };
 ```
-{% endcode %}
-
-
-
-## Development
-
-### Outcome
 
 ### Challenges
 

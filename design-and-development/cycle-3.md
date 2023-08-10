@@ -35,50 +35,60 @@ Viewport Scaling - This allows the user to play the game at any window size.
 
 {% code title="Dungeon Creator" %}
 ```cpp
-Dungeon(int numRooms) // acts as a class constructor
-{
-    this->numRooms = numRooms;
-    this->rooms = GetRooms();
-    this->currentRoom = 0;
-}
+// Dungeon class constructor
+Dungeon(numRooms):
+    // Initialize number of rooms
+    this->numRooms = numRooms
+    // Get names of room files
+    this->rooms = GetRooms()
+    // Set current room to start
+    this->currentRoom = 0
 
-vector<string> GetRooms()
-{
-    // returns all the names of the text files the rooms are stored in 
+// Function to get room file names
+vector<string> GetRooms():
+    // Return a list of room file names
     return vector<string>
     {
         "Room1.txt",
         "Room2.txt",
         "Room3.txt"
-    };
-}
-
-void GenerateLayout()
-{	
-    this->currentLayout = {};
-    currentLayout.size() = numRooms;
-    
-    currentLayout.start() = new Level("RoomSTART"); // adds the start room
-
-    for (int i = 0; i < numRooms - 2; i++)
-    {
-        currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)); + 2])
     }
 
-    currentLayout.end() = new Level("RoomEND"); // adds the end room
-}
+// Function to generate the dungeon layout
+GenerateLayout():
+    // Initialize the current layout
+    this->currentLayout = {}
+    // Set the size of the layout
+    currentLayout.size() = numRooms
+    
+    // Add the start room
+    currentLayout.start() = new Level("RoomSTART")
 
-void DrawCurrentRoom()
-{
-    if (currentRoom < 0) { currentRoom = 0; }
-    else if (currentRoom > currentLayout.size() - 1) { currentRoom = currentLayout.size() - 1; }
-    currentLayout.at(currentRoom)->BuildLevel();
-}
+    // Generate rooms between start and end
+    for i from 0 to numRooms - 2:
+        // Generate a random index for selecting a room file
+        randomIndex = std::rand() % (this->rooms.size() - 2) + 2
+        // Create a new level using the selected room file
+        currentLayout[i + 1] = new Level(rooms[randomIndex])
 
-int numRooms;
-vector<string> rooms{};
-vector<Level*> currentLayout;
-int currentRoom;
+    // Add the end room
+    currentLayout.end() = new Level("RoomEND")
+
+// Function to draw the current room
+DrawCurrentRoom():
+    // Ensure the current room index is within bounds
+    if currentRoom < 0:
+        currentRoom = 0
+    else if currentRoom > currentLayout.size() - 1:
+        currentRoom = currentLayout.size() - 1
+    // Build and display the current room
+    currentLayout.at(currentRoom)->BuildLevel()
+
+// Class members
+int numRooms
+vector<string> rooms{}
+vector<Level*> currentLayout
+int currentRoom
 ```
 {% endcode %}
 
