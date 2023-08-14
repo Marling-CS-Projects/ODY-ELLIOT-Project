@@ -4,7 +4,7 @@
 
 This cycle will be an optimisation cycle where I will clean up code to make it easier to continue development.
 
-No new features will be added this cycle.
+As well as that, I will give the dungeon a more arcade-like system where the next room will spawn when all the enemies are defeated.
 
 ### Objectives
 
