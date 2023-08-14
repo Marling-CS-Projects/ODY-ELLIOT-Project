@@ -25,6 +25,25 @@ end procedure
 
 ### Outcome
 
+{% code title="Old System" %}
+```cpp
+auto player = new Player();
+player->CreatePlayer(400, 300, 3);
+player->gameObject->addGroup(groupForeground);
+```
+{% endcode %}
+
+{% code title="New System" %}
+```cpp
+auto player = new Player(400, 300, 3);
+player->entity->addGroup(groupForeground);
+```
+{% endcode %}
+
+The new system results in less code having to be written to create an object by making the class constructor take in arguments and run the object creation function.
+
+As well as that, the `gameObject` variable's name has been changed to `entity` because it represents the valued stored inside (which is an Entity pointer).
+
 ### Challenges
 
 Description of challenges
