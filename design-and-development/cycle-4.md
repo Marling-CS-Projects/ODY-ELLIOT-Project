@@ -19,14 +19,7 @@ Outlines - Every non-player sprite (inside of the dungeon room) won't have a whi
 
 <figure><img src="../.gitbook/assets/Sprite-0001.png" alt=""><figcaption><p>The Goblin Enemy (shown on the left) and the 'HeartON' UI Sprite (shown on the right)</p></figcaption></figure>
 
-As shown above, the Melee Enemy sprite has no white outline as it is in the dungeon room and the Heart UI sprite has a white outline as it is outside of the room and relevant to the player.
-
-### Key Variables
-
-| Variable Name | Use                                        |
-| ------------- | ------------------------------------------ |
-| health        | Stores the amount of health the entity has |
-| canBeHit      |                                            |
+As shown above, the Melee Enemy sprite has no white outline as it is in the dungeon room and the Heart UI sprite has a white outline because it is outside of the room and relevant to the player.
 
 ### Pseudocode
 
