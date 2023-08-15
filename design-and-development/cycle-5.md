@@ -2,15 +2,16 @@
 
 ## Design
 
-This cycle will be an optimisation cycle where I will clean up code to make it easier to continue development.
+In this cycle, I will make the game have a more arcade-like feel. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically when the room has been cleared of enemies.
 
-As well as that, I will give the dungeon a more arcade-like system where the next room will spawn when all the enemies are defeated.
+As well as that, I will improve the object creation system as I have identified a simple way to improve it.
 
 ### Objectives
 
 In this cycle, I will:
 
 * [ ] Overhaul the dungeon progression system
+* [ ] Add a score counter at the top of the screen
 * [ ] Improve the object creation system
 
 ### Pseudocode
