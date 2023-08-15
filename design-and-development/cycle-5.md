@@ -40,9 +40,9 @@ player->entity->addGroup(groupForeground);
 ```
 {% endcode %}
 
-The new system results in less code having to be written to create an object by making the class constructor take in arguments and run the object creation function.
+The new system results in less code having to be written to create an object by making the class constructor take in arguments and run the object creation function. The old system may still be used in certain circumstances.
 
-As well as that, the `gameObject` variable's name has been changed to `entity` because it represents the valued stored inside (which is an Entity pointer).
+As well as that, the `gameObject` variable's name has been changed to `entity` because it represents the value stored inside (which is an Entity pointer).
 
 ### Challenges
 
