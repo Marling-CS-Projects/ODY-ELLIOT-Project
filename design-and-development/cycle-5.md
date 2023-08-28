@@ -2,7 +2,7 @@
 
 ## Design
 
-In this cycle, I will make the game have a more arcade-like feel. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically when the room has been cleared of enemies.
+In this cycle, I will make the game have a more arcade-like feel. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically, with enemies, when the room has been cleared.
 
 As well as that, I will improve the object creation system as I have identified a simple way to improve it.
 
@@ -10,9 +10,9 @@ As well as that, I will improve the object creation system as I have identified 
 
 In this cycle, I will:
 
-* [ ] Overhaul the dungeon progression system
-* [ ] Add a score counter at the top of the screen
-* [ ] Improve the object creation system
+* [x] Overhaul the dungeon progression system
+* [x] Spawn enemies randomly when a room is built
+* [x] Improve the object creation system
 
 ### Pseudocode
 
@@ -58,3 +58,7 @@ Evidence for testing
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
+
+{% embed url="https://youtu.be/8r4hyxzmFZ4" %}
+The video above shows the fourth cycle of my game ([https://youtu.be/8r4hyxzmFZ4](https://youtu.be/8r4hyxzmFZ4))
+{% endembed %}
