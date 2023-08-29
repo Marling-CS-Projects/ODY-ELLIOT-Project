@@ -20,14 +20,6 @@ In this cycle, I aim to:
 
 * Render Groups/Layers - The player's group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
 
-### Key Variables
-
-| Variable Name | Use                                            |
-| ------------- | ---------------------------------------------- |
-| tiles         | stores all the entities in the 'tilemap' group |
-| players       | stores all the entities in the 'players' group |
-| enemies       | stores all the entities in the 'enemies' group |
-
 ### Pseudocode
 
 {% code title="Tile Map" %}

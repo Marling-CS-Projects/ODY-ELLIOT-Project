@@ -20,15 +20,6 @@ In this cycle, I aim to:
 * Controls - Simple controls as they currently will just be movement controls.
 * Sprite Contrast - The sprite will have a white outline to contrast with the black background.
 
-### Key Variables
-
-| Variable Name | Use                                                                           |
-| ------------- | ----------------------------------------------------------------------------- |
-| speed         | determines how fast the character moves in the scene                          |
-| texture       | stores the SDL\_Texture used to render a sprite to the screen                 |
-| is\_running   | tells the game loop whether to run the game when true                         |
-| game          | an object (an instance of the game class) used to initialize and run the game |
-
 ### Pseudocode
 
 <pre class="language-cpp" data-title="Game Loop"><code class="lang-cpp">game = new Game();

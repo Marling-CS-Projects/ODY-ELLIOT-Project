@@ -182,6 +182,7 @@ This works as the `pos` variable indicates when the heart should turn off based 
 
 ### Outcome
 
+{% code title="Melee Enemy Class" %}
 ```cpp
 // MeleeEnemy class inherits from the EnemyComponent class and represents a melee-type enemy behavior.
 
@@ -237,6 +238,7 @@ public:
 	}
 };
 ```
+{% endcode %}
 
 The `MeleeEnemy` component contains everything the game needs to know about the melee-type enemy as well as allowing the enemy to pathfind to the player (as shown in the `update()` function)
 

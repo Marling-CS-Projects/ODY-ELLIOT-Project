@@ -15,19 +15,6 @@ In this cycle, I will:
 * [x] Create a Sprite Component (to render the entity to the screen)
 * [x] An Input Component (for player input)
 
-### Usability Features
-
-### Key Variables
-
-| Variable Name | Use                                                                                                                     |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| player        | Stores the reference to the player entity.                                                                              |
-| manager       | Stores a reference to the manager class.                                                                                |
-| position      | Stores an object's position.                                                                                            |
-| velocity      | <p>Stores the direction the object is moving.<br>(In hindsight, velocity should have actually been named direction)</p> |
-| speed         | Stores the speed the object will travel at.                                                                             |
-| texture       | Stores the sprite's SDL\_Texture so it can be rendered to the screen.                                                   |
-
 ### Pseudocode
 
 {% code title="Game Implementation" %}

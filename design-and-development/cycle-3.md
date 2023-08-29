@@ -23,14 +23,6 @@ In this cycle, I aim to:
 
 Viewport Scaling - This allows the user to play the game at any window size.
 
-### Key Variables
-
-| Variable Name | Use                                               |
-| ------------- | ------------------------------------------------- |
-| numRooms      | How many rooms there are in the dungeon.          |
-| currentRoom   | Stores the value of the room the player is in.    |
-| currentLayout | Stores the current layout of the current dungeon. |
-
 ### Pseudocode
 
 {% code title="Dungeon Creator" %}
