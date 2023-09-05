@@ -212,22 +212,22 @@ private:
 ```
 {% endcode %}
 
-The `ScoreComponent` tells the scoreboard what number to display
+The `ScoreComponent` tells the scoreboard what number to display based on the column the entity represents.
+
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%206).
 
 ### Challenges
 
-Description of challenges
+This cycle had many bugs arising from attempting to reset the game scene. The main issue was pointer errors as destroyed objects wouldn't be removed from groups and were still attempting to be referenced. This issue was solved by clearing the groups when the game ended.
 
 ## Testing
 
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>The Main Menu Appears</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press the Play Button</td><td>The Game starts</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Press the Play Button and let the Player die</td><td>The Game reverts back to the Main Menu</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>A read access violation occurs as the pointer points to a memory location that no longer exists</td><td>Fail</td></tr><tr><td>5</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>Write access violation as the pointer cannot access the correct memory location to write the new data onto</td><td>Fail</td></tr><tr><td>6</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Go through the Dungeon by defeating the enemies in each room</td><td>The Score should increment correctly</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
 {% embed url="https://youtu.be/VF2-2tVXJ2I" %}
 The video above shows the sixth cycle of my game ([https://youtu.be/VF2-2tVXJ2I](https://youtu.be/VF2-2tVXJ2I))
 {% endembed %}
+
+The video&#x20;
