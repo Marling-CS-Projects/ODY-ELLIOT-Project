@@ -103,6 +103,117 @@ This function is run at the start of the game (by the `init()` function) and whe
 
 ### Outcome
 
+{% code title="Extract of the update function" %}
+```cpp
+// Iterate over each 'm' object in the 'menu' group
+for (auto& m : menu)
+{
+    // Check if the Left Click event occurred, and if 'm' is a "Play Button" and the mouse is over it
+    // Also, ensure that the game has not already started
+    if (Game::event.type == SDL_MOUSEBUTTONDOWN &&
+        m->getComponent<ColliderComponent>().tag == "Play Button" &&
+        Collision::AABB(m->getComponent<ColliderComponent>().collider, SDL_Rect { MouseX, MouseY, 1, 1 }) &&
+        !gameStarted)
+    {
+        // Activate the 'm' object which ensures the object is active to reduce the chance of pointer failure
+        m->activate();
+
+        // Call teh StartGame() Method to initialise the Entities required for the game to run
+        StartGame();
+
+        // Set the 'gameStarted' flag to true to prevent multiple game starts
+        gameStarted = true;
+
+        // Output a message to the console indicating that the game has started
+        std::cout << "Game Started" << std::endl;
+
+        // Destroy the Play Button
+        m->destroy();
+    }
+}
+```
+{% endcode %}
+
+This code checks whether the Play Button has been pressed and then Starts the game if it was pressed.
+
+{% code title="Score Component" %}
+```cpp
+// Define a class called ScoreComponent that inherits from the Component class
+class ScoreComponent : public Component
+{
+public:
+    // Constructor for ScoreComponent, takes a 'column' parameter ('tens' or 'ones')
+    ScoreComponent(string column)
+    {
+        this->score = 0; // Initialize the score to 0
+        this->column = column; // Store the provided 'column' value
+    }
+
+    // Get the current score
+    int GetScore()
+    {
+        return this->score;
+    }
+
+    // Increment the score by 1
+    void IncrementScore()
+    {
+        score += 1;
+    }
+    
+    // Update the displayed score based on the 'column' value
+    void DisplayScore()
+    {
+        if (column == "tens")
+        {
+            // Calculate the 'tens' digit of the score
+            int i = (score - (score % 10)) / 10;
+            
+            // Generate the path to the sprite based on the tens digit
+            string s = "Assets/" + to_string(i) + ".png";
+            
+            // Convert the path to a C-style string and set it as the texture
+            const char* c = s.c_str();
+            sprite->setTex(c);
+        }
+        else if (column == "ones")
+        {
+            // Calculate the 'ones' digit of the score
+            int i = score % 10;
+            
+            // Generate the path to the sprite based on the ones digit
+            string s = "Assets/" + to_string(i) + ".png";
+            
+            // Convert the path to a C-style string and set it as the texture
+            const char* c = s.c_str();
+            sprite->setTex(c);
+        }
+    }
+    
+    // Initialization function, overridden from the base Component class
+    void init() override
+    {
+        if (entity->hasComponent<SpriteComponent>())
+        {
+            this->sprite = &entity->getComponent<SpriteComponent>();
+        }
+        else
+        {
+            // Displays an error message as this component relies heavily on the Sprite Component
+            std::cout << "Error: No Sprite Component attached to the Score Entity" << std::endl;
+        }
+    }
+
+private:
+    int score = 0; // Store the score value
+    string column; // Store the column value ('tens' or 'ones')
+    SpriteComponent* sprite; // Pointer to the associated SpriteComponent
+};
+```
+{% endcode %}
+
+The `ScoreComponent` tells the scoreboard what number to display
+
 ### Challenges
 
 Description of challenges
