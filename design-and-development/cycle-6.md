@@ -230,4 +230,4 @@ This cycle had many bugs arising from attempting to reset the game scene. The ma
 The video above shows the sixth cycle of my game ([https://youtu.be/VF2-2tVXJ2I](https://youtu.be/VF2-2tVXJ2I))
 {% endembed %}
 
-The video above shows the new features added in this cycle (such as the Main Menu and Score) as well as the new assets created for my game using Aseprite.
+The video above shows the new features added in this cycle (such as the Main Menu and Score) as well as the new assets created for my game using a pixel art program called Aseprite.
