@@ -21,11 +21,83 @@ Game Loop - The player can now play the game multiple times without restarting t
 
 ### Pseudocode
 
+{% code title="Start Game Function" %}
+```cpp
+function Game.StartGame():
+    // Create a new player and add it to the player group
+    player = new Player()
+    player.CreatePlayer(x=400, y=300, lives=3)
+    player.entity.addToGroup(player)
+
+    // Create player hearts and add them to foreground group
+    heart1 = new PlayerHeart(x=12, y=12, playerComponent=player.entity.getComponent<PlayerComponent>(), heartNumber=1)
+    heart1.entity.addToGroup(foreground)
+
+    heart2 = new PlayerHeart(x=60, y=12, playerComponent=player.entity.getComponent<PlayerComponent>(), heartNumber=2)
+    heart2.entity.addToGroup(foreground)
+
+    heart3 = new PlayerHeart(x=108, y=12, playerComponent=player.entity.getComponent<PlayerComponent>(), heartNumber=3)
+    heart3.entity.addToGroup(foreground)
+
+    // Create walls and add them to foreground group
+    wall1 = new Wall(x=204, y=120, width=432, height=24, texture="Assets/WallTexture.png")
+    wall1.entity.addToGroup(foreground)
+
+    wall2 = new Wall(x=204, y=528, width=432, height=24, texture="Assets/WallTexture.png")
+    wall2.entity.addToGroup(foreground)
+
+    wall3 = new Wall(x=612, y=120, width=24, height=432, texture="Assets/WallTexture.png")
+    wall3.entity.addToGroup(foreground)
+
+    wall4 = new Wall(x=204, y=120, width=24, height=432, texture="Assets/WallTexture.png")
+    wall4.entity.addToGroup(foreground)
+
+    // Create objects for tens and ones digit scores
+    tens = new Object()
+    tens.CreateObject()
+    tens.entity.addComponent<TransformComponent>(x=359, y=12, width=24, height=24, zIndex=2)
+    tens.entity.addComponent<SpriteComponent>("Assets/0.png")
+    tens.entity.addComponent<ScoreComponent>("tens")
+    tens.entity.addToGroup(score)
+
+    ones = new Object()
+    ones.CreateObject()
+    ones.entity.addComponent<TransformComponent>(x=409, y=12, width=24, height=24, zIndex=2)
+    ones.entity.addComponent<SpriteComponent>("Assets/0.png")
+    ones.entity.addComponent<ScoreComponent>("ones")
+    ones.entity.addToGroup(score)
+
+    // Create a dungeon and generate its layout
+    dGen = new Dungeon(maxRooms=20)
+    dGen.GenerateLayout()
+    dGen.DrawCurrentRoom()
 ```
-procedure do_something
-    
-end procedure
+{% endcode %}
+
+The `StartGame()` function initialises everything needed for the game to run (replacing part of the `init()` function) and is called when the Play Button is pressed.
+
+{% code title="End Game Function" %}
+```cpp
+function Game.EndGame():
+
+    // Clears all the game's groups
+    background.clear()
+    enemies.clear()
+    foreground.clear()
+    bullets.clear()
+    menu.clear()
+    players.clear()
+    score.clear()
+
+    // Create a new Play Button and add it to the menu group
+    playButton = new Trigger(x=152, y=240, width=256, height=48, zIndex=2, image="Assets/PlayButton.png", label="Play Button")
+    playButton.entity.addToGroup(menu)
 ```
+{% endcode %}
+
+The `EndGame()` function removes all current Entities from the scene by clearing the game's groups and then the function creates the Main Menu.
+
+This function is run at the start of the game (by the `init()` function) and when the player dies.
 
 ## Development
 
