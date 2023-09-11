@@ -4,12 +4,18 @@
 
 ### Objectives
 
-\[describe the cycle]
+In this cycle, I will:
 
-* [x] Do a thing
-* [x] Do another thing
+* [x] Create a How-To-Play button
+* [x] Create a How-To-Play Screen
+* [x] Add a soundtrack that plays on an infinite loop
+* [x] Add sound effects that play in response to an event occurring in the game
 
 ### Usability Features
+
+How-To-Play - This feature will allow new players to quickly learn the game's controls allowing them to have a more enjoyable experience.
+
+Volume Levels - More important SFX (sound effects) have a greater volume than others (such as the player being hit being louder than the enemies getting hit) which will alert the user to more significant events taking place above other, less significant events.
 
 ### Key Variables
 
@@ -34,10 +40,6 @@ end procedure
 Description of challenges
 
 ## Testing
-
-Evidence for testing
-
-### Tests
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
