@@ -2,6 +2,14 @@
 
 ## Design
 
+This cycle is focused on better user experience which I will achieve by adding a How-To-Play screen (shown below) as well as implementing music and sound effects.
+
+<figure><img src="../.gitbook/assets/HowToPlayScreen-export.png" alt=""><figcaption><p>The How-To-Play Screen Sprite</p></figcaption></figure>
+
+{% hint style="info" %}
+The 'Roll' ability will be added in the next cycle.
+{% endhint %}
+
 ### Objectives
 
 In this cycle, I will:
@@ -16,12 +24,6 @@ In this cycle, I will:
 How-To-Play - This feature will allow new players to quickly learn the game's controls allowing them to have a more enjoyable experience.
 
 Volume Levels - More important SFX (sound effects) have a greater volume than others (such as the player being hit being louder than the enemies getting hit) which will alert the user to more significant events taking place above other, less significant events.
-
-### Key Variables
-
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
 
 ### Pseudocode
 

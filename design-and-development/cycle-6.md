@@ -10,8 +10,8 @@ As well as that, I will add a few new assets to improve the game's look.
 
 In this cycle, I will:
 
-* [x] Create a main menu with a Play Button
-* [x] When a player loses, the scene will revert to the main menu
+* [x] Create a Main Menu with a Play Button
+* [x] When a player loses, the scene will revert to the Main Menu
 * [x] Create an arcade-style scoring system
 * [x] Add some improved assets
 
