@@ -1,5 +1,5 @@
 ---
-description: Computer Science H446-03
+Computer Science H446-03
 ---
 
 # Rogue-like Game Project
