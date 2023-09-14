@@ -50,64 +50,83 @@ The How-To-Play button (which triggers the `HowToPlay` function) is created and 
 
 ### Outcome
 
+{% code title="Load the Music and SFX" %}
 ```cpp
-// Initialize the SDL_mixer library with MP3 support
+// Initialize the SDL2 Mixer library with MP3 support
 Mix_Init(MIX_INIT_MP3);
 
-// Open the audio with the specified parameters: 44100 Hz, default audio format, 2 channels, and a 1024-byte chunk size
-Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 1024);
+// Open the audio mixer with the specified settings
+Mix_OpenAudio(sampleRate=44100, format=MIX_DEFAULT_FORMAT, channels=2, chunkSize=1024);
 
-// Load the music file "Cruising for Goblins.mp3" into the 'music' variable
+// Load the music file
 music = Mix_LoadMUS("Assets/Cruising for Goblins.mp3");
 
-// Check if music loading was successful
-if (music == NULL)
-{
-    std::cout << "Failed to Load Music -> ";
-    std::cout << Mix_GetError() << std::endl;
+// Check if the music loaded successfully
+if (music == NULL) {
+    // Display an error message and clear any previous error
+    Print("Failed to Load Music -> ");
+    Print(Mix_GetError());
+    Mix_ClearError();
+} else {
+    // Print a success message
+    Print("Loaded 'Cruising for Goblins.mp3' by Kevin MacLeod");
+}
+
+// Play the loaded music indefinitely (-1)
+Mix_PlayMusic(music, loop=-1);
+
+// Set the music volume
+Mix_VolumeMusic(volume=3.5);
+
+// Load sound effect files and set their volumes
+shoot = Mix_LoadWAV("Assets/shoot.wav");
+shoot.volume = 3;
+
+enemyHit = Mix_LoadWAV("Assets/enemyHit.wav");
+enemyHit.volume = 3.5;
+
+playerHit = Mix_LoadWAV("Assets/playerHit.wav");
+playerHit.volume = 4.5;
+
+menuClick = Mix_LoadWAV("Assets/menuClick.wav");
+menuClick.volume = 3;
+
+newLevel = Mix_LoadWAV("Assets/newLevel.wav");
+newLevel.volume = 3;
+
+// Check if any sound effect failed to load and display an error message
+if (newLevel == NULL || menuClick == NULL || playerHit == NULL || enemyHit == NULL || shoot == NULL) {
+    // Display an error message and clear any previous error
+    Print("Failed to Load SFX -> ");
+    Print(Mix_GetError());
     Mix_ClearError();
 }
-else
-{
-    // Output a success message if the music loaded successfully
-    std::cout << "Loaded 'Cruising for Goblins.mp3' by Kevin MacLeod" << std::endl;
-}
 
-// Start playing the loaded music in an infinite loop (-1 means loop indefinitely)
-Mix_PlayMusic(music, -1);
-
-// Set the volume level for the music to 3.5 (adjust as needed)
-Mix_VolumeMusic(3.5f);
-
-// Load the sound effect file "shoot.wav" into the 'shoot' variable and set its volume to 3
-shoot = Mix_LoadWAV("Assets/shoot.wav");
-shoot->volume = 3;
-
-// Load the sound effect file "enemyHit.wav" into the 'enemyHit' variable and set its volume to 3.5
-enemyHit = Mix_LoadWAV("Assets/enemyHit.wav");
-enemyHit->volume = 3.5f;
-
-// Load the sound effect file "playerHit.wav" into the 'playerHit' variable and set its volume to 4.5
-playerHit = Mix_LoadWAV("Assets/playerHit.wav");
-playerHit->volume = 4.5f;
-
-// Load the sound effect file "menuClick.wav" into the 'menuClick' variable and set its volume to 3
-menuClick = Mix_LoadWAV("Assets/menuClick.wav");
-menuClick->volume = 3;
-
-// Load the sound effect file "newLevel.wav" into the 'newLevel' variable and set its volume to 3
-newLevel = Mix_LoadWAV("Assets/newLevel.wav");
-newLevel->volume = 3;
 ```
+{% endcode %}
+
+The music and SFX are loaded in the `init` function (a member of the Game class) so that the files can be used later (such as being played when the player is hit).
+
+This code also prints any errors that occur when loading the sound files to the game's console.
+
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%207).
 
 ### Challenges
 
-Description of challenges
+One challenge of this cycle was the initial import of the SDL\_Mixer library but I had experience with importing the SDL\_Image library so this wasn't a major challenge.
+
+However, there were a few errors and bugs that arose from implementing the music, SFX, and How-To-Play screen which had to be fixed. For example, the How-To-Play screen was part of the menu group but didn't have a collider which caused an error to occur when pressed as there was no collider that could be accessed.
+
+I also made a small tweak as I learned the objects were being updated before moving so each frame presented to the player was actually the previous frame that the game sees.
 
 ## Testing
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Music to be playing</td><td>No music played and an error was printed out to the console reading "Failed to Load Music -> Unrecognised File Format"</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>Music to be playing</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Press the How-To-Play button</td><td>The scene to switch to the How-To-Play screen</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Press the Back Button </td><td>The scene to revert back to the Main Menu</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Click the Menu buttons</td><td>The menuClick sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Recieve damage from an enemy</td><td>The playerHit sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Deal damage to an enemy</td><td>The enemyHit sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Destroy all enemies in a level</td><td>The level to change so the newLevel sound plays</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
 {% embed url="https://youtu.be/rmDgmbXZ_yc" %}
+The video above shows the seventh cycle of my game ([https://youtu.be/rmDgmbXZ\_yc](https://youtu.be/rmDgmbXZ\_yc))
+{% endembed %}
+
+The video has sound and shows that each sound effect is played correctly in response to an event occurring in the game world. I also added credits to the main menu to tell the user who is responsible for each feature the game has.
