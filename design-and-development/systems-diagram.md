@@ -57,5 +57,5 @@ The "how to play" screen will also help players understand the [controls](../ana
 
 #### Aims
 
-* Create a "how to play" screen.
+* Create a "How-To-Play" screen.
 * Create intuitive controls.
