@@ -14,11 +14,11 @@ These are:
 
 ### Effective
 
-Effective usability is when the user completes a target/goal with both completeness and accuracy. In order to achieve this, I will make the player know what their goal is via the "how to play" button in both the [Main Menu](../analysis/1.4a-features-of-the-proposed-solution.md#main-menu) and the [Pause Menu](../analysis/1.4a-features-of-the-proposed-solution.md#pause-menu). As well as that, the dungeon will be quite linear to the player will be naturally drawn to the goal.
+Effective usability is when the user completes a target/goal with both completeness and accuracy. In order to achieve this, I will let the player know what their goal is via the "how to play" button in both the [Main Menu](../analysis/1.4a-features-of-the-proposed-solution.md#main-menu) and the [Pause Menu](../analysis/1.4a-features-of-the-proposed-solution.md#pause-menu). As well as that, the dungeon will be quite linear to the player will be naturally drawn to the goal.
 
 #### Aims
 
-* Create an intuitive "how to play" screen.
+* Create an intuitive "How-To-Play" screen.
 * Create a linear dungeon generation algorithm to naturally draw the player to the goal.
 
 ### Efficiency
