@@ -15,11 +15,7 @@ In this cycle, I will:
 
 ### Usability Features
 
-### Key Variables
-
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
+'Can Shoot' Indicator - Allows the user to know when they can shoot so they&#x20;
 
 ### Pseudocode
 
