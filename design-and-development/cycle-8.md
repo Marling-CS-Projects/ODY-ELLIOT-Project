@@ -19,13 +19,136 @@ In this cycle, I will:
 
 ### Pseudocode
 
+{% code title="Attack Function" %}
+```cpp
+function Game.Attack():
+    // Check if the player can currently attack (based on canShoot icon)
+    if (canShoot.entity.getComponent<CanShootIcon>().on):
+        // Determine the current weapon and perform the corresponding attack
+        if (weapon == "Gun"):
+            AttackGun()
+            frameToWaitFor = gameRef.GetFrames() + gunCooldown
+        elif (weapon == "Magic"):
+            AttackMagic()
+            frameToWaitFor = gameRef.GetFrames() + magicCooldown
+        else:
+            AttackMelee()
+            frameToWaitFor = gameRef.GetFrames() + meleeCooldown
+
+        // Set canShoot icon to off (attack used)
+        canShoot.entity.getComponent<CanShootIcon>().on = false
+    else:
+        // Display an error message when the attack is on cooldown
+        Print("Attack on Cooldown")
 ```
-procedure do_something
-    
-end procedure
+{% endcode %}
+
+{% code title="Switch Weapon Function" %}
+```cpp
+function Game.SwitchWeapon(s: String):
+    // Check if the entity associated with canShoot has a SpriteComponent
+    if (canShoot.entity.hasComponent<SpriteComponent>()):
+        // Check if the provided weapon name is not empty
+        if (s != ""):
+            // Update the SpriteComponent's texture with the new weapon
+            canShoot.entity.getComponent<SpriteComponent>().setTexture(s)
+            
+            // Update the current weapon
+            weapon = s
+            
+            // Add or update the CanShootIcon component with the new weapon
+            canShoot.entity.addComponent<CanShootIcon>(weapon)
 ```
+{% endcode %}
 
 ## Development
+
+{% code title="Gun Weapon Function" %}
+```cpp
+// Member function for the Game class to handle player attacks with a gun
+void Game::AttackGun()
+{
+    // Calculate the direction from the player to the mouse pointer
+    Vector2D dir{ (float)MouseX - player->GetTransform().position.x - 12, (float)MouseY - player->GetTransform().position.y - 12 };
+    
+    // Normalize the direction vector to make it a unit vector
+    dir = dir.normalize(dir);
+
+    // Create a new bullet instance
+    auto bullet = new Bullet();
+
+    // Initialize the bullet with position, size, texture path, tag, direction, damage, and speed
+    bullet->CreateBullet(
+        player->GetTransform().position.x + 12,
+        player->GetTransform().position.y + 12,
+        12, 12, "Assets/Bullet.png", "playerbullet", dir, 3, 1, 200);
+
+    // Add the bullet entity to the 'groupBullets' group
+    bullet->entity->addGroup(groupBullets);
+
+    // Play the 'shoot' sound effect using a free audio channel (-1), and no repetitions (0)
+    Mix_PlayChannel(-1, shoot, 0);
+}
+```
+{% endcode %}
+
+{% code title="Magic Weapon Function" %}
+```cpp
+// Member function for the Game class to handle player attacks with magic
+void Game::AttackMagic()
+{
+    // Calculate the direction from the player to the mouse pointer
+    Vector2D dir{ (float)MouseX - player->GetTransform().position.x - 12, (float)MouseY - player->GetTransform().position.y - 12 };
+    
+    // Normalize the direction vector to make it a unit vector
+    dir = dir.normalize(dir);
+
+    // Create a new bullet (magic projectile) instance
+    auto bullet = new Bullet();
+
+    // Initialize the magic bullet with position, size, texture path, tag, direction, damage, and speed
+    bullet->CreateBullet(
+        player->GetTransform().position.x + 12,
+        player->GetTransform().position.y + 12,
+        12, 12, "Assets/Magic.png", "playerbullet", dir, 3, 3, 300);
+
+    // Add the magic bullet entity to the 'groupBullets' group
+    bullet->entity->addGroup(groupBullets);
+
+    // Play the 'magic' sound effect using a free audio channel (-1), and no repetitions (0)
+    Mix_PlayChannel(-1, magic, 0);
+}
+```
+{% endcode %}
+
+{% code title="Melee Weapon Function" %}
+```cpp
+// Member function for the Game class to handle player melee attacks
+void Game::AttackMelee()
+{
+    // Calculate the direction from the player to the mouse pointer
+    Vector2D dir{ (float)MouseX - player->GetTransform().position.x - 12, (float)MouseY - player->GetTransform().position.y - 12 };
+    
+    // Normalize the direction vector to make it a unit vector
+    dir = dir.normalize(dir);
+
+    // Create a new melee attack (e.g., sword swing) instance
+    auto bullet = new Bullet();
+
+    // Initialize the melee attack with position, size, texture path, tag, direction, damage, and speed
+    bullet->CreateBullet(
+        player->GetTransform().position.x + 12 + (dir.x * 48),
+        player->GetTransform().position.y + 12 + (dir.y * 48),
+        48, 48, "Assets/BONK.png", "playerbullet", dir, 0.2, 2, 3);
+
+    // Add the melee attack entity to the 'groupBullets' group
+    bullet->entity->addGroup(groupBullets);
+
+    // Play the 'melee' sound effect using a free audio channel (-1), and no repetitions (0)
+    Mix_PlayChannel(-1, melee, 0);
+}
+```
+{% endcode %}
 
 ### Outcome
 
@@ -42,3 +165,8 @@ Evidence for testing
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
+
+{% embed url="https://www.youtube.com/watch?v=G5iw7jgfLf8" %}
+The video above shows the eighth cycle of my game ([https://www.youtube.com/watch?v=G5iw7jgfLf8](https://www.youtube.com/watch?v=G5iw7jgfLf8))
+{% endembed %}
+
