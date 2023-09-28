@@ -172,15 +172,13 @@ The Melee weapon basically is a bullet with a short range and travels slowly. Th
 
 ### Challenges
 
-The main challenge&#x20;
+The main challenge was keeping track of weapons that were being used to properly display that information to the player.
+
+Other than that, this cycle went smoothly as I had already built strong foundations for my solution.
 
 ## Testing
 
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Use the magic weapon</td><td>A blue bullet to be spawned and one-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Use the melee weapon</td><td>The BONK sprite to appear and two-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Use the gun weapon</td><td>A red bullet to be spawned and three-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Complete levels</td><td>Different weapons to be used</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Complete levels</td><td>The UI to update based on what weapon is being used</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Use the weapons</td><td>The UI to update based on whether the player can attack or not</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
@@ -188,3 +186,6 @@ Evidence for testing
 The video above shows the eighth cycle of my game ([https://www.youtube.com/watch?v=G5iw7jgfLf8](https://www.youtube.com/watch?v=G5iw7jgfLf8))
 {% endembed %}
 
+In the video, every time the player completes a level, the icon in the bottom left is updated to match the weapon type the player is currently using. As well as that, the icon turns grey if the player cannot attack due to the weapon being on cooldown.
+
+Each weapon functions how it is expected to and I have given them custom sound effects to give each weapon some personality in order to differentiate them from their counterparts.
