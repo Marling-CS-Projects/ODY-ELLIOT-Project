@@ -4,6 +4,16 @@
 
 The goal of this cycle is to add more weapon types to the game in order to add some diversity to the user's experience. I also will add an element to the HUD to show the player what weapon they currently are using and whether or not they can use said weapon.
 
+<figure><img src="../.gitbook/assets/Sprite-0001 (3).png" alt=""><figcaption><p>The projectile sprites for each weapon type</p></figcaption></figure>
+
+The red bullet is for the 'Gun' weapon (the original weapon in the game), the blue bullet is for the 'Magic' weapon, and the BONK sprite is for the 'Melee' weapon. The BONK sprite is bigger than the others as the 'Melee' weapon has a bigger area.
+
+The 'Gun' will have low damage, an average cooldown between shots, and an average range.
+
+The 'Magic' weapon will have high damage, a long cooldown between shots, and a long range.
+
+The 'Melee' weapon will have medium damage, a short cooldown between uses, and a short range.
+
 ### Objectives
 
 In this cycle, I will:
@@ -15,7 +25,7 @@ In this cycle, I will:
 
 ### Usability Features
 
-'Can Shoot' Indicator - Allows the user to know when they can shoot so they&#x20;
+'Can Shoot' Indicator - Allows the user to know when they can shoot so they time their shots effectively.
 
 ### Pseudocode
 
@@ -43,25 +53,31 @@ function Game.Attack():
 ```
 {% endcode %}
 
+This attack function is triggered when the player presses the left click. It selects the attack the player currently has and activates it (provided the player can attack). The player can attack if the `CanShootIcon` is `on`.
+
 {% code title="Switch Weapon Function" %}
 ```cpp
-function Game.SwitchWeapon(s: String):
+function Game.SwitchWeapon(newWeapon: String):
     // Check if the entity associated with canShoot has a SpriteComponent
     if (canShoot.entity.hasComponent<SpriteComponent>()):
         // Check if the provided weapon name is not empty
-        if (s != ""):
+        if (newWeapon != ""):
             // Update the SpriteComponent's texture with the new weapon
             canShoot.entity.getComponent<SpriteComponent>().setTexture(s)
             
             // Update the current weapon
-            weapon = s
+            weapon = newWeapon
             
             // Add or update the CanShootIcon component with the new weapon
             canShoot.entity.addComponent<CanShootIcon>(weapon)
 ```
 {% endcode %}
 
+After each level, this function is called in order to change the weapon the player is using based on the input `newWeapon`.
+
 ## Development
+
+### Outcome
 
 {% code title="Gun Weapon Function" %}
 ```cpp
@@ -121,6 +137,8 @@ void Game::AttackMagic()
 ```
 {% endcode %}
 
+The Gun and Magic weapons are similar so their functions contain similar code.
+
 {% code title="Melee Weapon Function" %}
 ```cpp
 // Member function for the Game class to handle player melee attacks
@@ -150,11 +168,11 @@ void Game::AttackMelee()
 ```
 {% endcode %}
 
-### Outcome
+The Melee weapon basically is a bullet with a short range and travels slowly. This gives an illusion of being a Melee weapon when it is actually a projectile.&#x20;
 
 ### Challenges
 
-Description of challenges
+The main challenge&#x20;
 
 ## Testing
 
