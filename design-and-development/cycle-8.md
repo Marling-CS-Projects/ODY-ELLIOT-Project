@@ -170,6 +170,8 @@ void Game::AttackMelee()
 
 The Melee weapon basically is a bullet with a short range and travels slowly. This gives an illusion of being a Melee weapon when it is actually a projectile.&#x20;
 
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%208).
+
 ### Challenges
 
 The main challenge was keeping track of weapons that were being used to properly display that information to the player.
