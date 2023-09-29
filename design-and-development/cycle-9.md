@@ -222,3 +222,7 @@ Another feature I added was to make each enemy unique by randomizing their stats
 ### Evidence
 
 {% embed url="https://www.youtube.com/watch?t=2s&v=Z4aXRpog_YY" %}
+The video above shows the ninth cycle of my game ([https://www.youtube.com/watch?v=Z4aXRpog\_YY](https://www.youtube.com/watch?v=Z4aXRpog\_YY))
+{% endembed %}
+
+The video above shows the&#x20;
