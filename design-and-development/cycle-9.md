@@ -225,4 +225,4 @@ Another feature I added was to make each enemy unique by randomizing their stats
 The video above shows the ninth cycle of my game ([https://www.youtube.com/watch?v=Z4aXRpog\_YY](https://www.youtube.com/watch?v=Z4aXRpog\_YY))
 {% endembed %}
 
-The video above shows the&#x20;
+The video above shows enemies spawning in the sequence 1,1,2,2,3,3,... (excluding the first level) and the different enemies and their behaviours.
