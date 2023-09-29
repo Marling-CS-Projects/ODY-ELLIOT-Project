@@ -22,11 +22,31 @@ In this cycle, I will:
 
 ### Pseudocode
 
+{% code title="Number of Enemies" %}
+```cpp
+// Loop through a range of values from 0 to (numRooms - 2)
+for i from 0 to (numRooms - 2):
+    // case if i < 1
+    if (i < 1):
+        enemyNumber = 1
+    elif (i % 2 == 0):
+        enemyNumber = i / 2
+    else:
+        enemyNumber = (i + 1) / 2
+
+    // Ensure that number of enemies does not exceed 10
+    if (enemyNumber > 10):
+        enemyNumber = 10
 ```
-procedure do_something
-    
-end procedure
-```
+{% endcode %}
+
+This code snippet determines the number of enemies each level should have based on their number in the sequence (denoted by `i`).&#x20;
+
+Using the function `f(i) = i / 2` when `i` is even and `f(i) = (i + 1) / 2` when `x` is odd, we can get the sequence of 1, 1, 2, 2, 3, 3, ...
+
+This goes on as `i` increases so I have capped the number of enemies to 10 so the levels don't become impossible.
+
+The first level will always have 1 enemy and the last level will always have 11 enemies as they are initialized separately to the rest of the levels.
 
 ## Development
 
