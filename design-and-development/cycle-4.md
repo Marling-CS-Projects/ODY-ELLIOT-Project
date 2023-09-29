@@ -17,7 +17,7 @@ In this cycle, I aim to:
 
 Outlines - Every non-player sprite (inside of the dungeon room) won't have a white outline so the user will know where they are.
 
-<figure><img src="../.gitbook/assets/Sprite-0001.png" alt=""><figcaption><p>The Goblin Enemy (shown on the left) and the 'HeartON' UI Sprite (shown on the right)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Sprite-0001 (1).png" alt=""><figcaption><p>The Goblin Enemy (shown on the left) and the 'HeartON' UI Sprite (shown on the right)</p></figcaption></figure>
 
 As shown above, the Melee Enemy sprite has no white outline as it is in the dungeon room and the Heart UI sprite has a white outline because it is outside of the room and relevant to the player.
 
