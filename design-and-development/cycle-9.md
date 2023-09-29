@@ -211,15 +211,13 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-Description of challenges
+There were a lot of bugs when spawning enemy bullets such as them spawning in the corner for a single frame before being teleported to the correct position.
+
+Another feature I added was to make each enemy unique by randomizing their stats slightly. For example, the Wizard enemy could have a cooldown of 200 plus or minus 10.
 
 ## Testing
 
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Go through the levels</td><td>Enemies to spawn in the sequence 1,1,2,2,3,3,... (excluding the first level)</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Go through the levels</td><td>Different enemy types spawn</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Get shot by Wizard enemy</td><td>The player to take damage</td><td>The player dies instantly</td><td>Fail (as the player should still be alive after being hit)</td></tr><tr><td>4</td><td>Get shot by Wizard enemy</td><td>The player to take damage</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Spawn a Furball enemy</td><td>The enemy should move towards the player and shoot</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Get shot by a Furball enemy</td><td>The player to take damage</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>See if all the enemy types contain variation</td><td>The enemies to have slightly different stats to their counterparts</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Shoot the Wizard enemy onece with the Gun weapon</td><td></td><td></td><td></td></tr></tbody></table>
 
 ### Evidence
 
