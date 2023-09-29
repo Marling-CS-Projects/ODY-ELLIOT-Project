@@ -18,7 +18,7 @@ In this cycle, I will:
 
 ### Usability Features
 
-
+Number of Enemies - the number of enemies are capped so the player doesn't feel like levels past a certain point are unplayable.
 
 ### Pseudocode
 
