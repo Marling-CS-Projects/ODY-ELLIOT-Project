@@ -13,21 +13,9 @@ In this cycle, I will:
 
 ### Usability Features
 
-### Key Variables
+Installer - This makes it easier for players to download the game due to its reduced file size and it's a straightforward application to use.
 
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
-
-### Pseudocode
-
-```
-procedure do_something
-    
-end procedure
-```
-
-## Development
+Automatically add shortcuts - This makes it easier for players to locate and play the game. The shortcuts are added to the desktop and the start menu.
 
 ### Outcome
 

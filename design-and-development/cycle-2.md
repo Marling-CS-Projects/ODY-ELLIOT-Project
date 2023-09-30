@@ -18,7 +18,7 @@ In this cycle, I aim to:
 
 ### Usability Features
 
-* Render Groups/Layers - The player's group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
+Render Groups/Layers - The player's group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
 
 ### Pseudocode
 

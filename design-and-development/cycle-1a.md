@@ -17,8 +17,9 @@ In this cycle, I aim to:
 
 ### Usability Features
 
-* Controls - Simple controls as they currently will just be movement controls.
-* Sprite Contrast - The sprite will have a white outline to contrast with the black background.
+Controls - Simple controls as they currently will just be movement controls.
+
+Sprite Contrast - The sprite will have a white outline to contrast with the black background.
 
 ### Pseudocode
 
