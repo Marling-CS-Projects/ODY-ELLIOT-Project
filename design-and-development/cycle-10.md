@@ -19,18 +19,16 @@ Automatically add shortcuts - This makes it easier for players to locate and pla
 
 ### Outcome
 
+The outcome of the cycle (which you can find [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/main)) was making a 2MB file that new players could download online from [https://elliotody.itch.io/bucket-knight](https://elliotody.itch.io/bucket-knight) and extract the installer. The installer would then extract the game files and put them in the programs folder (unless the user chose a different folder to put the files in) as well as create a shortcut for the game in the start menu and the user's desktop.
+
+I also added a small story to the itch.io page&#x20;
+
 ### Challenges
 
-Description of challenges
-
-## Testing
-
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+The main challenge of this cycle was creating the installer as some of the code needed to be changed in order for it to work. For example, the tilemap system I created needed to be changed slightly in order for the game to run correctly once installed.
 
 ### Evidence
 
 {% embed url="https://youtu.be/Zcm7wGaESJo" %}
+The video above shows the tenth cycle of my game ([https://www.youtube.com/watch?v=Zcm7wGaESJo](https://www.youtube.com/watch?v=Zcm7wGaESJo))
+{% endembed %}
