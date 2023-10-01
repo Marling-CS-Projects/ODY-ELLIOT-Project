@@ -103,3 +103,9 @@ The main challenge was identifying the cause of the bugs that occurred in the ga
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>The player remained at the same position</td><td>Fail</td></tr><tr><td>2</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Reach later levels in the game</td><td>Everything to function as normal (i.e. no lag and no random projectiles)</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
+
+{% embed url="https://youtu.be/lukHfqiCO_Q" %}
+The video above depicts the eleventh cycle of my game ([https://youtu.be/lukHfqiCO\_Q](https://youtu.be/lukHfqiCO\_Q))
+{% endembed %}
+
+In the video above, I have added the version 1.1 patch notes to the store page as a development log. I have also updated the installer to v1.1 so the player can play the most recent version of the game.
