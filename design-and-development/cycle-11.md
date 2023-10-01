@@ -104,8 +104,8 @@ The main challenge was identifying the cause of the bugs that occurred in the ga
 
 ### Evidence
 
-{% embed url="https://youtu.be/lukHfqiCO_Q" %}
-The video above depicts the eleventh cycle of my game ([https://youtu.be/lukHfqiCO\_Q](https://youtu.be/lukHfqiCO\_Q))
+{% embed url="https://www.youtube.com/watch?v=lukHfqiCO_Q" %}
+The video above depicts the elevnth cycle of my game ([https://www.youtube.com/watch?v=lukHfqiCO\_Q](https://www.youtube.com/watch?v=lukHfqiCO\_Q))
 {% endembed %}
 
 In the video above, I have added the version 1.1 patch notes to the store page as a development log. I have also updated the installer to v1.1 so the player can play the most recent version of the game.
