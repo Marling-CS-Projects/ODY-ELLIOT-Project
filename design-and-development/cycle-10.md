@@ -32,3 +32,5 @@ The main challenge of this cycle was creating the installer as some of the code 
 {% embed url="https://youtu.be/Zcm7wGaESJo" %}
 The video above shows the tenth cycle of my game ([https://www.youtube.com/watch?v=Zcm7wGaESJo](https://www.youtube.com/watch?v=Zcm7wGaESJo))
 {% endembed %}
+
+In the video above, I show the itch.io page for the game as well as how to install the game via the installer app.
