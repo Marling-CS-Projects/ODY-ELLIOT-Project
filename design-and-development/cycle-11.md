@@ -16,36 +16,90 @@ In this cycle, I will:
 * [x] Release the new version
 * [x] Add the patch notes to the itch.io page
 
-### Usability Features
-
-### Key Variables
-
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
-
-### Pseudocode
-
-```
-procedure do_something
-    
-end procedure
-```
-
 ## Development
 
 ### Outcome
 
+{% code title="Bug Solution" %}
+```cpp
+// Clear and destroy objects in the 'background' collection
+for (auto b : background)
+{
+    b->destroy();
+}
+
+background.clear();
+
+// Clear and destroy objects in the 'enemies' collection
+for (auto e : enemies)
+{
+    e->destroy();
+}
+
+enemies.clear();
+
+// Clear and destroy objects in the 'foreground' collection
+for (auto f : foreground)
+{
+    f->destroy();
+}
+
+foreground.clear();
+
+// Clear and destroy objects in the 'bullets' collection
+for (auto b : bullets)
+{
+    b->destroy();
+}
+
+bullets.clear();
+
+// Clear and destroy objects in the 'players' collection
+for (auto p : players)
+{
+    p->destroy();
+}
+
+players.clear();
+
+// Clear and destroy objects in the 'score' collection
+for (auto s : score)
+{
+    s->destroy();
+}
+
+score.clear();
+
+// Clear and destroy objects in the 'oldtiles' collection
+for (auto o : oldtiles)
+{
+    o->destroy();
+}
+
+oldtiles.clear();
+
+// Clear and destroy objects in the 'menu' collection
+for (auto m : menu)
+{
+    m->destroy();
+}
+
+menu.clear();
+```
+{% endcode %}
+
+The majority of bugs found were caused by not destroying entities correctly. This would mean 'phantom' enemies would still exist evidenced by the random bullets spawning and the major performance issues in later levels. This was solved via the code above (which is a code snippet from the `EndGame` function).
+
+The player not being teleported to the correct position bug was caused by the previous position being loaded immediately after being moved due to the collision with the wall. This was solved by teleporting the player after the previous position had been set as the desired position.
+
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%2011).
+
 ### Challenges
 
-Description of challenges
+The main challenge was identifying the cause of the bugs that occurred in the game as they were relatively easy to fix once identified.
 
 ## Testing
 
-Evidence for testing
-
-### Tests
-
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>The player remained at the same position</td><td>Fail</td></tr><tr><td>2</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Reach later levels in the game</td><td>Everything to function as normal (i.e. no lag and no random projectiles)</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
