@@ -21,7 +21,7 @@ Automatically add shortcuts - This makes it easier for players to locate and pla
 
 The outcome of the cycle (which you can find [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/main)) was making a 2MB file that new players could download online from [https://elliotody.itch.io/bucket-knight](https://elliotody.itch.io/bucket-knight) and extract the installer. The installer would then extract the game files and put them in the programs folder (unless the user chose a different folder to put the files in) as well as create a shortcut for the game in the start menu and the user's desktop.
 
-I also added a small story to the itch.io page to add some more context for what the player is doing.
+I also added a small story to the itch.io page to add some more context for what the player is doing and hopefully make potential players more interested in playing the game.
 
 ### Challenges
 
