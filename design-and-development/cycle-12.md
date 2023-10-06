@@ -20,11 +20,9 @@ In this cycle, I will:
 
 ### Usability Features
 
-### Key Variables
+Pause Menu - Allowing the player to pause will let them stop playing without losing progress in their current run.
 
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
+Game Over Screen - This adds a delay between the player dying and the main menu to prevent accidental button presses.
 
 ### Pseudocode
 
