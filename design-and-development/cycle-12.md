@@ -26,11 +26,113 @@ Game Over Screen - This adds a delay between the player dying and the main menu 
 
 ### Pseudocode
 
+{% code title="New Input Controller" %}
+```cpp
+class InputController : public Component
+{
+public:
+    bool w, a, s, d = false;  // Boolean flags to track key states (pressed or not)
+
+    TransformComponent* transform;  // Reference to the entity's transform component
+
+    void init() override
+    {
+        // Initialize the transform component reference
+        transform = &entity->getComponent<TransformComponent>();
+    }
+
+    void update() override
+    {
+        // Check if a key was pressed
+        if (Game::event.type == SDL_KEYDOWN)
+        {
+            switch (Game::event.key.keysym.sym)
+            {
+            case SDLK_w:
+                w = true;  // Set 'w' flag to true when 'W' key is pressed (move up)
+                break;
+            case SDLK_s:
+                s = true;  // Set 's' flag to true when 'S' key is pressed (move down)
+                break;
+            case SDLK_d:
+                d = true;  // Set 'd' flag to true when 'D' key is pressed (move right)
+                break;
+            case SDLK_a:
+                a = true;  // Set 'a' flag to true when 'A' key is pressed (move left)
+                break;
+
+            default:
+                break;
+            }
+        }
+
+        // Check if a key was released
+        if (Game::event.type == SDL_KEYUP)
+        {
+            switch (Game::event.key.keysym.sym)
+            {
+            case SDLK_w:
+                w = false;  // Set 'w' flag to false when 'W' key is released
+                break;
+            case SDLK_s:
+                s = false;  // Set 's' flag to false when 'S' key is released
+                break;
+            case SDLK_d:
+                d = false;  // Set 'd' flag to false when 'D' key is released
+                break;
+            case SDLK_a:
+                a = false;  // Set 'a' flag to false when 'A' key is released
+                break;
+
+            default:
+                break;
+            }
+        }
+
+        Vector2D dir;  // Create a 2D vector to represent movement direction
+
+        // Determine the movement direction based on key states
+        if (a && d)
+        {
+            dir.x = 0;  // No horizontal movement if both 'a' and 'd' are pressed
+        }
+        else if (a)
+        {
+            dir.x = -1;  // Move left (negative horizontal direction) if 'a' is pressed
+        }
+        else if (d)
+        {
+            dir.x = 1;  // Move right (positive horizontal direction) if 'd' is pressed
+        }
+        else
+        {
+            dir.x = 0;  // No horizontal movement if neither 'a' nor 'd' are pressed
+        }
+
+        if (w && s)
+        {
+            dir.y = 0;  // No vertical movement if both 'w' and 's' are pressed
+        }
+        else if (w)
+        {
+            dir.y = -1;  // Move up (negative vertical direction) if 'w' is pressed
+        }
+        else if (s)
+        {
+            dir.y = 1;  // Move down (positive vertical direction) if 's' is pressed
+        }
+        else
+        {
+            dir.y = 0;  // No vertical movement if neither 'w' nor 's' are pressed
+        }
+
+        transform->velocity = dir;  // Update the entity's velocity based on the calculated direction
+    }
+};
 ```
-procedure do_something
-    
-end procedure
-```
+{% endcode %}
+
+Although lengthier than my previous solution, this solution should solve issues such as input delay by processing each scenario the user could input.
 
 ## Development
 
