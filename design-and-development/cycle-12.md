@@ -24,129 +24,127 @@ Pause Menu - Allowing the player to pause will let them stop playing without los
 
 Game Over Screen - This adds a delay between the player dying and the main menu to prevent accidental button presses.
 
-### Pseudocode
+## Development
+
+### Outcome
 
 {% code title="New Input Controller" %}
 ```cpp
+#pragma once
+
+#include "Game.h"
+#include "Components.h"
+
 class InputController : public Component
 {
 public:
-    bool w, a, s, d = false;  // Boolean flags to track key states (pressed or not)
+    bool w, a, s, d = false; // Flags to track key states
 
-    TransformComponent* transform;  // Reference to the entity's transform component
+    TransformComponent* transform; // Pointer to the transform component
 
     void init() override
     {
-        // Initialize the transform component reference
+        // Initialize the pointer to the transform component
         transform = &entity->getComponent<TransformComponent>();
     }
 
     void update() override
     {
-        // Check if a key was pressed
+        // Check for key presses and set corresponding flags
         if (Game::event.type == SDL_KEYDOWN)
         {
             switch (Game::event.key.keysym.sym)
             {
             case SDLK_w:
-                w = true;  // Set 'w' flag to true when 'W' key is pressed (move up)
+                w = true; // Set 'w' flag to true when 'W' key is pressed
                 break;
             case SDLK_s:
-                s = true;  // Set 's' flag to true when 'S' key is pressed (move down)
+                s = true; // Set 's' flag to true when 'S' key is pressed
                 break;
             case SDLK_d:
-                d = true;  // Set 'd' flag to true when 'D' key is pressed (move right)
+                d = true; // Set 'd' flag to true when 'D' key is pressed
                 break;
             case SDLK_a:
-                a = true;  // Set 'a' flag to true when 'A' key is pressed (move left)
+                a = true; // Set 'a' flag to true when 'A' key is pressed
                 break;
-
             default:
                 break;
             }
         }
 
-        // Check if a key was released
+        // Check for key releases and reset corresponding flags
         if (Game::event.type == SDL_KEYUP)
         {
             switch (Game::event.key.keysym.sym)
             {
             case SDLK_w:
-                w = false;  // Set 'w' flag to false when 'W' key is released
+                w = false; // Reset 'w' flag to false when 'W' key is released
                 break;
             case SDLK_s:
-                s = false;  // Set 's' flag to false when 'S' key is released
+                s = false; // Reset 's' flag to false when 'S' key is released
                 break;
             case SDLK_d:
-                d = false;  // Set 'd' flag to false when 'D' key is released
+                d = false; // Reset 'd' flag to false when 'D' key is released
                 break;
             case SDLK_a:
-                a = false;  // Set 'a' flag to false when 'A' key is released
+                a = false; // Reset 'a' flag to false when 'A' key is released
                 break;
-
             default:
                 break;
             }
         }
 
-        Vector2D dir;  // Create a 2D vector to represent movement direction
+        Vector2D dir;
 
-        // Determine the movement direction based on key states
+        // Calculate the direction based on the state of 'w', 'a', 's', and 'd' flags
         if (a && d)
         {
-            dir.x = 0;  // No horizontal movement if both 'a' and 'd' are pressed
+            dir.x = 0;
         }
         else if (a)
         {
-            dir.x = -1;  // Move left (negative horizontal direction) if 'a' is pressed
+            dir.x = -1;
         }
         else if (d)
         {
-            dir.x = 1;  // Move right (positive horizontal direction) if 'd' is pressed
+            dir.x = 1;
         }
         else
         {
-            dir.x = 0;  // No horizontal movement if neither 'a' nor 'd' are pressed
+            dir.x = 0;
         }
 
         if (w && s)
         {
-            dir.y = 0;  // No vertical movement if both 'w' and 's' are pressed
+            dir.y = 0;
         }
         else if (w)
         {
-            dir.y = -1;  // Move up (negative vertical direction) if 'w' is pressed
+            dir.y = -1;
         }
         else if (s)
         {
-            dir.y = 1;  // Move down (positive vertical direction) if 's' is pressed
+            dir.y = 1;
         }
         else
         {
-            dir.y = 0;  // No vertical movement if neither 'w' nor 's' are pressed
+            dir.y = 0;
         }
 
-        transform->velocity = dir;  // Update the entity's velocity based on the calculated direction
+        // Update the velocity of the transform component based on the calculated direction
+        transform->velocity = dir;
     }
-};
+};c
 ```
 {% endcode %}
 
 Although lengthier than my previous solution, this solution should solve issues such as input delay by processing each scenario the user could input.
-
-## Development
-
-### Outcome
 
 ### Challenges
 
 Description of challenges
 
 ## Testing
-
-Evidence for testing
-
-### Tests
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Black Re-sizable Window is opened</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
