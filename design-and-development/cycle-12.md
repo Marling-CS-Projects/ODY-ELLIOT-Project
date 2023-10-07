@@ -150,7 +150,7 @@ To create the pause function I stopped the majority of the `update` function fro
 
 ## Testing
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press buttons</td><td>Something happens</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>Enemies stop moving but still shoot bullets</td><td>Fail</td></tr><tr><td>3</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Let the player die</td><td>The game-over screen should be displayer</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Test out all the weapons</td><td>The stats should be changed</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Test for input lag</td><td>No input lag should occur</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
@@ -158,3 +158,4 @@ To create the pause function I stopped the majority of the `update` function fro
 The video above depicts the twelfth cycle of my game ([https://www.youtube.com/watch?v=XrXzbDvoiRU](https://www.youtube.com/watch?v=XrXzbDvoiRU))
 {% endembed %}
 
+The video above shows the changed weapon stats as well as the new pause menu and game-over screen.
