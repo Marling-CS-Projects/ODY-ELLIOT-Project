@@ -140,6 +140,8 @@ public:
 
 Although lengthier than my previous solution, this solution should solve issues such as input delay by processing each scenario the user could input.
 
+You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%2012).
+
 ### Challenges
 
 Description of challenges
