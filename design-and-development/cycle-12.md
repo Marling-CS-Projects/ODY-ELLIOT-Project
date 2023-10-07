@@ -152,6 +152,7 @@ Evidence for testing
 
 ### Evidence
 
-{% embed url="https://youtu.be/XrXzbDvoiRU" %}
-The video above depicts the elevnth cycle of my game ([https://youtu.be/XrXzbDvoiRU](https://youtu.be/XrXzbDvoiRU))
+{% embed url="https://www.youtube.com/watch?v=XrXzbDvoiRU" %}
+The video above depicts the twelfth cycle of my game ([https://www.youtube.com/watch?v=XrXzbDvoiRU](https://www.youtube.com/watch?v=XrXzbDvoiRU))
 {% endembed %}
+
