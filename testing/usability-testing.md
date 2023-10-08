@@ -54,7 +54,11 @@ In response to the bugs found in my game, I created two patches (v1.1 and v1.2),
 
 ### Easy to Learn
 
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Graph showing the responses to the question "How helpful was the 'How-To-Play' screen?"</p></figcaption></figure>
+
+All users found the How-To-Play screen helpful while learning the game's controls. This combined with the mostly positive statistics for how well players understood the game suggests that the game was easy to learn which allows players to enjoy themselves right from the beginning.
 
 ## Usability Requirements in Success Criteria
 
