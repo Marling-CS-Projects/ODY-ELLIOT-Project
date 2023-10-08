@@ -102,4 +102,4 @@ There are a lot more controls in Enter the Gungeon than just those few (as shown
 
 ## PEGI Rating
 
-My game is going to have aspects of all these games and these games are all rated PEGI 7 which will fit my criteria of a low-rated game as previously mentioned in my [Stakeholders](1.2-stakeholders.md) section.
+My game is going to have aspects of all these games and these games are all rated PEGI 7 which will fit my criteria of a low-rated game as previously mentioned in my [Stakeholders](stakeholders.md) section.

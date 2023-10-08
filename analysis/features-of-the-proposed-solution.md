@@ -6,7 +6,7 @@
 
 #### 8 Directional Movement
 
-The player will have 8 directional movements (similar to [Soul Knight](1.3-research-the-problem.md#soul-knight), [Moonlighter](1.3-research-the-problem.md#moonlighter), and [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon)) which will be controlled using the WASD keys.
+The player will have 8 directional movements (similar to [Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)) which will be controlled using the WASD keys.
 
 {% hint style="info" %}
 Holding \[W] will cause the player to move up ↑
@@ -24,13 +24,13 @@ A combination of these inputs will allow diagonal movement (e.g. W and D will ca
 
 <figure><img src="../.gitbook/assets/Dodgeroll.webp" alt=""><figcaption><p><a href="https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)">https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)</a></p></figcaption></figure>
 
-In both [Moonlighter](1.3-research-the-problem.md#moonlighter) and [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon) the roll mechanic is vital for dodging attacks as well as movement around the dungeons. The roll will grant the player increased velocity in their current direction as well as invincibility for a short period of time.
+In both [Moonlighter](research-the-problem.md#moonlighter) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) the roll mechanic is vital for dodging attacks as well as movement around the dungeons. The roll will grant the player increased velocity in their current direction as well as invincibility for a short period of time.
 
 The roll ability will have a short cool-down so the player can't keep constantly rolling around the place dodging attacks.
 
 ### Camera
 
-The game will have a top-down camera system (like [Soul Knight](1.3-research-the-problem.md#soul-knight), [Moonlighter](1.3-research-the-problem.md#moonlighter), and [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon)) which follows the player so the player can see where they are currently going and what they are doing.
+The game will have a top-down camera system (like [Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)) which follows the player so the player can see where they are currently going and what they are doing.
 
 The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([https://help.prusa3d.com/article/perspective-orthographic-camera\_1760](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)), which is ideal for 2d games as everything needs to look the same distance away.
 
@@ -40,7 +40,7 @@ The camera will be an orthographic camera, which is a camera that renders everyt
 
 #### Sprite Inspiration
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348">https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348</a></td><td>I like the simplicity of the Gungeoneers' designs in <a href="1.3-research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2).png">image (5) (2).png</a></td></tr><tr><td><a href="https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/">https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/</a></td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3) (2) (1).png">image (3) (2) (1).png</a></td></tr><tr><td><br><a href="https://soul-knight.fandom.com/es/wiki/Caballero">https://soul-knight.fandom.com/es/wiki/Caballero</a></td><td>I like how the Knight character from <a href="1.3-research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348">https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348</a></td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2).png">image (5) (2).png</a></td></tr><tr><td><a href="https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/">https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/</a></td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3) (2) (1).png">image (3) (2) (1).png</a></td></tr><tr><td><br><a href="https://soul-knight.fandom.com/es/wiki/Caballero">https://soul-knight.fandom.com/es/wiki/Caballero</a></td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
 
 My character will be a mixture of all three of these designs with the pixel art style. I have named him "Bucket Knight".
 
@@ -50,7 +50,7 @@ My character will be a mixture of all three of these designs with the pixel art 
 
 <figure><img src="../.gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption><p><a href="https://www.spriters-resource.com/pc_computer/enterthegungeon/sheet/155740/">https://www.spriters-resource.com/pc_computer/enterthegungeon/sheet/155740/</a></p></figcaption></figure>
 
-I like to [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon)'s bouncy animations (as shown in the sprite sheet above) as it gives the game a good amount of character. This combined with [Soul Knight](1.3-research-the-problem.md#soul-knight)'s paper cut-out animation style would make for a great, unique animation style.
+I like to [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)'s bouncy animations (as shown in the sprite sheet above) as it gives the game a good amount of character. This combined with [Soul Knight](research-the-problem.md#soul-knight)'s paper cut-out animation style would make for a great, unique animation style.
 
 ## HP and Damage
 
@@ -58,13 +58,13 @@ Both players and enemies will have a set number of hit-points (HP) which will de
 
 The more damage the weapon does results in more HP being depleted and, when HP goes below or is equal to 0, the entity will be destroyed. If this entity is the player, the game will end and display a game on the screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="1.3-research-the-problem.md#moonlighter">Moonlighter</a> (<a href="https://moonlighterthegame.com/console_date_reveal/">https://moonlighterthegame.com/console_date_reveal/</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="https://moonlighterthegame.com/console_date_reveal/">https://moonlighterthegame.com/console_date_reveal/</a>)</p></figcaption></figure>
 
-This system is used in all three previously mentioned games ([Soul Knight](1.3-research-the-problem.md#soul-knight), [Moonlighter](1.3-research-the-problem.md#moonlighter), and [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon))
+This system is used in all three previously mentioned games ([Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon))
 
 ## Weapons
 
-The player will pick up weapons they find along the way in [chests](1.4a-features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](1.4a-features-of-the-proposed-solution.md#melee), [Ranger](1.4a-features-of-the-proposed-solution.md#ranger), and [Mage](1.4a-features-of-the-proposed-solution.md#mage).
+The player will pick up weapons they find along the way in [chests](features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](features-of-the-proposed-solution.md#melee), [Ranger](features-of-the-proposed-solution.md#ranger), and [Mage](features-of-the-proposed-solution.md#mage).
 
 ### Types
 
@@ -101,14 +101,14 @@ Ranger weapons will require charge-up time before use and require aim. However, 
 Mage-class weapons will have high projectile output and be widespread with a low amount of damage per bullet. Examples of mage-class weapons include staffs, wands, and sceptres.
 
 {% hint style="info" %}
-Mage-class weapons are substitutes for the usual gun weapons (such as shotguns and pistols). This is because the [story ](1.4a-features-of-the-proposed-solution.md#story)for the game wouldn't align with the use of firearms due to the setting the story has been placed in.
+Mage-class weapons are substitutes for the usual gun weapons (such as shotguns and pistols). This is because the [story ](features-of-the-proposed-solution.md#story)for the game wouldn't align with the use of firearms due to the setting the story has been placed in.
 {% endhint %}
 
 ## Enemies
 
 As I plan to have 3 classes of weapons, there will be 3 classes of enemies as well as a boss.
 
-Each enemy will have basic enemy AI unique to their respective class. For example, [Melee Enemies](1.4a-features-of-the-proposed-solution.md#melee-class-enemies) will path-find and move straight towards the player but the more ranged classes' enemies will keep their distance from the player but still try to get a clear line of sight in order to damage the player.
+Each enemy will have basic enemy AI unique to their respective class. For example, [Melee Enemies](features-of-the-proposed-solution.md#melee-class-enemies) will path-find and move straight towards the player but the more ranged classes' enemies will keep their distance from the player but still try to get a clear line of sight in order to damage the player.
 
 ### Melee Class Enemies
 
@@ -120,7 +120,7 @@ Melee class enemies have high health and try to get close to the player to deal 
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Enemies">https://soul-knight.fandom.com/wiki/Enemies</a></p></figcaption></figure>
 
-Ranger-class enemies will be inspired by [Soul Knight](1.3-research-the-problem.md#soul-knight)'s enemy bow users (as seen above). Enemies with a bow will require some charge-up time before they fire at the player. These characters will have high damage output but low health which will encourage the player to close in on them with a melee weapon which may put them at risk from other attackers (such as [Melee Class Enemies](1.4a-features-of-the-proposed-solution.md#melee-class-enemies)).
+Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#soul-knight)'s enemy bow users (as seen above). Enemies with a bow will require some charge-up time before they fire at the player. These characters will have high damage output but low health which will encourage the player to close in on them with a melee weapon which may put them at risk from other attackers (such as [Melee Class Enemies](features-of-the-proposed-solution.md#melee-class-enemies)).
 
 ### Mage Class Enemies
 
@@ -128,7 +128,7 @@ These enemies will provide constant pressure towards the player due to their hig
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/">https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/</a></p></figcaption></figure>
 
-These enemies will act similarly to the enemies in [Soul Knight](1.3-research-the-problem.md#soul-knight) and [Enter the Gungeon](1.3-research-the-problem.md#enter-the-gungeon) that use guns as they will constantly shoot at the player whenever they can. I have replaced the guns, however, with magic staffs as it fits the loose Medieval setting I am going for in the game's [story](1.4a-features-of-the-proposed-solution.md#my-story) even though they share similar functionality. These enemies will have a moderate amount of health and low damage output per bullet.
+These enemies will act similarly to the enemies in [Soul Knight](research-the-problem.md#soul-knight) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) that use guns as they will constantly shoot at the player whenever they can. I have replaced the guns, however, with magic staffs as it fits the loose Medieval setting I am going for in the game's [story](features-of-the-proposed-solution.md#my-story) even though they share similar functionality. These enemies will have a moderate amount of health and low damage output per bullet.
 
 ### Boss
 
@@ -136,15 +136,15 @@ The boss class will be the toughest class to defeat due to bosses having high he
 
 <figure><img src="../.gitbook/assets/d756d7016f0bf2835d15ff6d59b5a9f4_original.gif" alt=""><figcaption><p><a href="https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de">https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de</a></p></figcaption></figure>
 
-However, a weakness of the boss should be movement. To make it easier for the player to defeat the boss, the boss shouldn't move so the player doesn't have to multitask movement and aiming. This is inspired by the Golem King from [Moonlighter](1.3-research-the-problem.md#moonlighter).
+However, a weakness of the boss should be movement. To make it easier for the player to defeat the boss, the boss shouldn't move so the player doesn't have to multitask movement and aiming. This is inspired by the Golem King from [Moonlighter](research-the-problem.md#moonlighter).
 
 There will be 3 mini bosses and a final boss which will appear at the end of their respective levels.
 
 ## Progression
 
-In every room, there will be a small chance to contain a chest (similar to [Moonlighter](1.3-research-the-problem.md#moonlighter)).
+In every room, there will be a small chance to contain a chest (similar to [Moonlighter](research-the-problem.md#moonlighter)).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="1.3-research-the-problem.md#soul-knight">Soul Knight</a> <a href="https://soul-knight.fandom.com/wiki/Chests">https://soul-knight.fandom.com/wiki/Chests</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> <a href="https://soul-knight.fandom.com/wiki/Chests">https://soul-knight.fandom.com/wiki/Chests</a></p></figcaption></figure>
 
 In these chests, there will be either a new weapon or a health pickup so the player can keep on going for longer.
 
@@ -176,7 +176,7 @@ The player can leave the level (and move on to the next) by interacting with a s
 
 Each room will also have a 20% chance to spawn a chest which will be accessible after defeating all enemies in a room.&#x20;
 
-Each room will be pre-built in a similar style to [Moonlighter](1.3-research-the-problem.md#moonlighter)'s dungeon rooms and will have randomly generated enemy spawn points in order to add some randomness into the mix. These rooms will be of a uniform size (12 x 12 tiles) and will have an exit and entry point on each of the 4 sides which can be toggled on/off The rooms will not have pits though (unlike [Moonlighter](1.3-research-the-problem.md#moonlighter)'s rooms).
+Each room will be pre-built in a similar style to [Moonlighter](research-the-problem.md#moonlighter)'s dungeon rooms and will have randomly generated enemy spawn points in order to add some randomness into the mix. These rooms will be of a uniform size (12 x 12 tiles) and will have an exit and entry point on each of the 4 sides which can be toggled on/off The rooms will not have pits though (unlike [Moonlighter](research-the-problem.md#moonlighter)'s rooms).
 
 ## Controls
 
@@ -193,7 +193,7 @@ As previously mentioned, the WASD keys will allow for movement but, on top of th
 
 \[P] to open the pause menu.
 
-\[SPACE] to activate the [roll](1.4a-features-of-the-proposed-solution.md#rolling) ability.
+\[SPACE] to activate the [roll](features-of-the-proposed-solution.md#rolling) ability.
 
 \[SPACE] while in a menu to interact with the menu.
 
@@ -204,7 +204,7 @@ As previously mentioned, the WASD keys will allow for movement but, on top of th
 
 The mouse will be used to aim the player's weapons at the enemy. The mouse position will be where the player is shooting.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408">https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408</a></td><td>The [LEFT_MOUSE_BUTTON] will be used to fire the weapon. This can be held down for all weapons so they can be auto-fired.</td><td><a href="../.gitbook/assets/image (6) (4).png">image (6) (4).png</a></td></tr><tr><td><a href="https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408">https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408</a></td><td>The [RIGHT_MOUSE_BUTTON] will also be used to <a href="1.4a-features-of-the-proposed-solution.md#rolling">roll</a>. However, this <a href="1.4a-features-of-the-proposed-solution.md#rolling">roll</a> will be in the direction of the mouse making it </td><td><a href="../.gitbook/assets/image (12) (2).png">image (12) (2).png</a></td></tr><tr><td><a href="https://uxwing.com/mouse-scroll-wheel-icon/">https://uxwing.com/mouse-scroll-wheel-icon/</a></td><td>The [SCROLL_WHEEL] will be used to switch between the player's two weapons.</td><td><a href="../.gitbook/assets/image (14).png">image (14).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408">https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408</a></td><td>The [LEFT_MOUSE_BUTTON] will be used to fire the weapon. This can be held down for all weapons so they can be auto-fired.</td><td><a href="../.gitbook/assets/image (6) (4).png">image (6) (4).png</a></td></tr><tr><td><a href="https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408">https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408</a></td><td>The [RIGHT_MOUSE_BUTTON] will also be used to <a href="features-of-the-proposed-solution.md#rolling">roll</a>. However, this <a href="features-of-the-proposed-solution.md#rolling">roll</a> will be in the direction of the mouse making it </td><td><a href="../.gitbook/assets/image (12) (2).png">image (12) (2).png</a></td></tr><tr><td><a href="https://uxwing.com/mouse-scroll-wheel-icon/">https://uxwing.com/mouse-scroll-wheel-icon/</a></td><td>The [SCROLL_WHEEL] will be used to switch between the player's two weapons.</td><td><a href="../.gitbook/assets/image (14).png">image (14).png</a></td></tr></tbody></table>
 
 ## Story
 
@@ -230,15 +230,15 @@ In this pause menu mock-up (shown above) there is a "Play Button" (represented b
 
 ### Main Menu
 
-The Main Menu will just be a larger version of the Pause Menu with a large background image where the ❎ will quit the game. If the player stays on the screen for a while the [story](1.4a-features-of-the-proposed-solution.md#my-story) of the game will be displayed.
+The Main Menu will just be a larger version of the Pause Menu with a large background image where the ❎ will quit the game. If the player stays on the screen for a while the [story](features-of-the-proposed-solution.md#my-story) of the game will be displayed.
 
 ### HUD
 
-The heads-up display will display the player's current health, via a health bar (as seen in [HP and Damage](1.4a-features-of-the-proposed-solution.md#hp-and-damage)) and the [roll](1.4a-features-of-the-proposed-solution.md#rolling) cool-down while in the game.
+The heads-up display will display the player's current health, via a health bar (as seen in [HP and Damage](features-of-the-proposed-solution.md#hp-and-damage)) and the [roll](features-of-the-proposed-solution.md#rolling) cool-down while in the game.
 
 ## Collisions
 
-The player, enemies, and projectiles need to collide with the procedural dungeon's walls to prevent the player from going out of bounds or entities never getting destroyed (taking up valuable memory space and processing power). This is similar to [Soul Knight](1.3-research-the-problem.md#soul-knight)'s system.
+The player, enemies, and projectiles need to collide with the procedural dungeon's walls to prevent the player from going out of bounds or entities never getting destroyed (taking up valuable memory space and processing power). This is similar to [Soul Knight](research-the-problem.md#soul-knight)'s system.
 
 ## Limitations
 
@@ -262,11 +262,11 @@ I will make graphics for my game but they may be lacking compared to other indie
 
 ### Event Rooms
 
-Event rooms in [Soul Knight](1.3-research-the-problem.md#soul-knight) make the run more interesting. However, due to the scale of my game and the overhaul in how weapons are obtained (compared to [Soul Knight](1.3-research-the-problem.md#soul-knight)), I have decided to leave these rooms out as it will take a while to design and program unique rooms and interactions (between NPCs) that also have to fit in the game's [story](1.4a-features-of-the-proposed-solution.md#my-story).
+Event rooms in [Soul Knight](research-the-problem.md#soul-knight) make the run more interesting. However, due to the scale of my game and the overhaul in how weapons are obtained (compared to [Soul Knight](research-the-problem.md#soul-knight)), I have decided to leave these rooms out as it will take a while to design and program unique rooms and interactions (between NPCs) that also have to fit in the game's [story](features-of-the-proposed-solution.md#my-story).
 
 ### Starting Characters
 
-I leaving multiple starting characters out of the game (like [Moonlighter](1.3-research-the-problem.md#moonlighter)) as making them unique will prove difficult and may cause changes to the game for all characters to be equal.
+I leaving multiple starting characters out of the game (like [Moonlighter](research-the-problem.md#moonlighter)) as making them unique will prove difficult and may cause changes to the game for all characters to be equal.
 
 ### Sounds
 
@@ -274,7 +274,7 @@ As I am not a professional composer or sound effect artist, original sound for m
 
 ## Other&#x20;
 
-* The game should have a rating of PEGI 7 or less ([Stakeholders](1.2-stakeholders.md)).
+* The game should have a rating of PEGI 7 or less ([Stakeholders](stakeholders.md)).
 * Loading times should be reduced as much as possible as long loading times may cause the player to be less invested in the game as they get bored between loads. Also, long loading times between scenes will make the game less seamless between levels.
 * The game should run at a consistent frame rate of 60FPS so the game doesn't lag.
 * The game shouldn't crash.
