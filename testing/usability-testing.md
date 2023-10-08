@@ -50,6 +50,8 @@ The one person whose game didn't run correctly was mentioned in [Testing for Fun
 
 The vast majority of users said the game downloaded and ran correctly and all respondents said the game didn't lag. This was great as this meant the game was accessible to anyone with the correct hardware and software requirements ([Hardware and Software Requirements](../analysis/hardware-and-software-requirements.md)) and the game runs smoothly throughout which makes it more entertaining to play.
 
+In response to the bugs found in my game, I created two patches (v1.1 and v1.2), which can be found on the game's [store page](https://elliotody.itch.io/bucket-knight), which fixed these problems as well as added new features the players requested.
+
 ### Easy to Learn
 
 
