@@ -23,35 +23,57 @@ Sprite Contrast - The sprite will have a white outline to contrast with the blac
 
 ### Pseudocode
 
-<pre class="language-cpp" data-title="Game Loop"><code class="lang-cpp">game = new Game();
-game->initialize_game(title, size);
+{% code title="Game Loop" %}
+```cpp
+game = new Game();  // Create a new instance of the Game class
+game->initialize_game(title, size);  // Initialize the game with specified title and size
 
-while game is_running
+// Main game loop
+while (game is running)
 {
-    game->get_inputs();
-    game->update();
-    game->render();
+    game->get_inputs();  // Get user inputs
+    game->update();  // Update the game state
+    game->render();  // Render the game to the screen
 }
 
-<strong>game->clean_memory() // Memory is cleaned to free up the user's RAM
-</strong></code></pre>
+game->clean_memory();  // Clean up memory to free resources before exiting
+```
+{% endcode %}
 
 Creates the game loop so the game while the game is running everything is updated and rendered, the game gets the inputs, and the memory is cleaned when the game is closed.
 
-<pre class="language-cpp" data-title="Movement Inputs" data-full-width="false"><code class="lang-cpp"><strong>if W is pressed { move(UP, speed); }
-</strong>
-else if S is pressed { move(DOWN, speed); }
+{% code title="Movement Inputs" fullWidth="false" %}
+```cpp
+// Check if the 'W' key is pressed
+if W is pressed:
+    // If 'W' is pressed, move the character UP at a specified speed
+    move(UP, speed)
 
-if A is pressed { move(LEFT, speed); }
+// Check if the 'S' key is pressed, but only if 'W' is not pressed (avoid conflicting input)
+else if S is pressed:
+    // If 'S' is pressed, move the character DOWN at a specified speed
+    move(DOWN, speed)
 
-else if D is pressed { move(RIGHT, speed); }
-</code></pre>
+// Check if the 'A' key is pressed
+if A is pressed:
+    // If 'A' is pressed, move the character LEFT at a specified speed
+    move(LEFT, speed)
+
+// Check if the 'D' key is pressed, but only if 'A' is not pressed (avoid conflicting input)
+else if D is pressed:
+    // If 'D' is pressed, move the character RIGHT at a specified speed
+    move(RIGHT, speed)
+```
+{% endcode %}
 
 Gets the player's inputs (part of the InputComponent in [Cycle 1b](cycle-1b.md))
 
 {% code title="Render Sprite" %}
 ```cpp
+// Load the character texture from a file
 texture = load_texture("character.png");
+
+// Draw the sprite using the loaded texture at a specified position
 draw_sprite(texture, position);
 ```
 {% endcode %}
@@ -66,43 +88,41 @@ Renders a sprite to the window (part of the SpriteComponent in [Cycle 1b](cycle-
 ```cpp
 #include "Game.h"
 
-Game* game = nullptr;
+Game* game = nullptr; // Pointer to the Game instance
 
 int main(int argc, char *arg[])
 {
+    const int FPS = 60;
+    const int frameDelay = 1000 / FPS;
 
-	const int FPS = 60;
-	const int frameDelay = 1000 / FPS;
+    Uint32 frameStart;
+    int frameTime;
 
-	Uint32 frameStart;
-	int frameTime;
+    game = new Game(); // Create a new Game instance
 
-	game = new Game();
+    game->init("Bucket Knight", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 640, false); // Initialize the game
 
-	game->init("Bucket Knight", SDL_WINDOWPOS_CENTERED, 
-		SDL_WINDOWPOS_CENTERED, 800, 640, false);
+    while (game->running()) // Main game loop
+    {
+        frameStart = SDL_GetTicks(); // Record the starting time of the frame
 
-	while (game->running())
-	{
-		frameStart = SDL_GetTicks();
+        game->handleEvents(); // Handle input events
+        game->update(); // Update game logic
+        game->render(); // Render the game
 
-		game->handleEvents();
-		game->update();
-		game->render();
+        frameTime = SDL_GetTicks() - frameStart; // Calculate the time taken for the frame
 
-		frameTime = SDL_GetTicks() - frameStart;
+        // Delay to maintain a constant frame rate
+        if (frameDelay > frameTime)
+        {
+            SDL_Delay(frameDelay - frameTime);
+        }
+    }
 
-		if (frameDelay > frameTime) 
-		{
-			SDL_Delay(frameDelay - frameTime);
-		}
-	}
+    game->clean(); // Clean up and free resources
 
-	game->clean();
-
-	return 0;
+    return 0;
 }
-
 ```
 {% endcode %}
 
@@ -114,69 +134,64 @@ As well as that, `main.cpp` sets the frame rate to 60FPS in order to make the ga
 When the game is run without the frame rate set to 60FPS, the game will run at the maximum possible frame rate resulting in faster computers calling the update function more frequently than slower computers. By setting the frame rate, all users will experience the game as intended.
 {% endhint %}
 
-{% code title="InputController.h" %}
+{% code title="Player Input Controller" %}
 ```cpp
-#pragma once
-
 #include "Game.h"
 #include "Components.h"
 
-class KeyboardController : public Component // inherits from the base component class
+class KeyboardController : public Component // Inherits from the base Component class
 {
 public:
-	TransformComponent* transform; // a pointer to the transform component
+    TransformComponent* transform; // Pointer to the TransformComponent of the entity
 
-	void init() override
-	{
-		transform = &entity->getComponent<TransformComponent>();
-	}
+    void init() override
+    {
+        // Initialize the pointer to the TransformComponent
+        transform = &entity->getComponent<TransformComponent>();
+    }
 
-	void update() override
-	{
-		if (Game::event.type == SDL_KEYDOWN)
-		{
-			switch (Game::event.key.keysym.sym)
-			{
-			case SDLK_w:
-				transform->velocity.y = -1;
-				break;
-			case SDLK_s:
-				transform->velocity.y = 1;
-				break;
-			case SDLK_d:
-				transform->velocity.x = 1;
-				break;
-			case SDLK_a:
-				transform->velocity.x = -1;
-				break;
+    void update() override
+    {
+        // Check for key presses and set the velocity of the entity's transform accordingly
+        if (Game::event.type == SDL_KEYDOWN)
+        {
+            switch (Game::event.key.keysym.sym)
+            {
+            case SDLK_w:
+                transform->velocity.y = -1; // Move upward (negative Y velocity) when 'W' key is pressed
+                break;
+            case SDLK_s:
+                transform->velocity.y = 1; // Move downward (positive Y velocity) when 'S' key is pressed
+                break;
+            case SDLK_d:
+                transform->velocity.x = 1; // Move rightward (positive X velocity) when 'D' key is pressed
+                break;
+            case SDLK_a:
+                transform->velocity.x = -1; // Move leftward (negative X velocity) when 'A' key is pressed
+                break;
+            default:
+                break;
+            }
+        }
 
-			default:
-				break;
-			}
-		}
-
-		if (Game::event.type == SDL_KEYUP)
-		{
-			switch (Game::event.key.keysym.sym)
-			{
-			case SDLK_w:
-				transform->velocity.y = 0;
-				break;
-			case SDLK_s:
-				transform->velocity.y = 0;
-				break;
-			case SDLK_d:
-				transform->velocity.x = 0;
-				break;
-			case SDLK_a:
-				transform->velocity.x = 0;
-				break;
-
-			default:
-				break;
-			}
-		}
-	}
+        // Check for key releases and reset the velocity of the entity's transform accordingly
+        if (Game::event.type == SDL_KEYUP)
+        {
+            switch (Game::event.key.keysym.sym)
+            {
+            case SDLK_w:
+            case SDLK_s:
+                transform->velocity.y = 0; // Stop vertical movement when 'W' or 'S' key is released
+                break;
+            case SDLK_d:
+            case SDLK_a:
+                transform->velocity.x = 0; // Stop horizontal movement when 'D' or 'A' key is released
+                break;
+            default:
+                break;
+            }
+        }
+    }
 };
 ```
 {% endcode %}
