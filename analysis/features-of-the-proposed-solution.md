@@ -168,7 +168,7 @@ These rarities will also apply to enemies allowing enemies to grow in strength a
 
 ## Procedural Generation
 
-To procedural generate dungeon layouts I will use a 4x4 grid. The start room will always generate in the top left corner \[0, 0] and will generate 6 - 8 rooms before generating the end room.
+To procedurally generate dungeon layouts I will use a 4x4 grid. The start room will always generate in the top left corner \[0, 0] and will generate 6 - 8 rooms before generating the end room.
 
 The player can leave the level (and move on to the next) by interacting with a staircase in the end room unless the player is on the last level (which will spawn the boss room instead). If this room didn't spawn then the player couldn't progress so this is vital to progression.
 
@@ -278,4 +278,5 @@ As I am not a professional composer or sound effect artist, original sound for m
 * Loading times should be reduced as much as possible as long loading times may cause the player to be less invested in the game as they get bored between loads. Also, long loading times between scenes will make the game less seamless between levels.
 * The game should run at a consistent frame rate of 60FPS so the game doesn't lag.
 * The game shouldn't crash.
-* The game should be fun as the main goal of a video game is to provide entertainment ([Corona, 2020](references.md#risk-and-reward-in-computer-games)) `//don't forget to update references//`
+* The game should be fun as the main goal of a video game is to provide entertainment ([Corona, 2020](references.md#risk-and-reward-in-computer-games)). `//don't forget to update references//`
+* According to the Goldilox Principle ([https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html&](https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html&)), the game should be neither too easy nor too hard as this will discourage the player from playing the game again.

@@ -67,7 +67,7 @@ Some of the success criteria requirements fall into the section of usability. Th
 | Criterion | Description                                                                           |
 | --------- | ------------------------------------------------------------------------------------- |
 | 23        | The game shouldn't contain any inappropriate content (must remain at PEGI 7 or lower) |
-| 27        | The game should be fun                                                                |
+| 28        | The game shouldn't be too easy or too hard.                                           |
 
 ### Criterion 23
 
@@ -77,3 +77,8 @@ For every response I received, no users thought the game contained any inappropr
 
 ### Criterion 28
 
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Graph showing the responses to the question "How easy was the game?"</p></figcaption></figure>
+
+The majority of users were in the Goldilox Zone saying the game wasn't 'Too Easy' nor 'Too Hard'. The was perfect as the game was challenging enough to keep players engaged without discouraging them from quitting the game entirely. These players also played for the longest time (see graph below).
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Graph showing the responses to the question "How long did you play the game for?"</p></figcaption></figure>
