@@ -64,10 +64,16 @@ All users found the How-To-Play screen helpful while learning the game's control
 
 Some of the success criteria requirements fall into the section of usability. These will also be tested now and are listed below:
 
-| Criterion | Description           |
-| --------- | --------------------- |
-| X         | describe the critiera |
+| Criterion | Description                                                                           |
+| --------- | ------------------------------------------------------------------------------------- |
+| 23        | The game shouldn't contain any inappropriate content (must remain at PEGI 7 or lower) |
+| 27        | The game should be fun                                                                |
 
-### Criterion X
+### Criterion 23
 
-Describe testing against criteria
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Graph showing the responses to the question "Did you think the game contained any inappropriate content?"</p></figcaption></figure>
+
+For every response I received, no users thought the game contained any inappropriate content which suggests the game is suitable for a PEGI 3 rating or, at most, a PEGI 7 rating due to very mild cartoon violence. This fits the target for what I wanted to achieve for this criteria.
+
+### Criterion 28
+
