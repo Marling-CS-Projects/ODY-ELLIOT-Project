@@ -1,4 +1,6 @@
-# 3.3 Final Game Tests
+# 3.3 Checking Development Tests
+
+For this part of testing, I will take retests from each cycle
 
 ## [Cycle 1](../design-and-development/cycle-1a.md)
 
