@@ -35,7 +35,7 @@
 
 * [3.1 Testing for Function and Robustness](testing/testing-for-function-and-robustness.md)
 * [3.2 Usability Testing](testing/usability-testing.md)
-* [3.3 Checking Development Tests](testing/checking-development-tests.md)
+* [3.3 Final Game Tests](testing/final-game-tests.md)
 
 ## 4 Evaluation <a href="#evaluation" id="evaluation"></a>
 
