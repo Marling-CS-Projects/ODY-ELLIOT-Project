@@ -68,6 +68,10 @@ The video above shows the first cycle of my game ([https://youtu.be/wLS\_OUcNmBI
 
 ### Evidence
 
+{% embed url="https://youtu.be/Zcm7wGaESJo" %}
+The video above shows the tenth cycle of my game ([https://www.youtube.com/watch?v=Zcm7wGaESJo](https://www.youtube.com/watch?v=Zcm7wGaESJo))
+{% endembed %}
+
 ## [Cycle 11](../design-and-development/cycle-11.md)
 
 ### Tests
