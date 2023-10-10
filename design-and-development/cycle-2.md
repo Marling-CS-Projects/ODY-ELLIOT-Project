@@ -24,24 +24,31 @@ Render Groups/Layers - The player's group will be rendered above the tiles group
 
 {% code title="Tile Map" %}
 ```cpp
+// Load the tilemap from a text file
 tilemap = OpenFile("tiles.txt");
-tileType1 = OpenFile("tile1texture.png"); // represented by a 0
-tileType2 = OpenFile("tile2texture.png"); // represented by a 1
 
-void LoadTiles(tilemap){
+// Load textures for tile types
+tileType1 = OpenFile("tile1texture.png"); // Represented by a 0 in the tilemap
+tileType2 = OpenFile("tile2texture.png"); // Represented by a 1 in the tilemap
+
+// Function to load tiles from the tilemap
+void LoadTiles(tilemap)
+{
     for (tile in tilemap)
     {
         if (tile == 0)
         {
-            newtile = createTile(tileType1);
+            // Create a new tile using tileType1 texture
+            newTile = createTile(tileType1);
         }
         else if (tile == 1)
         {
-            newtile = createTile(tyleType2);
+            // Create a new tile using tileType2 texture
+            newTile = createTile(tileType2);
         }
-        // I could also use a switch statement to achieve the same effect
         
-        newTile.addToGroup(tiles); // stores all the tiles to render
+        // Add the new tile to a group (e.g., 'tiles') for rendering
+        newTile.addToGroup(tiles);
     }
 }
 ```
@@ -51,37 +58,37 @@ Using this system I can create a tilemap system that imports an external text fi
 
 {% code title="Check Collisions" %}
 ```cpp
-bool isColliding(hitbox1, hitbox2) // uses AABB collision detection
-{
-    if (
-    rectA.x + rectA.w >= rectB.x &&
-    rectB.x + rectB.w >= rectA.x &&
-    rectA.y + rectA.h >= rectB.y &&
-    rectB.y + rectB.h >= rectA.y
-    )
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-}
+function isColliding(hitbox1, hitbox2):
+    // Check if there is a collision between hitbox1 and hitbox2 using AABB collision detection
+    
+    // Check if the right edge of hitbox1 is to the right of the left edge of hitbox2
+    if (hitbox1.x + hitbox1.width >= hitbox2.x) and
+    // Check if the right edge of hitbox2 is to the right of the left edge of hitbox1
+       (hitbox2.x + hitbox2.width >= hitbox1.x) and
+    // Check if the bottom edge of hitbox1 is below the top edge of hitbox2
+       (hitbox1.y + hitbox1.height >= hitbox2.y) and
+    // Check if the bottom edge of hitbox2 is below the top edge of hitbox1
+       (hitbox2.y + hitbox2.height >= hitbox1.y):
+       
+        return true  // Collision detected
+    
+    return false  // No collision detected
 ```
 {% endcode %}
 
-If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wall.hitbox)` will return `true`.
+If the `player` is colliding with the `wall` then `isColliding(player.hitbox, wall.hitbox)` will return `true`. This function uses AABB collision detection.
 
 {% code title="Game Loop" %}
 ```cpp
-// this is an extract of the Game.cpp file
-
-void render()
-{
-    tiles->draw();
-    players->draw();
-    enemies->draw();
-}
+function render():
+    // Render tiles
+    tiles.draw()
+    
+    // Render players
+    players.draw()
+    
+    // Render enemies
+    enemies.draw()
 ```
 {% endcode %}
 
@@ -91,7 +98,7 @@ Draws each layer in order in order for the player and enemies to be displayed ab
 
 ### Outcome
 
-{% code title="Tilemap.cpp" %}
+{% code title="Tilemap" %}
 ```cpp
 #include "TileMap.h"
 #include "Game.h"
@@ -99,58 +106,62 @@ Draws each layer in order in order for the player and enemies to be displayed ab
 
 void TileMap::LoadTiles(std::string path, int sizeX, int sizeY)
 {
-	char tile;
-	std::fstream tilemapFile;
-	tilemapFile.open(path);
+    char tile; // Variable to store each character read from the file
+    std::fstream tilemapFile; // File stream for reading the tilemap file
+    tilemapFile.open(path); // Open the tilemap file
 
-	for (int y = 0; y < sizeY; y++)
-	{
-		for (int x = 0; x < sizeX; x++)
-		{
-			tilemapFile.get(tile);
-			Game::AddTile(atoi(&tile), x * 24, y * 24);
-			tilemapFile.ignore();
-		}
-	}
+    for (int y = 0; y < sizeY; y++)
+    {
+        for (int x = 0; x < sizeX; x++)
+        {
+            tilemapFile.get(tile); // Read a character from the file
 
-	tilemapFile.close();
+            // Add a tile to the game based on the character read and the current position
+            Game::AddTile(atoi(&tile), x * 24, y * 24);
+
+            tilemapFile.ignore(); // Ignore any extra characters (e.g., newline)
+        }
+    }
+
+    tilemapFile.close(); // Close the tilemap file after reading
 }
 ```
 {% endcode %}
 
 `LoadTiles()` loads the tilemap from an external file path and requests the size of the tilemap in order to display it properly. This function is called in `Game.cpp` and the relevant information is passed through.
 
-{% code title="Collision.cpp" %}
+{% code title="Collision Functions" %}
 ```cpp
 #include "Collision.h"
 #include "ColliderComponent.h"
 
+// Checks for AABB (Axis-Aligned Bounding Box) collision between two SDL_Rects.
 bool Collision::AABB(const SDL_Rect& rectA, const SDL_Rect& rectB)
 {
+    // Check if the two rectangles overlap in both the X and Y axes.
+    if (rectA.x + rectA.w >= rectB.x &&
+        rectB.x + rectB.w >= rectA.x &&
+        rectA.y + rectA.h >= rectB.y &&
+        rectB.y + rectB.h >= rectA.y)
+    {
+        return true; // Collision detected.
+    }
 
-	if (
-		rectA.x + rectA.w >= rectB.x &&
-		rectB.x + rectB.w >= rectA.x &&
-		rectA.y + rectA.h >= rectB.y &&
-		rectB.y + rectB.h >= rectA.y
-		)
-	{
-		return true;
-	}
-
-	return false;
+    return false; // No collision.
 }
 
-// ColliderComponent& is a reference to the entity's collider component
+// Checks for AABB collision between two ColliderComponents.
+// colA and colB are references to the entity's collider components.
 bool Collision::AABB(const ColliderComponent& colA, const ColliderComponent& colB)
 {
-	if (AABB(colA.collider, colB.collider) && colA.tag != colB.tag)
-	{
-		std::cout << colA.tag << " hit " << colB.tag << std::endl;
-		return true;
-	}
+    // Use the AABB function to check collision between the colliders' rectangles.
+    if (AABB(colA.collider, colB.collider) && colA.tag != colB.tag)
+    {
+        std::cout << colA.tag << " hit " << colB.tag << std::endl;
+        return true; // Collision detected between different tags.
+    }
 
-	return false;
+    return false; // No collision or collision between the same tags.
 }
 ```
 {% endcode %}
@@ -177,7 +188,7 @@ Before the player collides with the wall there is no collision log in the consol
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>A screenshot of the console and the game afterthe player collides with the wall</p></figcaption></figure>
 
-After the player collided with the wall, however, there is a collision log in the console which demonstrates the collision detection works.
+After the player collides with the wall, however, there is a collision log in the console which demonstrates the collision detection works.
 
 As well as that, the tilemap (imported from an external file) clearly prints a smiley face which proves the tilemap system works.
 
@@ -185,4 +196,4 @@ As well as that, the tilemap (imported from an external file) clearly prints a s
 The video above shows the second cycle of my game ([https://youtu.be/-B1UMLdatTE](https://youtu.be/-B1UMLdatTE))
 {% endembed %}
 
-The YouTube video (shown above) demonstrates render correct render layering as the player is displayed on top of the tiles. However, the player shouldn't be above the wall but that is due to me grouping the wall object with tile objects temporarily while the wall has no collision.
+The YouTube video (shown above) demonstrates correct render layering as the player is displayed on top of the tiles. However, the player shouldn't be above the wall but that is due to me grouping the wall object with tile objects temporarily while the wall has no collision.
