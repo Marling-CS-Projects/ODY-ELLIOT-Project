@@ -27,6 +27,10 @@ I also added a small story to the itch.io page to add some more context for what
 
 The main challenge of this cycle was creating the installer as some of the code needed to be changed in order for it to work. For example, the tilemap system I created needed to be changed slightly in order for the game to run correctly once installed.
 
+## Testing
+
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Install the Application</td><td>The game to run as normal</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
 ### Evidence
 
 {% embed url="https://youtu.be/Zcm7wGaESJo" %}

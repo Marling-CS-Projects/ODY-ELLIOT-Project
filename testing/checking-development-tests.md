@@ -114,6 +114,8 @@ The video above shows the ninth cycle of my game ([https://www.youtube.com/watch
 
 ### Tests
 
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Install the Application</td><td>The game to run as normal</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
 ### Evidence
 
 {% embed url="https://youtu.be/Zcm7wGaESJo" %}
@@ -124,10 +126,22 @@ The video above shows the tenth cycle of my game ([https://www.youtube.com/watch
 
 ### Tests
 
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>The player remained at the same position</td><td>Fail</td></tr><tr><td>2</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Reach later levels in the game</td><td>Everything to function as normal (i.e. no lag and no random projectiles)</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
 ### Evidence
+
+{% embed url="https://youtu.be/a-GtOMCnsjA" %}
+The video above depicts the elevnth cycle of my game ([https://youtu.be/a-GtOMCnsjA](https://youtu.be/a-GtOMCnsjA))
+{% endembed %}
 
 ## [Cycle 12](../design-and-development/cycle-12.md)
 
 ### Tests
 
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>Enemies stop moving but still shoot bullets</td><td>Fail</td></tr><tr><td>3</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Let the player die</td><td>The game-over screen should be displayer</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Test out all the weapons</td><td>The stats should be changed</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Test for input lag</td><td>No input lag should occur</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
 ### Evidence
+
+{% embed url="https://www.youtube.com/watch?v=XrXzbDvoiRU" %}
+The video above depicts the twelfth cycle of my game ([https://www.youtube.com/watch?v=XrXzbDvoiRU](https://www.youtube.com/watch?v=XrXzbDvoiRU))
+{% endembed %}
