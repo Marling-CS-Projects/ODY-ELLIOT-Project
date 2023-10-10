@@ -90,87 +90,94 @@ The dungeon generator will be created as an object and will render the current l
 
 ### Outcome
 
-{% code title="Dungeon.cpp" %}
+{% code title="Dungeon Class Definitions" %}
 ```cpp
 #include "Dungeon.h"
 #include <iostream>
 
 Dungeon::Dungeon()
 {
-	this->numRooms = 5;
-	this->rooms = GetRooms();
-	this->currentRoom = 0;
+    // Initialize with a default number of rooms
+    this->numRooms = 5;
+    this->rooms = GetRooms(); // Get available room types
+    this->currentRoom = 0; // Initialize the current room index
 }
 
 Dungeon::Dungeon(int numRooms)
 {
-	this->numRooms = numRooms;
-	this->rooms = GetRooms();
-	this->currentRoom = 0;
+    // Initialize with a specified number of rooms
+    this->numRooms = numRooms;
+    this->rooms = GetRooms(); // Get available room types
+    this->currentRoom = 0; // Initialize the current room index
 }
 
 void Dungeon::GenerateLayout()
 {
-	this->currentLayout = {};
-	currentLayout.resize(numRooms);
+    this->currentLayout = {};
+    currentLayout.resize(numRooms); // Resize the layout container to hold room pointers
 
-	currentLayout[0] = new Level("RoomSTART"); // adds the start room
-	currentLayout[0]->tag = "start";
+    currentLayout[0] = new Level("RoomSTART"); // Add the start room as the first room
+    currentLayout[0]->tag = "start"; // Assign a tag to the start room
 
-	std::srand(time(NULL));
+    std::srand(time(NULL)); // Seed the random number generator
 
-	for (int i = 0; i < numRooms - 2; i++)
-	{
-		currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)) + 2]);
-		currentLayout[i + 1]->tag = "room";
-	}
+    for (int i = 0; i < numRooms - 2; i++)
+    {
+        // Add random rooms to the layout based on available room types
+        currentLayout[i + 1] = new Level(rooms[(std::rand() % (this->rooms.size() - 2)) + 2]);
+        currentLayout[i + 1]->tag = "room"; // Assign a tag to regular rooms
+    }
 
-	currentLayout[numRooms-1] = new Level("RoomEND"); // adds the end room
-	currentLayout[numRooms-1]->tag = "end";
+    currentLayout[numRooms - 1] = new Level("RoomEND"); // Add the end room as the last room
+    currentLayout[numRooms - 1]->tag = "end"; // Assign a tag to the end room
 }
 
 void Dungeon::DrawCurrentRoom()
 {
-	if (currentRoom < 0) { currentRoom = 0; }
-	else if (currentRoom > currentLayout.size() - 1) { currentRoom = currentLayout.size() - 1; }
-	currentLayout.at(currentRoom)->BuildLevel();
+    if (currentRoom < 0) { currentRoom = 0; } // Ensure the current room index is not negative
+    else if (currentRoom > currentLayout.size() - 1) { currentRoom = currentLayout.size() - 1; } // Ensure the current room index is within bounds
+
+    currentLayout.at(currentRoom)->BuildLevel(); // Build and draw the current room
 }
 ```
 {% endcode %}
 
-{% code title="Level.cpp" %}
+{% code title="Level Class Definitions" %}
 ```cpp
 #include "Level.h"
 #include <iostream>
 
 Level::Level(std::string lvlName)
 {
-	SetVariables(lvlName, "room", 16, 16);
+    // Constructor that initializes the level with default tag and dimensions
+    SetVariables(lvlName, "room", 16, 16);
 }
 
 Level::Level(std::string lvlName, int x, int y)
 {
-	SetVariables(lvlName, "room", x, y);
+    // Constructor that initializes the level with specified tag and dimensions
+    SetVariables(lvlName, "room", x, y);
 }
 
 Level::~Level()
 {
-	// There is currently no destructor
+    // Destructor - Currently no additional cleanup needed
 }
 
 void Level::SetVariables(std::string lvlName, std::string tag, int x, int y)
 {
-	this->lvlName = lvlName;
-	this->x = x;
-	this->y = x;
-	this->tag = tag;
+    // Sets the member variables of the Level class
+    this->lvlName = lvlName; // Set the level name
+    this->x = x; // Set the X dimension
+    this->y = x; // Set the Y dimension (Note: Should be 'this->y = y;' instead of 'this->y = x;')
+    this->tag = tag; // Set the tag (e.g., "room")
 }
 ```
 {% endcode %}
 
 A level is created via the `Level` class as it will make it easier to add entities to the level afterwards.
 
-{% code title="Objects.h" %}
+{% code title="Objects" %}
 ```cpp
 #pragma once
 #include <string>
@@ -180,104 +187,112 @@ A level is created via the `Level` class as it will make it easier to add entiti
 class Object
 {
 public:
-	Object()
-	{
-		CreateObject();
-	}
-	~Object()
-	{
-		DeleteObject();
-	}
+    Object()
+    {
+        CreateObject();
+    }
 
-	virtual void CreateObject();
-	virtual void DeleteObject();
+    ~Object()
+    {
+        DeleteObject();
+    }
 
-	void AddTransform(int x, int y, int width, int height, float scale)
-	{
-		gameObject->addComponent<TransformComponent>(x, y, width, height, scale);
-	}
+    // Abstract methods to be overridden by derived classes
+    virtual void CreateObject() = 0;  // Virtual method to create the object
+    virtual void DeleteObject() = 0;  // Virtual method to delete the object
 
-	void AddSprite(const char* path)
-	{
-		gameObject->addComponent<SpriteComponent>(path);
-	}
+    // Add a transform component to the game object
+    void AddTransform(int x, int y, int width, int height, float scale)
+    {
+        gameObject->addComponent<TransformComponent>(x, y, width, height, scale);
+    }
 
-	void AddCollider(std::string tag)
-	{
-		gameObject->addComponent<ColliderComponent>(tag);
-	}
+    // Add a sprite component to the game object
+    void AddSprite(const char* path)
+    {
+        gameObject->addComponent<SpriteComponent>(path);
+    }
 
-	TransformComponent GetTransform()
-	{
-		return gameObject->getComponent<TransformComponent>();
-	}
+    // Add a collider component to the game object
+    void AddCollider(std::string tag)
+    {
+        gameObject->addComponent<ColliderComponent>(tag);
+    }
 
-	Entity* gameObject;
+    // Get the transform component of the game object
+    TransformComponent GetTransform()
+    {
+        return gameObject->getComponent<TransformComponent>();
+    }
 
+    Entity* gameObject;  // Pointer to the associated game object
 };
 
 class Player : public Object
 {
 public:
-	Player()
-	{
-		CreateObject();
-	}
+    Player()
+    {
+        CreateObject();
+    }
 
-	~Player()
-	{
-		DeleteObject();
-	}
+    ~Player()
+    {
+        DeleteObject();
+    }
 
-	void CreatePlayer(int x, int y)
-	{
-		AddTransform(x, y, 24, 24, 2);
-		AddSprite("Assets/Bucket Knight Concept.png");
-		AddCollider("player");
-		gameObject->addComponent<KeyboardController>();
-	}
+    // Create a player object with specific attributes
+    void CreatePlayer(int x, int y)
+    {
+        AddTransform(x, y, 24, 24, 2);
+        AddSprite("Assets/Bucket Knight Concept.png");
+        AddCollider("player");
+        gameObject->addComponent<KeyboardController>();  // Add keyboard controller specific to player
+    }
 };
 
 class Wall : public Object
 {
 public:
-	Wall()
-	{
-		CreateObject();
-	}
-	~Wall()
-	{
-		DeleteObject();
-	}
+    Wall()
+    {
+        CreateObject();
+    }
 
-	void CreateWall(int x, int y, int width, int height, const char* texture)
-	{
-		AddTransform(x, y, width, height, 1);
-		AddSprite(texture);
-		AddCollider("wall");
-	}
+    ~Wall()
+    {
+        DeleteObject();
+    }
 
+    // Create a wall object with specific attributes
+    void CreateWall(int x, int y, int width, int height, const char* texture)
+    {
+        AddTransform(x, y, width, height, 1);
+        AddSprite(texture);
+        AddCollider("wall");
+    }
 };
 
 class Trigger : public Object
 {
 public:
-	Trigger()
-	{
-		CreateObject();
-	}
+    Trigger()
+    {
+        CreateObject();
+    }
 
-	~Trigger()
-	{
-		DeleteObject();
-	}
+    ~Trigger()
+    {
+        DeleteObject();
+    }
 
-	void CreateTrigger(int x, int y, int width, int height, const char* texture, std::string tag)
-	{
-		AddTransform(x, y, width, height, 1);
-		AddSprite(texture);
-		AddCollider(tag);
-	}
+    // Create a trigger object with specific attributes
+    void CreateTrigger(int x, int y, int width, int height, const char* texture, std::string tag)
+    {
+        AddTransform(x, y, width, height, 1);
+        AddSprite(texture);
+        AddCollider(tag);
+    }
 };
 ```
 {% endcode %}
