@@ -301,7 +301,7 @@ The `Objects.h` file stores the base `Object` class and allows me to create obje
 
 For Example:
 
-If I was creating a wall without Objects.h I would write:
+If I was creating a wall without the new objects system I would write:
 
 ```cpp
 auto& wall(manager.addEntity());
@@ -311,7 +311,7 @@ wall.addComponent<ColliderComponent>("wall");
 wall.addGroup(groupMap);
 ```
 
-But now I can just write:
+But with the new objects system I can write:
 
 ```cpp
 auto wall = new Wall();

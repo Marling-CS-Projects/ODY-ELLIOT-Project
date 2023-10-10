@@ -25,10 +25,14 @@ As shown above, the Melee Enemy sprite has no white outline as it is in the dung
 
 {% code title="Normalize Function" %}
 ```cpp
-Vector2D normalize(Vector2D source):
+function Vector2D normalize(Vector2D source):
+    // Calculate the length of the source vector using the Euclidean norm
     length = SquareRoot((source.x * source.x) + (source.y * source.y))
+    
+    // Calculate the normalized direction vector
     direction = Vector2D(source.x / length, source.y / length)
-
+    
+    // Return the normalized direction vector
     return direction
 ```
 {% endcode %}
@@ -37,20 +41,28 @@ The `normalize` function returns a new vector with a length of 1 while preservin
 
 {% code title="Player Component" %}
 ```cpp
-Include "Components.h"
+#include "Components.h"
 
 class PlayerComponent extends Component:
+    int health
+    float cooldown
+    boolean canBeHit
+    boolean onCooldown
+
     // Constructor
-    PlayerComponent(health, cooldownTime):
-        health = health
-        cooldown = cooldownTime
+    function PlayerComponent(initialHealth, initialCooldown):
+        health = initialHealth
+        cooldown = initialCooldown
+        canBeHit = true
+        onCooldown = false
 
     // Override update function
     function update():
         if health < 1:
             player.destroy()
-        else if CooldownFinished():
+        else if onCooldown and CooldownFinished():
             canBeHit = true
+            onCooldown = false
 
     // Function to handle the player being hit by an enemy
     function hit(enemy):
@@ -58,31 +70,32 @@ class PlayerComponent extends Component:
             health = health - 1
             canBeHit = false
             StartCooldown()
-
-    boolean canBeHit
-    boolean onCooldown
-    int health
 ```
 {% endcode %}
 
 The `Player Component` is attached to the Player and tracks the player's health and if the player can be hit.
 
-The `hit()` function takes a pointer to the Entity which hits the player and maybe later used to destroy enemy bullets.
+The `hit()` function takes a pointer to the Entity which hits the player and may later be used to destroy enemy bullets.
 
 {% code title="Enemy Component" %}
 ```cpp
-Include "Components.h"
+#include "Components.h"
 
 class EnemyComponent extends Component:
+    TransformComponent destination
+    TransformComponent transform
+    int health
+    float speed
+
     // Constructor
-    EnemyComponent():
+    function EnemyComponent():
         destination = null
         transform = null
         health = 0
         speed = 0.0
 
     // Destructor
-    ~EnemyComponent():
+    function ~EnemyComponent():
         entity.destroy()
 
     // Function to check if the enemy is alive
@@ -95,11 +108,6 @@ class EnemyComponent extends Component:
     // Function to simulate the enemy being hit
     function hit():
         health = health - 1
-
-    TransformComponent destination
-    TransformComponent transform
-    int health
-    float speed
 ```
 {% endcode %}
 
@@ -280,7 +288,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-This cycle was quite challenging as it is the first time another moving entity was added to interact with the player. This involves more collision scripts as well as a basic AI to be implemented for the new entity's movement.
+This cycle was quite challenging as it was the first time another moving entity was added to interact with the player. This involves more collision scripts as well as a basic AI to be implemented for the new entity's movement.
 
 A big challenge was also getting the position of the mouse in the game world as I was unaware of the `windowMousePositionToLogicalMousePosition` function provided by the SDL library until I looked into the documentation.
 
@@ -298,4 +306,4 @@ The video above shows the fourth cycle of my game ([https://youtu.be/ctZDqX19qA8
 
 The video above shows a working version of this cycle where the player can shoot bullets around the scene and the enemy moves towards the player at a constant speed.
 
-Something not clearly expressed in the video is the fact that bullets get destroyed on contact with the wall objects (the red borders) but not the trigger objects (the blue borders). This is intentional as I plan to remove the trigger system in upcoming cycles but the wall system will remain the same (hence why I implemented bullet destruction on impact).
+Something not clearly expressed in the video is the fact that bullets get destroyed when they collided with the wall objects (the red borders) but not the trigger objects (the blue borders). This is intentional as I plan to remove the trigger system in upcoming cycles but the wall system will remain the same (hence why I implemented bullet destruction on impact).
