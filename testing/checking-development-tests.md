@@ -1,4 +1,4 @@
-# 3.3 Checking Development Tests
+# 3.3 Final Game Tests
 
 ## [Cycle 1](../design-and-development/cycle-1a.md)
 
