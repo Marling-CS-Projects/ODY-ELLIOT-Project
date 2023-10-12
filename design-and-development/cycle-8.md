@@ -174,6 +174,34 @@ void Game::AttackMelee()
 
 The Melee weapon basically is a bullet with a short range and travels slowly. This gives an illusion of being a Melee weapon when it is actually a projectile.&#x20;
 
+{% code title="Roll Ability" %}
+```cpp
+void roll(Mix_Chunk* r)
+{
+    // Check if the player is not already rolling, and if the roll can be used again based on frames
+    if (!rolling && RolUseAgainFrame <= frames && (entity->getComponent<TransformComponent>().velocity.x != 0 || entity->getComponent<TransformComponent>().velocity.y != 0))
+    {
+        // Set the frame when the roll ability will end
+        RolFrame = frames + RolAbilityTime;
+
+        // Set the frame when the roll can be used again after a cooldown
+        RolUseAgainFrame = RolFrame + RolCooldown;
+
+        // Output a message to indicate that the player rolled
+        std::cout << "Player Rolled" << std::endl;
+
+        // Play the roll sound effect
+        Mix_PlayChannel(-1, r, 0);
+
+        // Set the rolling flag to true to indicate that the player is rolling
+        rolling = true;
+    }
+}
+```
+{% endcode %}
+
+The roll ability function takes in a sound effect from `Game` and triggers two cooldowns to start (if the player can roll). The cooldowns are for how long the player can roll and how long until the player can roll again.
+
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%208).
 
 ### Challenges
@@ -194,4 +222,4 @@ The video above shows the eighth cycle of my game ([https://www.youtube.com/watc
 
 In the video, every time the player completes a level, the icon in the bottom left is updated to match the weapon type the player is currently using. As well as that, the icon turns grey if the player cannot attack due to the weapon being on cooldown. The roll ability and roll icon also function correctly.
 
-Each weapon functions how it is expected to and I have given them custom sound effects to give each weapon some personality in order to differentiate them from their counterparts.
+Each weapon functions how it is expected to and I have given them custom sound effects to give each weapon some personality in order to differentiate them from their counterparts. I also gave a sound effect to the roll ability so the player can hear when it is triggered.
