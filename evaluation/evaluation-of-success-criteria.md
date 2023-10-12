@@ -15,11 +15,9 @@
 
 ### Criterion 1
 
-Evidence for success/failure
+This feature was added in [Cycle 1](../design-and-development/cycle-1a.md) a
 
-Description of success/failure
-
-## Enemies
+## Enemies Evaluation
 
 ### Criteria
 
