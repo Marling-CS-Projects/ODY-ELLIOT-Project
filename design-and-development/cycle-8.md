@@ -14,6 +14,8 @@ The 'Magic' weapon will have high damage, a long cooldown between shots, and a l
 
 The 'Melee' weapon will have medium damage, a short cooldown between uses, and a short range.
 
+I also will add a roll ability with appropriate UI to indicate when it can be used.
+
 ### Objectives
 
 In this cycle, I will:
@@ -22,10 +24,12 @@ In this cycle, I will:
 * [x] Add two Ranged Weapons
 * [x] Add a 'Can Shoot' indicator to the HUD
 * [x] Choose a Weapon at Random when the Next Level is Generated
+* [x] Add a roll ability for the player to use
+* [x] Add some UI to indicate when the roll ability can be used
 
 ### Usability Features
 
-'Can Shoot' Indicator - Allows the user to know when they can shoot so they time their shots effectively.
+'Can Shoot' and 'Roll' Indicator - Allows the user to know when they can shoot and roll so they time their resources effectively
 
 ### Pseudocode
 
@@ -180,7 +184,7 @@ Other than that, this cycle went smoothly as I had already built strong foundati
 
 ## Testing
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Use the magic weapon</td><td>A blue bullet to be spawned and one-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Use the melee weapon</td><td>The BONK sprite to appear and two-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Use the gun weapon</td><td>A red bullet to be spawned and three-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Complete levels</td><td>Different weapons to be used</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Complete levels</td><td>The UI to update based on what weapon is being used</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Use the weapons</td><td>The UI to update based on whether the player can attack or not</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Use the magic weapon</td><td>A blue bullet to be spawned and one-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Use the melee weapon</td><td>The BONK sprite to appear and two-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Use the gun weapon</td><td>A red bullet to be spawned and three-shot the enemy</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Complete levels</td><td>Different weapons to be used</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Complete levels</td><td>The UI to update based on what weapon is being used</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Use the weapons</td><td>The UI to update based on whether the player can attack or not</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Use the roll ability</td><td>The player should move faster around the map for a short bit of time</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Use the roll ability when the roll icon is on</td><td>The player should roll and the icon should turn off</td><td>As expected</td><td>Pass</td></tr><tr><td>9</td><td>Use the roll ability when the roll icon is off</td><td>The player shouldn't roll</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
@@ -188,6 +192,6 @@ Other than that, this cycle went smoothly as I had already built strong foundati
 The video above shows the eighth cycle of my game ([https://www.youtube.com/watch?v=G5iw7jgfLf8](https://www.youtube.com/watch?v=G5iw7jgfLf8))
 {% endembed %}
 
-In the video, every time the player completes a level, the icon in the bottom left is updated to match the weapon type the player is currently using. As well as that, the icon turns grey if the player cannot attack due to the weapon being on cooldown.
+In the video, every time the player completes a level, the icon in the bottom left is updated to match the weapon type the player is currently using. As well as that, the icon turns grey if the player cannot attack due to the weapon being on cooldown. The roll ability and roll icon also function correctly.
 
 Each weapon functions how it is expected to and I have given them custom sound effects to give each weapon some personality in order to differentiate them from their counterparts.
