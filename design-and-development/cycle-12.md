@@ -17,6 +17,8 @@ In this cycle, I will:
 * [x] Add a pause menu
 * [x] Add a game-over screen
 * [x] Create a better movement input system
+* [x] Give the roll invincibility
+* [x] Add patch notes to the store page
 
 ### Usability Features
 

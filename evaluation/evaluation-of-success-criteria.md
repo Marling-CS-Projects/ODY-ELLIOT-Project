@@ -31,7 +31,7 @@ The weapons were created in [Cycle 8](../design-and-development/cycle-8.md) usin
 
 ### Criterion 5
 
-The roll ability was added in&#x20;
+The roll ability was added in Cycle 8 and it was later patched so the player is invincible while the roll is active ADD PATCH NOTEs
 
 ## Enemies Evaluation
 
