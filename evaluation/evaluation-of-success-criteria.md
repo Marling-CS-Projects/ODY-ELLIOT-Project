@@ -15,7 +15,23 @@
 
 ### Criterion 1
 
-This feature was added in [Cycle 1](../design-and-development/cycle-1a.md) a
+This feature was added in [Cycle 1](../design-and-development/cycle-1a.md) and allows the player to move in eight directions. This is a core mechanic of the game as the player has to move around the enemies to avoid being hit.
+
+### Criterion 2
+
+Added in [Cycle 3](../design-and-development/cycle-3.md), the collisions with walls are a vital feature of the game as they prevent the player from going out of bounds which would allow them to leave the game scene.
+
+### Criterion 3
+
+The moveable camera attached to the player was never implemented. This is because there wasn't any need to add one due to the game taking a more arcade-like approach after [Cycle 5](../design-and-development/cycle-5.md).
+
+### Criterion 4
+
+The weapons were created in [Cycle 8](../design-and-development/cycle-8.md) using the foundations built in [Cycle 4](../design-and-development/cycle-4.md). The weapons are important to the game as they provide some variety so users are entertained for longer.
+
+### Criterion 5
+
+The roll ability was added in&#x20;
 
 ## Enemies Evaluation
 
