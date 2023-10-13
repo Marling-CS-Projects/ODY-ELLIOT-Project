@@ -31,11 +31,11 @@ The weapons were created in [Cycle 8](../design-and-development/cycle-8.md) usin
 
 ### Criterion 5
 
-The roll ability was added in [Cycle 8](../design-and-development/cycle-8.md) and it was later patched (in [Cycle 12](../design-and-development/cycle-12.md)) so the player is invincible while the roll is active. The roll is essential to the game as it provides some variety to the player's movement which will keep the player engaged for longer. It also provides a 'Get out of Jail Free Card' when the player is stuck in sticky situations (such as boxed in the corner by enemies).
+The roll ability was added in [Cycle 8](../design-and-development/cycle-8.md) and it was later patched (in [Cycle 12](../design-and-development/cycle-12.md)) so the player is invincible while the roll is active. The roll is essential to the game as it provides some variety to the player's movement which will keep the player engaged for longer. It also provides a 'Get out of Jail Free Card' when the player is stuck in sticky situations (such as being boxed into the corner by enemies).
 
 ### Criterion 6
 
-This feature was added in [Cycle 4](../design-and-development/cycle-4.md) a
+This feature was added in [Cycle 4](../design-and-development/cycle-4.md) and is a vital feature of the game as it allows the player to lose. Without this, the user will face no challenge which will make
 
 ## Enemies Evaluation
 
