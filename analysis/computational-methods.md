@@ -26,7 +26,7 @@ Thinking procedurally and decomposition in computer science involve breaking dow
 
 Example:
 
-* When making a cup of tea there you can decompose the task into sub-tasks like 'boil the kettle' and 'get the milk out of the fridge'. Then you can create a procedure to follow these sub-tasks in order and eventually make a cup of tea.
+* When making a cup of tea you can decompose the task into sub-tasks like 'boil the kettle' and 'get the milk out of the fridge'. Then you can create a procedure to follow these sub-tasks in order and eventually make a cup of tea.
 
 Thinking procedurally and decomposition goes well with visualization as the diagrams created are done step-by-step.
 

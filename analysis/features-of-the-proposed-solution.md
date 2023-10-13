@@ -24,7 +24,7 @@ A combination of these inputs will allow diagonal movement (e.g. W and D will ca
 
 <figure><img src="../.gitbook/assets/Dodgeroll.webp" alt=""><figcaption><p><a href="https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)">https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)</a></p></figcaption></figure>
 
-In both [Moonlighter](research-the-problem.md#moonlighter) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) the roll mechanic is vital for dodging attacks as well as movement around the dungeons. The roll will grant the player increased velocity in their current direction as well as invincibility for a short period of time.
+In both [Moonlighter](research-the-problem.md#moonlighter) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) the roll mechanic is vital for dodging attacks as well as movement around the dungeons. The roll ability will grant the player increased velocity in their current direction as well as invincibility for a short period of time.
 
 The roll ability will have a short cool-down so the player can't keep constantly rolling around the place dodging attacks.
 
@@ -32,7 +32,7 @@ The roll ability will have a short cool-down so the player can't keep constantly
 
 The game will have a top-down camera system (like [Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)) which follows the player so the player can see where they are currently going and what they are doing.
 
-The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([https://help.prusa3d.com/article/perspective-orthographic-camera\_1760](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)), which is ideal for 2d games as everything needs to look the same distance away.
+The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([https://help.prusa3d.com/article/perspective-orthographic-camera\_1760](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)), which is ideal for 2D games as everything needs to look the same distance away.
 
 <figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p><a href="https://help.prusa3d.com/article/perspective-orthographic-camera_1760">https://help.prusa3d.com/article/perspective-orthographic-camera_1760</a></p></figcaption></figure>
 
@@ -216,7 +216,7 @@ A common video game trope is "Save the Princess"([https://tropedia.fandom.com/wi
 
 ### My Story
 
-In my game, placed in a loose Medieval setting, you will be playing a character named "Bucket Knight" where your goal is to "Save the Princess" from the evil forces acting in the dungeon. The knight will travel through the dungeon, picking up weapons along the way, and fight enemies to save her.
+In my game, placed in a loose Medieval setting, you will be playing a character named "Bucket Knight" whose goal is to "Save the Princess" from the evil forces acting in the dungeon. The knight will travel through the dungeon, picking up weapons along the way, and fight enemies to save her.
 
 ## UI and HUD
 
