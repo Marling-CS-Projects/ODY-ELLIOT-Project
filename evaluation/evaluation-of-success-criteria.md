@@ -23,7 +23,7 @@ Added in [Cycle 3](../design-and-development/cycle-3.md), the collisions with wa
 
 ### Criterion 3
 
-The moveable camera attached to the player was never implemented. This is because there wasn't any need to add one due to the game taking a more arcade-like approach after [Cycle 5](../design-and-development/cycle-5.md).
+The movable camera attached to the player was never implemented. This is because there wasn't any need to add one due to the game taking a more arcade-like approach after [Cycle 5](../design-and-development/cycle-5.md).
 
 ### Criterion 4
 
@@ -31,7 +31,11 @@ The weapons were created in [Cycle 8](../design-and-development/cycle-8.md) usin
 
 ### Criterion 5
 
-The roll ability was added in [Cycle 8](../design-and-development/cycle-8.md) and it was later patched (in [Cycle 12](../design-and-development/cycle-12.md)) so the player is invincible while the roll is active. The roll is essential to the game as it provides some varitey to the player's movement which will keep the player engaged for longer. It also provides a 'Get out of Jail Free Card' when the player is stuck in sticky situations (such as boxed in the corner by enemies).
+The roll ability was added in [Cycle 8](../design-and-development/cycle-8.md) and it was later patched (in [Cycle 12](../design-and-development/cycle-12.md)) so the player is invincible while the roll is active. The roll is essential to the game as it provides some variety to the player's movement which will keep the player engaged for longer. It also provides a 'Get out of Jail Free Card' when the player is stuck in sticky situations (such as boxed in the corner by enemies).
+
+### Criterion 6
+
+This feature was added in [Cycle 4](../design-and-development/cycle-4.md) a
 
 ## Enemies Evaluation
 
