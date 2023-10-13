@@ -64,7 +64,7 @@ This system is used in all three previously mentioned games ([Soul Knight](resea
 
 ## Weapons
 
-The player will pick up weapons they find along the way in [chests](features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](features-of-the-proposed-solution.md#melee), [Ranger](features-of-the-proposed-solution.md#ranger), and [Mage](features-of-the-proposed-solution.md#mage).
+The player will pick up weapons they find along the way in [chests](features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](features-of-the-proposed-solution.md#melee), [Ranger](features-of-the-proposed-solution.md#ranger), and [Mage](features-of-the-proposed-solution.md#mage). This will give the game some variety which makes players play for longer ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)).
 
 ### Types
 
@@ -109,6 +109,8 @@ Mage-class weapons are substitutes for the usual gun weapons (such as shotguns a
 As I plan to have 3 classes of weapons, there will be 3 classes of enemies as well as a boss.
 
 Each enemy will have basic enemy AI unique to their respective class. For example, [Melee Enemies](features-of-the-proposed-solution.md#melee-class-enemies) will path-find and move straight towards the player but the more ranged classes' enemies will keep their distance from the player but still try to get a clear line of sight in order to damage the player.
+
+This will give the game more variety, like the weapons, which will allow the game to keep a player's attention ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)).
 
 ### Melee Class Enemies
 

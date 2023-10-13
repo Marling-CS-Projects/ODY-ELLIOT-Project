@@ -52,4 +52,4 @@ This feature was added in [Cycle 4](../design-and-development/cycle-4.md) and is
 
 ### Criterion 7
 
-There are currently three classes of enemies implemented in the game which were added in [Cycle 9](../design-and-development/cycle-9.md) (except for the melee enemy which was added in [Cycle 4](../design-and-development/cycle-4.md)). This adds variety t
+There are currently three classes of enemies implemented in the game which were added in [Cycle 9](../design-and-development/cycle-9.md) (except for the melee enemy which was added in [Cycle 4](../design-and-development/cycle-4.md)). This adds variety to the game&#x20;
