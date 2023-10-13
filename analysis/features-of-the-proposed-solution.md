@@ -110,7 +110,7 @@ As I plan to have 3 classes of weapons, there will be 3 classes of enemies as we
 
 Each enemy will have basic enemy AI unique to their respective class. For example, [Melee Enemies](features-of-the-proposed-solution.md#melee-class-enemies) will path-find and move straight towards the player but the more ranged classes' enemies will keep their distance from the player but still try to get a clear line of sight in order to damage the player.
 
-This will give the game more variety, like the weapons, which will allow the game to keep a player's attention ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)).
+This will give the game more variety, like the weapons, which will allow the game to keep a player's attention ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)). This will also add more depth to the challenge the game provides as there are more obstacles to overcome.
 
 ### Melee Class Enemies
 

@@ -35,7 +35,7 @@ The roll ability was added in [Cycle 8](../design-and-development/cycle-8.md) an
 
 ### Criterion 6
 
-This feature was added in [Cycle 4](../design-and-development/cycle-4.md) and is a vital feature of the game as it allows the player to lose. Without this, the user will face no challenge which will make the game not enjoyable as it won't be in the 'Goldilocks Zone' (**ADD REFERENCE**).
+This feature was added in [Cycle 4](../design-and-development/cycle-4.md) and is a vital feature of the game as it allows the player to lose. Without this, the user will face no challenge which will make the game not enjoyable as it won't be in the 'Goldilocks Zone'.
 
 ## Enemies Evaluation
 
@@ -52,4 +52,7 @@ This feature was added in [Cycle 4](../design-and-development/cycle-4.md) and is
 
 ### Criterion 7
 
-There are currently three classes of enemies implemented in the game which were added in [Cycle 9](../design-and-development/cycle-9.md) (except for the melee enemy which was added in [Cycle 4](../design-and-development/cycle-4.md)). This adds variety to the game&#x20;
+There are currently three classes of enemies implemented in the game which were added in [Cycle 9](../design-and-development/cycle-9.md) (except for the melee enemy which was added in [Cycle 4](../design-and-development/cycle-4.md)). This adds variety to the game which will keep the player's attention for longer as well as add more depth to the challenge the game provides.
+
+### Criterion 8
+
