@@ -161,3 +161,7 @@ The video above depicts the twelfth cycle of my game ([https://www.youtube.com/w
 {% endembed %}
 
 The video above shows the changed weapon stats as well as the new pause menu and game-over screen.
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Screenshot from the Bucket Knight v1.2 Patch Notes Page</p></figcaption></figure>
+
+I also added the changes made in this cycle to the Patch Notes on the store page.
