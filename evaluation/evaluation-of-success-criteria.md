@@ -56,3 +56,7 @@ There are currently three classes of enemies implemented in the game which were 
 
 ### Criterion 8
 
+As mentioned in [Criterion 7](evaluation-of-success-criteria.md#criterion-7), the different classes of enemies have been implemented in the game. The majority of the classes move towards the player to provide a sense of urgency to present a challenge to the player. However, there is one enemy that doesn't move towards the player (that being the Wizard added in [Cycle 8](../design-and-development/cycle-8.md)). This was to add more variety to the enemy types as well as prevent players from luring all enemies to a corner and then dashing away (a common behaviour I found while testing [Cycle 8](../design-and-development/cycle-8.md)).
+
+### Criterion 9
+
