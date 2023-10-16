@@ -60,4 +60,4 @@ As mentioned in [Criterion 7](evaluation-of-success-criteria.md#criterion-7), th
 
 ### Criterion 9
 
-The feature was not included in Bucket Knight as it conflicts with the arcade
+The feature was not included in Bucket Knight as it conflicts with the new arcade-style gameplay added in [Cycle 5](../design-and-development/cycle-5.md).
