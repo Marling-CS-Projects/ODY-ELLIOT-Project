@@ -76,9 +76,17 @@ When an enemy reaches zero health it is essential to the game that the enemy is 
 
 ### Criteria
 
-| Ref. No. | Criterion                                                    | Included     | Reference                                                                                                                                                                 |
-| :------: | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    13    | There needs to be an easy way to build rooms.                | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
-|    14    | The dungeon generation algorithm.                            | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
-|    15    | Each room generated needs to have a chance to spawn a chest. | Not Included | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
-|    16    | The end room needs to generate.                              | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+| Ref. No. | Criterion                                                    | Included           | Reference                                                                                                                                                                 |
+| :------: | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    13    | There needs to be an easy way to build rooms.                | Included           | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    14    | The dungeon generation algorithm.                            | Partially Included | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    15    | Each room generated needs to have a chance to spawn a chest. | Not Included       | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    16    | The end room needs to generate.                              | Included           | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+
+### Criterion 13
+
+Tilemaps were added in [Cycle 2](../design-and-development/cycle-2.md) and allowed me to easily build rooms via external text files which made it easy to create a variety of pre-made rooms.
+
+### Criterion 14
+
+I labelled this feature as partially included as it generates the level order the player will play through but doesn't create entire dungeons which it was originally intended to do. The reason for this is the lack of a camera for the player and the new arcade-style approach to the game ([Cycle 5](../design-and-development/cycle-5.md)). This feature was added in [Cycle 3](../design-and-development/cycle-3.md) and later developed to be more arcade-like in [Cycle 5](../design-and-development/cycle-5.md).
