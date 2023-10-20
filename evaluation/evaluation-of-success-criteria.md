@@ -98,3 +98,17 @@ Chests weren't included in the game due to the new weapon-switching mechanic tak
 ### Criterion 16
 
 As mentioned in [Criterion 10 & 11](evaluation-of-success-criteria.md#criterion-10-and-11), the end room spawns at score 255 which is mostly impossible to reach. However, I did make a custom room for this to reward players who reach this far into the game with a level that looks like a smiley-face made from smiley-face tiles.
+
+## Weapons
+
+### Criteria
+
+| Ref. No. | Criterion                                                                                                                                      | Included     | Reference                                                                                                                                                                           |
+| :------: | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    17    | There needs to be 3 classes of weapon.                                                                                                         | Included     | [Weapons](../analysis/features-of-the-proposed-solution.md#weapons)                                                                                                                 |
+|    18    | There needs to be different rarities of weapons.                                                                                               | Not Included | <p><a href="../analysis/features-of-the-proposed-solution.md#weapons">Weapons</a><br><br><a href="../analysis/features-of-the-proposed-solution.md#limitations">Limitations</a></p> |
+|    19    | Weapons need to be more effective against enemies with the opposing class and be less effective against enemies with the more effective class. | Not Included | [Weapons](../analysis/features-of-the-proposed-solution.md#weapons)                                                                                                                 |
+
+### Criterion 17
+
+The three weapon types were added in [Cycle 8](../design-and-development/cycle-8.md) and were representative of the originally planned weapons. The magic weapon (blue weapon) is the new version of the ranger class as it has a large cooldown but high damage output. The gun weapon (red weapon) represents the mage class as it has a short cooldown and low damage output per shot. The melee weapon (the BONK weapon)
