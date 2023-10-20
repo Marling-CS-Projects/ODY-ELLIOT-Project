@@ -64,7 +64,7 @@ The feature was not included in Bucket Knight as it made the game more confusing
 
 ### Criterion 10 & 11
 
-There is a unique enemy in all classes except for the Boss class (evidenced in [Cycle 8](../design-and-development/cycle-8.md)). The Boss wasn't included as there is no last level that the player can get to,**\*** due to the arcade-style gameplay introduced in [Cycle 5](../design-and-development/cycle-5.md).
+There is a unique enemy in all classes except for the Boss class (evidenced in [Cycle 8](../design-and-development/cycle-8.md)). The Boss was omitted as there is no last level that the player can get to,**\*** due to the arcade-style gameplay introduced in [Cycle 5](../design-and-development/cycle-5.md).
 
 **\***Theoretically the player can reach level 255 before the game starts to loop. This was added as an Easter Egg to represent the old arcade games, such as Pac-Man, having this level cap as they used 8-bit integers to store the score value. Most players will never go this far into the game so there would be no reason to add a special enemy type to this level.
 
@@ -85,8 +85,16 @@ When an enemy reaches zero health it is essential to the game that the enemy is 
 
 ### Criterion 13
 
-Tilemaps were added in [Cycle 2](../design-and-development/cycle-2.md) and allowed me to easily build rooms via external text files which made it easy to create a variety of pre-made rooms.
+Tilemaps were added in [Cycle 2](../design-and-development/cycle-2.md) and allowed me to quickly build rooms via external text files which made it easy to create a variety of pre-made rooms.
 
 ### Criterion 14
 
 I labelled this feature as partially included as it generates the level order the player will play through but doesn't create entire dungeons which it was originally intended to do. The reason for this is the lack of a camera for the player and the new arcade-style approach to the game ([Cycle 5](../design-and-development/cycle-5.md)). This feature was added in [Cycle 3](../design-and-development/cycle-3.md) and later developed to be more arcade-like in [Cycle 5](../design-and-development/cycle-5.md).
+
+### Criterion 15
+
+Chests weren't included in the game due to the new weapon-switching mechanic taking priority (which was added in [Cycle 8](../design-and-development/cycle-8.md)). I believe this was a good change as chests slow down the gameplay because the player needs to interact with them separately whereas weapon-switching allows the player to keep the game at the same pace which I believe is ideal for an arcade game.
+
+### Criterion 16
+
+As mentioned in [Criterion 10 & 11](evaluation-of-success-criteria.md#criterion-10-and-11), the end room spawns at score 255 which is mostly impossible to reach. However, I did make a custom room for this to reward players who reach this far into the game with a level that looks like a smiley-face made from smiley-face tiles.
