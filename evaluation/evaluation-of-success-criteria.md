@@ -60,4 +60,14 @@ As mentioned in [Criterion 7](evaluation-of-success-criteria.md#criterion-7), th
 
 ### Criterion 9
 
-The feature was not included in Bucket Knight as it conflicts with the new arcade-style gameplay added in [Cycle 5](../design-and-development/cycle-5.md).
+The feature was not included in Bucket Knight as it made the game more confusing as the same enemy could have varied health and damage. Instead, I opted to increase the number of enemies each level provides (added in [Cycle 9](../design-and-development/cycle-9.md)) to present the player with a challenge which is perceived to be more difficult than enemy rarities without confusing them.
+
+### Criterion 10 & 11
+
+There is a unique enemy in all classes except for the Boss class (evidenced in [Cycle 8](../design-and-development/cycle-8.md)). The Boss wasn't included as there is no last level that the player can get to,**\*** due to the arcade-style gameplay introduced in [Cycle 5](../design-and-development/cycle-5.md).
+
+**\***Theoretically the player can reach level 255 before the game starts to loop. This was added as an Easter Egg to represent the old arcade games, such as Pac-Man, having this level cap as they used 8-bit integers to store the score value. Most players will never go this far into the game so there would be no reason to add a special enemy type to this level.
+
+### Criterion 12
+
+When an enemy reaches zero health it is essential to the game that the enemy is destroyed. Without this feature, levels would never progress (as all enemies need to be killed to progress through the game) so the user will get bored of the game extremely quickly. This feature was added in [Cycle 4](../design-and-development/cycle-4.md).
