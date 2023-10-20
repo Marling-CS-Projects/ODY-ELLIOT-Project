@@ -71,3 +71,14 @@ There is a unique enemy in all classes except for the Boss class (evidenced in [
 ### Criterion 12
 
 When an enemy reaches zero health it is essential to the game that the enemy is destroyed. Without this feature, levels would never progress (as all enemies need to be killed to progress through the game) so the user will get bored of the game extremely quickly. This feature was added in [Cycle 4](../design-and-development/cycle-4.md).
+
+## Dungeon Generation
+
+### Criteria
+
+| Ref. No. | Criterion                                                    | Included     | Reference                                                                                                                                                                 |
+| :------: | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    13    | There needs to be an easy way to build rooms.                | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    14    | The dungeon generation algorithm.                            | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    15    | Each room generated needs to have a chance to spawn a chest. | Not Included | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
+|    16    | The end room needs to generate.                              | Included     | [Procedural ](../analysis/features-of-the-proposed-solution.md#procedural-generation)[Generation](../analysis/features-of-the-proposed-solution.md#procedural-generation) |
