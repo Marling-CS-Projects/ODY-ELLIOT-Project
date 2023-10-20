@@ -111,4 +111,4 @@ As mentioned in [Criterion 10 & 11](evaluation-of-success-criteria.md#criterion-
 
 ### Criterion 17
 
-The three weapon types were added in [Cycle 8](../design-and-development/cycle-8.md) and were representative of the originally planned weapons. The magic weapon (blue weapon) is the new version of the ranger class as it has a large cooldown but high damage output. The gun weapon (red weapon) represents the mage class as it has a short cooldown and low damage output per shot. The melee weapon (the BONK weapon)
+The three weapon types were added in [Cycle 8](../design-and-development/cycle-8.md) and were representative of the originally planned weapons. The magic weapon (blue weapon) is the new version of the ranger class as it has a large cooldown but high damage output. The gun weapon (red weapon) represents the mage class as it has a short cooldown and low damage output per shot. The melee weapon (the BONK weapon) has stayed the same.
