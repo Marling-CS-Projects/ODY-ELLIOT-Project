@@ -54,6 +54,12 @@ The game's sound effects were made using jsfxr and the music was created by Kevi
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the audio"</p></figcaption></figure>
 
+### Feature 7
+
+Currently, the game does have a variety of levels but they only vary visually as they don't generate unique obstacle/enemy patterns. Functionally, the only thing they vary on is the number of enemies that are spawned. I consider this a partial success and in future cycles other features, such as breakable boxes, may be added so the level variety increases: keeping players entertained.&#x20;
+
+
+
 ## Error Tolerant
 
 | Feature No. | Description         | Success/Fail   |
