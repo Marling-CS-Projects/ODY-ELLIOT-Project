@@ -34,15 +34,15 @@ The game has very basic controls which are easy to use making the game easy to p
 
 ## Engaging
 
-| Feature No. | Description        | Success/Fail    |
-| ----------- | ------------------ | --------------- |
-| 5           | Game Art           | Success         |
-| 6           | Game Sound         | Success         |
-| 7           | Variety of Levels  | Partial Success |
-| 8           | Variety of Weapons | Success         |
-| 9           | Variety of Enemues | Success         |
+| Feature No. | Description         | Success/Fail    |
+| ----------- | ------------------- | --------------- |
+| 5           | Suitable Game Art   | Success         |
+| 6           | Suitable Game Sound | Success         |
+| 7           | Variety of Levels   | Partial Success |
+| 8           | Variety of Weapons  | Success         |
+| 9           | Variety of Enemues  | Success         |
 
-### Feature 1
+### Feature 5
 
 Detailed evaluation against criteria 1
 
