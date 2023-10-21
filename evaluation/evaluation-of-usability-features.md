@@ -19,13 +19,18 @@ The level of challenge the game provided sat in the Goldilox Zone for most users
 
 ## Efficient
 
-| Feature No. | Description         | Success/Fail   |
-| ----------- | ------------------- | -------------- |
-| 1           | Feature description | as appropriate |
+| Feature No. | Description                   | Success/Fail |
+| ----------- | ----------------------------- | ------------ |
+| 3           | Have an easy to use Main Menu | Success      |
+| 4           | Have easy to use controls     | Success      |
 
-### Feature 1
+### Feature 3
 
-Detailed evaluation against criteria 1
+The game's Main Menu consists of two buttons: the Play button and the How-To-Play button. Both are large buttons and are well sign-posted so the user knows what each button does which makes the menu easy to navigate and use.
+
+### Feature 4
+
+The game has very basic controls which are easy to use and learn&#x20;
 
 ## Engaging
 
