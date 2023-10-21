@@ -120,3 +120,25 @@ This feature wasn't included for similar reasons to [Criterion 9](evaluation-of-
 ### Criterion 19
 
 This feature wasn't included as it makes the game more complicated, in my opinion. A complicated arcade game may cause players to stop playing faster (due to a lack of understanding) which goes against my goals of making an entertaining game.
+
+## UI and HUD
+
+### Criteria
+
+| Ref. No. | Criterion  | Included | Reference                                                                 |
+| :------: | ---------- | -------- | ------------------------------------------------------------------------- |
+|    20    | Pause Menu | Included | [Pause Menu](../analysis/features-of-the-proposed-solution.md#pause-menu) |
+|    21    | Main Menu  | Included | [Main Menu](../analysis/features-of-the-proposed-solution.md#main-menu)   |
+|    22    | HUD        | Included | [HUD](../analysis/features-of-the-proposed-solution.md#hud)               |
+
+### Criterion 20
+
+This feature was added in [Cycle 12](../design-and-development/cycle-12.md) to allow the player to start and stop playing the game at their leisure which gives an improvement on user experience.
+
+### Criterion 21
+
+A Main Menu was needed to house the How-To-Play screen (added in [Cycle 7](../design-and-development/cycle-7.md)) as well as the Play Button to start the game. The Main Menu and Play Button were added in [Cycle 6](../design-and-development/cycle-6.md).
+
+### Criterion 22
+
+The Heads-Up-Display (HUD) was needed in order to relay important information to the user such as health ([Cycle 4](../design-and-development/cycle-4.md)); whether the player can roll ([Cycle 8](../design-and-development/cycle-8.md)); whether the player can shoot ([Cycle 8](../design-and-development/cycle-8.md)); and the player's current score ([Cycle 6](../design-and-development/cycle-6.md)).
