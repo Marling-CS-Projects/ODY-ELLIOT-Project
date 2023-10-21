@@ -142,3 +142,58 @@ A Main Menu was needed to house the How-To-Play screen (added in [Cycle 7](../de
 ### Criterion 22
 
 The Heads-Up-Display (HUD) was needed in order to relay important information to the user such as health ([Cycle 4](../design-and-development/cycle-4.md)); whether the player can roll ([Cycle 8](../design-and-development/cycle-8.md)); whether the player can shoot ([Cycle 8](../design-and-development/cycle-8.md)); and the player's current score ([Cycle 6](../design-and-development/cycle-6.md)).
+
+## Non-Functional
+
+### Criteria
+
+| Ref. No. | Criterion                                    | Included | Reference                                                       |
+| :------: | -------------------------------------------- | -------- | --------------------------------------------------------------- |
+|    23    | PEGI 7 or lower.                             | Included | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+|    24    | Game loading times shouldn't be too long.    | Included | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+|    25    | The game should run at 60FPS.                | Included | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+|    26    | The game shouldn't crash.                    | Included | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+|    27    | The game should be fun.                      | Inlcuded | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+|    28    | The game shouldn't be too easy nor too hard. | Included | [Other](../analysis/features-of-the-proposed-solution.md#other) |
+
+### Criterion 23
+
+A low PEGI rating will allow more people to play my games so I haven't included any inappropriate content (such as blood) which will make my game a PEGI 3 (or, at most, a PEGI 7).
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Evidence of the Game not containing Inappropiate Content</p></figcaption></figure>
+
+### Criterion 24
+
+In all my development cycles there are no long loading times as the game doesn't need a lot of processing power to run. The longest waiting time is the Game Over screen (added in [Cycle 12](../design-and-development/cycle-12.md)) which was requested by the players as the instant scene transition often led to unwanted inputs (such as pressing the How-To-Play button immediately after dying).
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>A user response asking to add the Game-Over screen</p></figcaption></figure>
+
+### Criterion 25
+
+drops/increasesThe game needs to run at a consistent frame rate as many functions, such as movement, will vary if the frame rate drops/increases.
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Image showing the game runs at 60 FPS</p></figcaption></figure>
+
+### Criterion 26
+
+It is essential the game runs without crashing as the user cannot be entertained by an application which doesn't run.
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Image showing the game downloads and runs correctly for most people</p></figcaption></figure>
+
+As evidenced by the image above, the game runs correctly for all but one user. The reason for this is explained in [3.1 Testing for Function and Robustness](../testing/testing-for-function-and-robustness.md).
+
+### Criterion 27
+
+My primary goal for this game was to provide entertainment for its players. As shown by the graph below, I achieved that goal as the majority of users played the game for a long time.
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Graph showing the responses to the question "How long did you play the game for?"</p></figcaption></figure>
+
+### Criterion 28
+
+The game remained in the Goldilox Zone for most of its users which makes this feature successful.
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Graph showing the responses to the question "How easy was the game?"</p></figcaption></figure>
+
+## Conclusion
+
+Although I haven't included everything in the game I set out to achieve (such as weapon and enemy rarity), I have reached all the major goals I wanted to achieve as well as implemented some features I never considered before going deep into Bucket Knight's development.
