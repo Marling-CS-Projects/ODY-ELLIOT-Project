@@ -58,7 +58,9 @@ The game's sound effects were made using jsfxr and the music was created by Kevi
 
 Currently, the game does have a variety of levels but they only vary visually as they don't generate unique obstacle/enemy patterns. Functionally, the only thing they vary on is the number of enemies that are spawned. I consider this a partial success and in future cycles other features, such as breakable boxes, may be added so the level variety increases: keeping players entertained.&#x20;
 
+### Feature 8
 
+In this version of the game, there are three types of weapons each with their own unique uses.
 
 ## Error Tolerant
 
