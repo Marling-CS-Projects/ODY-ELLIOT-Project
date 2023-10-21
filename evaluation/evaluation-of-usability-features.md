@@ -9,11 +9,11 @@
 
 ### Feature 1
 
-Due to Bucket Knight's simplistic design, the game's goals were clear to players as they could quickly figure out what the game wanted them to do and how to achieve it (as evidenced in [3.2 Usability Testing](../testing/usability-testing.md)).
+Due to Bucket Knight's simplistic design, the game's goals were clear to players as they could quickly figure out what the game wanted them to do and how to achieve it (as evidenced in [3.2 Usability Testing](../testing/usability-testing.md)). This feature won't need to be developed further.
 
 ### Feature 2
 
-The level of challenge the game provided sat in the Goldilox Zone for most users which makes the game more entertaining to play as it isn't too easy (which causes boredom) and not too hard (which causes frustration).
+The level of challenge the game provided sat in the Goldilox Zone for most users which makes the game more entertaining to play as it isn't too easy (which causes boredom) and not too hard (which causes frustration). This feature doesn't need to be improved upon further but may be affected by future development as its success relies on the game as a whole.
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Graph showing the responses to the question "How easy was the game?"</p></figcaption></figure>
 
@@ -26,11 +26,11 @@ The level of challenge the game provided sat in the Goldilox Zone for most users
 
 ### Feature 3
 
-The game's Main Menu consists of two buttons: the Play button and the How-To-Play button. Both are large buttons and are well sign-posted so the user knows what each button does which makes the menu easy to navigate and use.
+The game's Main Menu consists of two buttons: the Play button and the How-To-Play button. Both are large buttons and are well sign-posted so the user knows what each button does which makes the menu easy to navigate and use. This feature won't need to be changed in the future.
 
 ### Feature 4
 
-The game has very basic controls which are easy to use making the game easy to pick up and play. The How-To-Play menu also makes these controls easier to learn.
+The game has very basic controls which are easy to use making the game easy to pick up and play. The How-To-Play menu also makes these controls easier to learn. This feature won't need to be developed further unless new abilities are added which require their own keybinds.
 
 ## Engaging
 
