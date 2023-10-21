@@ -60,7 +60,7 @@ Currently, the game does have a variety of levels but they only vary visually as
 
 ### Feature 8
 
-In this version of the game, there are three types of weapons each with their own unique uses.
+In this version of the game, there are three types of weapons each with their own unique uses. This is successful for now but the game's future development will include more weapons added to the game, such as a shotgun-style weapon.
 
 ## Error Tolerant
 
