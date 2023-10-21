@@ -30,7 +30,7 @@ The game's Main Menu consists of two buttons: the Play button and the How-To-Pla
 
 ### Feature 4
 
-The game has very basic controls which are easy to use and learn&#x20;
+The game has very basic controls which are easy to use making the game easy to pick up and play. The How-To-Play menu also makes these controls easier to learn.
 
 ## Engaging
 
