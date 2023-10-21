@@ -44,7 +44,15 @@ The game has very basic controls which are easy to use making the game easy to p
 
 ### Feature 5
 
-Detailed evaluation against criteria 1
+Everyone who played Bucket Knight liked the custom artwork made for it (evidenced by the graph below). This means this feature won't have to change and future assets will retain the same art style. One change that may be made in future development cycles is animating the sprites to make the game feel more lively.
+
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the art?"</p></figcaption></figure>
+
+### Feature 6
+
+The game's sound effects were made using jsfxr and the music was created by Kevin MacLeod. The game's audio received a mostly positive reception and I have deemed it successful. However, in future development cycles, I would like to compose my own music for the game.
+
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the audio"</p></figcaption></figure>
 
 ## Error Tolerant
 
