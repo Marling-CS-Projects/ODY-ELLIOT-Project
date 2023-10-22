@@ -30,7 +30,7 @@ The game's Main Menu consists of two buttons: the Play button and the How-To-Pla
 
 ### Feature 4
 
-The game has very basic controls which are easy to use making the game easy to pick up and play. The How-To-Play menu also makes these controls easier to learn. This feature won't need to be developed further unless new abilities are added which require their own keybinds.
+The game has very basic controls which are easy to use making the game easy to pick up and play. This feature won't need to be developed further unless new abilities are added which require their own keybinds.
 
 ## Engaging
 
@@ -40,7 +40,7 @@ The game has very basic controls which are easy to use making the game easy to p
 | 6           | Suitable Game Sound | Success         |
 | 7           | Variety of Levels   | Partial Success |
 | 8           | Variety of Weapons  | Success         |
-| 9           | Variety of Enemues  | Success         |
+| 9           | Variety of Enemies  | Success         |
 
 ### Feature 5
 
@@ -52,6 +52,10 @@ Everyone who played Bucket Knight liked the custom artwork made for it (evidence
 
 The game's sound effects were made using jsfxr and the music was created by Kevin MacLeod. The game's audio received a mostly positive reception and I have deemed it successful. However, in future development cycles, I would like to compose my own music for the game.
 
+{% hint style="info" %}
+jsfxr allows unrestricted commercial use and Kevin MacLeod's music can be used commercially if credited (which I have done).
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the audio"</p></figcaption></figure>
 
 ### Feature 7
@@ -62,21 +66,34 @@ Currently, the game does have a variety of levels but they only vary visually as
 
 In this version of the game, there are three types of weapons each with their own unique uses. This is successful for now but the game's future development will include more weapons added to the game, such as a shotgun-style weapon.
 
+### Feature 9
+
+There are three types of enemies in the game and each has unique stats and behaviours. This is a success for now, similar to the weapons, but more enemies may be added in future development cycles.
+
 ## Error Tolerant
 
-| Feature No. | Description         | Success/Fail   |
-| ----------- | ------------------- | -------------- |
-| 1           | Feature description | as appropriate |
+| Feature No. | Description                       | Success/Fail |
+| ----------- | --------------------------------- | ------------ |
+| 10          | The game doesn't crash            | Success      |
+| 11          | The game doesn't contain any bugs | Success      |
 
-### Feature 1
+### Feature 10
 
-Detailed evaluation against criteria 1
+For most users, the game downloaded and ran correctly implying that the game didn't crash. This means this is successful and its success will be maintained in future cycles.
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Image showing the game downloads and runs correctly for most people</p></figcaption></figure>
+
+### Feature 11
+
+As shown below, there were quite a few bugs in my game on its first release. All of these bugs were fixed in [Cycle 11](../design-and-development/cycle-11.md) in response to a video and the Google Form posted on the store page so this is a successful feature.
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Responses to the question "If there were any bugs, what were they and how did they occur?"</p></figcaption></figure>
 
 ## Easy To Learn
 
 | Feature No. | Description         | Success/Fail   |
 | ----------- | ------------------- | -------------- |
-| 1           | Feature description | as appropriate |
+| 12          | Feature description | as appropriate |
 
 ### Feature 1
 
