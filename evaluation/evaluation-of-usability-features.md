@@ -91,10 +91,15 @@ As shown below, there were quite a few bugs in my game on its first release. All
 
 ## Easy To Learn
 
-| Feature No. | Description         | Success/Fail   |
-| ----------- | ------------------- | -------------- |
-| 12          | Feature description | as appropriate |
+| Feature No. | Description                        | Success/Fail |
+| ----------- | ---------------------------------- | ------------ |
+| 12          | List the controls in-game          | Success      |
+| 13          | Explain how the game works in-game | Fail         |
 
-### Feature 1
+### Feature 12
 
-Detailed evaluation against criteria 1
+The How-To-Play screen shows the player all the controls they need to play the game so it is easier for them to learn the game. This will remain a successful feature and will have to be improved upon if new controls are added.
+
+### Feature 13
+
+Nowhere in the game explains how the features in the game work (such as weapon switching). Players normally learn how the game works after three or four rounds but this feature will need improvement in future development cycles as users are often surprised at features, such as weapons switching, when they first encounter it. A solution to this is creating a better How-To-Play screen which doesn't only contain the controls for the game but also text explaining the features in the game which may be confusing to newcomers.
