@@ -50,7 +50,7 @@ Everyone who played Bucket Knight liked the custom artwork made for it (evidence
 
 ### Feature 6
 
-The game's sound effects were made using jsfxr and the music was created by Kevin MacLeod. The game's audio received a mostly positive reception and I have deemed it successful. However, in future development cycles, I would like to compose my own music for the game.
+The game's sound effects were made using jsfxr and the music was created by Kevin MacLeod. The game's audio received a mostly positive reception and I have deemed it successful. However, in future development cycles, I would like to compose my own music for the game as well as add more soundtracks in order to add more variety as the same music can feel quite tedious after some time.
 
 {% hint style="info" %}
 jsfxr allows unrestricted commercial use and Kevin MacLeod's music can be used commercially if credited (which I have done).

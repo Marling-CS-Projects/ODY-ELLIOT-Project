@@ -1,9 +1,14 @@
 # 4.3 Maintenance and Future Development
 
-## Current Limitations of Project
+## Current Limitations of the Project
 
-* List things here
-* more than 1 thing. that makes it a list
+* Variety of Weapons
+* Variety of Enemies
+* Variety of Levels
+* Un-Animated Game Art
+* Variety of Music
+
+These limitations can be changed and expanded upon in future development cycles to improve the game&#x20;
 
 ## Maintenance
 
@@ -15,6 +20,6 @@ Describe aspects of maintainability
 
 describe aspects that might need tweaking
 
-### Long Term Addressing Limitations
+### Long-Term Addressing Limitations
 
 describe aspects that could be developed to address the limitations identified earlier
