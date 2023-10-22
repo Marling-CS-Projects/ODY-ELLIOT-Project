@@ -14,6 +14,8 @@ In conclusion, Bucket Knight has been an overall successful game due to positive
 ([https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project))
 {% endembed %}
 
+You can find the game's code as well as the documentation on GitHub.
+
 ### Store Page
 
 {% embed url="https://elliotody.itch.io/bucket-knight" %}
