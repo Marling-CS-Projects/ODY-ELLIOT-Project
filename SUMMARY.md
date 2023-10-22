@@ -41,3 +41,4 @@
 * [4.1 Evaluation of Success Criteria](evaluation/evaluation-of-success-criteria.md)
 * [4.2 Evaluation of Usability Features](evaluation/evaluation-of-usability-features.md)
 * [4.3 Maintenance and Future Development](evaluation/maintenance-and-future-development.md)
+* [4.4 Final Evaluation](evaluation/final-evaluation.md)

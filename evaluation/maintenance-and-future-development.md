@@ -15,7 +15,7 @@ These limitations can be changed, added to, and expanded upon in future developm
 
 Maintaining the game will require more resources as the game gets larger. At its current size, it would only take one person (me) to add new features and develop solutions to the project's current limitations. However, this is only a short-term solution because the project will increase in size after a certain point which would require a long-term solution where others would have to assist in developing the game.
 
-To continue to make the game I would either have to make the game open source (on platforms such as GitHub) or pay people to develop and maintain the game to keep it commercial.
+To continue to make the game I would either have to make the game open source (on platforms such as GitHub) or pay people to develop and maintain the game to keep it commercial. If I go for the latter option, I will have to charge money for the game in order to pay for the maintenance and development of the game.
 
 ## Future Development
 
@@ -53,4 +53,4 @@ More weapons and enemies will be added to the game to maintain the player-base's
 
 #### Platform Support
 
-The only way to play Bucket Knight is via a Windows computer. This isn't good as it significantly reduces the amount of people who can play the game
+The only way to play Bucket Knight is via a Windows computer which isn't good as it significantly reduces the amount of people who can play the game. To solve this, ports of the newest version will need to be created for other operating systems (such as MAC OS) as well as creating versions for different consoles (such as Nintendo Switch) and a version for mobile.
