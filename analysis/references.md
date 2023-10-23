@@ -210,4 +210,8 @@ description: A list of all the references used in this project (Harvard style)
 
 ## [1.6 Hardware and Software Requirements](references.md#1.6-hardware-and-software-requirements)
 
-##
+[PCGameBenchmark, n.d. .EXE System Requirements - Can I Run It? \[WWW Document\]. PCGameBenchmark. URL https://www.pcgamebenchmark.com/exe-system-requirements.](https://www.pcgamebenchmark.com/exe-system-requirements)
+
+[statcounter, 2023. Desktop Operating System Market Share Worldwide \[WWW Document\]. StatCounter Global Stats. URL https://gs.statcounter.com/os-market-share/desktop/worldwide.](https://gs.statcounter.com/os-market-share/desktop/worldwide)
+
+[TekTutorialsHub, 2018. How to Download & Install Visual Studio 2019 \[WWW Document\]. TekTutorialsHub. URL https://www.tektutorialshub.com/visual-studio/how-to-download-and-install-visual-studio-2019/#system-requirement-for-visual-studio-2019.](https://gs.statcounter.com/os-market-share/desktop/worldwide)
