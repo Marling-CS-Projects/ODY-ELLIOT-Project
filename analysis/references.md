@@ -160,4 +160,14 @@ description: A list of all the references used in this project (Harvard style)
 
 ### [Enemies](features-of-the-proposed-solution.md#enemies)
 
-###
+[Contributors to Moonlighter Wiki, 2018. Enemies. Fandom, Inc.](https://moonlighter.fandom.com/wiki/Enemies)
+
+[Contributors to Soul Knight Wiki, 2017. Enemies. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Enemies)
+
+[Digital Sun, 2023. Moonlighter - ARPG with rogue-lite and shopkeeping elements \[WWW Document\]. Kickstarter. URL https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de.](https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de)
+
+[Dunson, C., 2013. The Importance of Variety in Gaming. Game Developer.](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)
+
+[Simons, H., 2017. Soul Knight and Narcissus: this week’s top mobile games \[WWW Document\]. Gearburn. URL https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/.](https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/)
+
+### [Progression](features-of-the-proposed-solution.md#progression)

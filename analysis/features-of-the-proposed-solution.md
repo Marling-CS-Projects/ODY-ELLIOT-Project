@@ -110,17 +110,17 @@ As I plan to have 3 classes of weapons, there will be 3 classes of enemies as we
 
 Each enemy will have basic enemy AI unique to their respective class. For example, [Melee Enemies](features-of-the-proposed-solution.md#melee-class-enemies) will path-find and move straight towards the player but the more ranged classes' enemies will keep their distance from the player but still try to get a clear line of sight in order to damage the player.
 
-This will give the game more variety, like the weapons, which will allow the game to keep a player's attention ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)). This will also add more depth to the challenge the game provides as there are more obstacles to overcome.
+This will give the game more variety, like the weapons, which will allow the game to keep a player's attention ([Dunson, 2013](references.md#enemies)). This will also add more depth to the challenge the game provides as there are more obstacles to overcome.
 
 ### Melee Class Enemies
 
-<figure><img src="../.gitbook/assets/GleefulAdorableAplomadofalcon-max-1mb.gif" alt=""><figcaption><p><a href="https://gfycat.com/@unbuliebubble/collections/586884c5b45bbb2a201f5dff649e17c7/game_-_moonlighter">https://gfycat.com/@unbuliebubble/collections/586884c5b45bbb2a201f5dff649e17c7/game_-_moonlighter</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Melee Enemy from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#enemies">Contributors to Moonlighter Wiki, 2018</a>)</p></figcaption></figure>
 
 Melee class enemies have high health and try to get close to the player to deal a heavy blow using their melee weapon. They protect other, lower health enemies (hence the high stats) but are usually easy to evade.
 
 ### Ranger Class Enemies
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Enemies">https://soul-knight.fandom.com/wiki/Enemies</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Ranger enemies in <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
 
 Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#soul-knight)'s enemy bow users (as seen above). Enemies with a bow will require some charge-up time before they fire at the player. These characters will have high damage output but low health which will encourage the player to close in on them with a melee weapon which may put them at risk from other attackers (such as [Melee Class Enemies](features-of-the-proposed-solution.md#melee-class-enemies)).
 
@@ -128,7 +128,7 @@ Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#s
 
 These enemies will provide constant pressure towards the player due to their high projectile output.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/">https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Screenshot from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Simons, 2017</a>)</p></figcaption></figure>
 
 These enemies will act similarly to the enemies in [Soul Knight](research-the-problem.md#soul-knight) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) that use guns as they will constantly shoot at the player whenever they can. I have replaced the guns, however, with magic staffs as it fits the loose Medieval setting I am going for in the game's [story](features-of-the-proposed-solution.md#my-story) even though they share similar functionality. These enemies will have a moderate amount of health and low damage output per bullet.
 
@@ -136,7 +136,7 @@ These enemies will act similarly to the enemies in [Soul Knight](research-the-pr
 
 The boss class will be the toughest class to defeat due to bosses having high health, high damage output, and high projectile output.
 
-<figure><img src="../.gitbook/assets/d756d7016f0bf2835d15ff6d59b5a9f4_original.gif" alt=""><figcaption><p><a href="https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de">https://www.kickstarter.com/projects/digitalsun/moonlighter/description?lang=de</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/d756d7016f0bf2835d15ff6d59b5a9f4_original.gif" alt=""><figcaption><p>Boss from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#enemies">Digital Sun, 2023</a>)</p></figcaption></figure>
 
 However, a weakness of the boss should be movement. To make it easier for the player to defeat the boss, the boss shouldn't move so the player doesn't have to multitask movement and aiming. This is inspired by the Golem King from [Moonlighter](research-the-problem.md#moonlighter).
 
