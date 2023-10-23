@@ -192,4 +192,8 @@ description: A list of all the references used in this project (Harvard style)
 
 [Yates, A., 2022. Jump King Speedrun Guide – It’s Rude to Keep a Lady Waiting! - Avid Achievers \[WWW Document\]. Natalia Bickell. URL https://avidachievers.com/speedruns/jump-king-speedrun-guide/.](https://avidachievers.com/speedruns/jump-king-speedrun-guide/)
 
-### UI and HUD
+### [UI and HUD](features-of-the-proposed-solution.md#ui-and-hud)
+
+[Contributors to Soul Knight Wiki, 2017. Pause Menu. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Pause\_Menu)
+
+[Pluralsight, 2014. HUD Design That Works for Your Game \[WWW Document\]. Pluralsight. URL https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game.](https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game)

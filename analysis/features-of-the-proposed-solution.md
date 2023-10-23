@@ -220,11 +220,11 @@ In my game, placed in a loose Medieval setting, you will be playing a character 
 
 ## UI and HUD
 
-> "The HUD is what's displayed on the screen while the player is in the game. This shouldn't be confused with the user interface (UI), which can include all the different menus and interactive elements within the game. They often go hand in hand when game design is done well."([https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game](https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game))
+> "The HUD is what's displayed on the screen while the player is in the game. This shouldn't be confused with the user interface (UI), which can include all the different menus and interactive elements within the game. They often go hand in hand when game design is done well."([Pluralsight, 2014](references.md#ui-and-hud))
 
 ### Pause Menu
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Pause_Menu">https://soul-knight.fandom.com/wiki/Pause_Menu</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot of the Pause Menu from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#ui-and-hud">Contributors to Soul Knight Wiki, 2017)</a></p></figcaption></figure>
 
 In this pause menu mock-up (shown above) there is a "Play Button" (represented by '▶️') which will resume the game, a "How to Play Button" (represented by '❓') which will display an image demonstrating the controls of the game, and a "Quit Button" (represented by '❎') which will exit the current play session and go back the&#x20;
 
