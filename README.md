@@ -45,4 +45,8 @@ layout:
 | Centre Name      | Marling School |
 | Centre Number    | 57037          |
 
-Note to Assessor: This project has been created with interactive elements. In order to view as intended by the students, please follow the secure link below.
+**Note to Assessor**: This project has been created with interactive elements. In order to view as intended by the students, please follow the secure link below.
+
+{% embed url="https://app.gitbook.com/o/-MM_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/" %}
+([https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/](https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/))
+{% endembed %}
