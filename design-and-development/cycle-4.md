@@ -105,7 +105,7 @@ class EnemyComponent extends Component:
         else:
             return false
 
-    // Function to simulate the enemy being hit
+    // Function for the enemy being hit by the player's bullet
     function hit():
         health = health - 1
 ```
@@ -296,7 +296,21 @@ Another challenge was adding the cooldown to the player so the player couldn't b
 
 ## Testing
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn and Move towards the Mouse Position</td><td>The bullet was offset due</td><td>Fail</td></tr><tr><td>3</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn and Move towards the Mouse Position</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Run the Code</td><td>The new Melee Enemy to move towards the player</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Let the Enemy collide with the Player</td><td>The player to lose 1 health point and have 2 lives left</td><td>The player died</td><td>Fail</td></tr><tr><td>6</td><td>Let the Enemy collide with the Player</td><td>The player to lose 1 health point and have 2 lives left</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Let the Enemy collide with the Player</td><td>The right-most Heart should switch off</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Shoot a bullet at the enemy</td><td>The enemy to be destroyed </td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn and Move towards the Mouse Position</td><td>The bullet was offset</td><td>Fail</td></tr><tr><td>3</td><td>Left Click a Position in the Game World</td><td>A Bullet to Spawn and Move towards the Mouse Position</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Run the Code</td><td>The new Melee Enemy to move towards the player</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Let the Enemy collide with the Player</td><td>The player to lose 1 health point and have 2 lives left</td><td>The player died</td><td>Fail</td></tr><tr><td>6</td><td>Let the Enemy collide with the Player</td><td>The player to lose 1 health point and have 2 lives left</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Let the Enemy collide with the Player</td><td>The right-most Heart should switch off</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Shoot a bullet at the enemy</td><td>The enemy to be destroyed </td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
+### Testing Evidence
+
+#### Test 2
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+
+In the screenshot, the bullets are slightly offset from the mouse's position (the white dot represents where the mouse should be as Snipping Tool removes the mouse). This was fixed by decreasing the size of the bullet sprite.
+
+#### Test 5
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+
+The player was instantly killed by the enemy as there weren't any cooldowns. This meant that the player lost all of their health in three frames as the enemy could attack the player once every frame. To solve this, I added a cooldown to indicate whether or not the player could be hit which makes the player invincible for a while.
 
 ### Evidence
 
@@ -306,4 +320,4 @@ The video above shows the fourth cycle of my game ([https://youtu.be/ctZDqX19qA8
 
 The video above shows a working version of this cycle where the player can shoot bullets around the scene and the enemy moves towards the player at a constant speed.
 
-Something not clearly expressed in the video is the fact that bullets get destroyed when they collided with the wall objects (the red borders) but not the trigger objects (the blue borders). This is intentional as I plan to remove the trigger system in upcoming cycles but the wall system will remain the same (hence why I implemented bullet destruction on impact).
+Something not clearly expressed in the video is the fact that bullets get destroyed when they collide with the wall objects (the red borders) but not the trigger objects (the blue borders). This is intentional as I plan to remove the trigger system in upcoming cycles but the wall system will remain the same (hence why I implemented bullet destruction on impact).

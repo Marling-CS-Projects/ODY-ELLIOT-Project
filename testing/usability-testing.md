@@ -20,7 +20,7 @@ The form was created after [Cycle 10](../design-and-development/cycle-10.md) so 
 
 ### Effective
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
 
 The majority of people who responded to this question understood the game well / very well. This is great as it is extremely important that the players know what to do or they won't find the game entertaining. This is probably because of the simplicity of the game due to its arcade-style gameplay.
 
@@ -48,7 +48,7 @@ The majority of users played the game for a long time, liked the artwork, and li
 
 ### Error Tolerant
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "Did the game download and run correctly?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "Did the game download and run correctly?"</p></figcaption></figure>
 
 {% hint style="info" %}
 The one person whose game didn't run correctly was mentioned in [Testing for Function and Robustness](testing-for-function-and-robustness.md) and the problem came from them running the game on MacOS.
@@ -56,7 +56,7 @@ The one person whose game didn't run correctly was mentioned in [Testing for Fun
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Graph showing the responses to the question "Did the game lag?"</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Qualitative responses to the question "If there were any bugs, what were they and how did they occur?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Qualitative responses to the question "If there were any bugs, what were they and how did they occur?"</p></figcaption></figure>
 
 The vast majority of users said the game downloaded and ran correctly and all respondents said the game didn't lag. This was great as this meant the game was accessible to anyone with the correct hardware and software requirements ([Hardware and Software Requirements](../analysis/hardware-and-software-requirements.md)) and the game runs smoothly throughout which makes it more entertaining to play.
 
@@ -64,7 +64,7 @@ In response to the bugs found in my game, I created two patches (v1.1 and v1.2),
 
 ### Easy to Learn
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Graph showing the responses to the question "How helpful was the 'How-To-Play' screen?"</p></figcaption></figure>
 

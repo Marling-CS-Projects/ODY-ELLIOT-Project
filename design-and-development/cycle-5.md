@@ -2,7 +2,7 @@
 
 ## Design
 
-In this cycle, I will make the game have a more arcade-like feel. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically, with enemies, when the room has been cleared.
+In this cycle, I will give the game a more arcade-like feel as I felt it was diverging from the original plan of the game. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically, with enemies, when the room has been cleared.
 
 As well as that, I will improve the object creation system as I have identified a simple way to improve it.
 
@@ -113,7 +113,21 @@ There were also errors caused by the trigger objects. However, this didn't need 
 
 ## Testing
 
-<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>One Enemy to spawn inside the level and Pathfind to the Player</td><td>The Enemy spawned outside the level</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>One Enemy to spawn inside the level and Pathfind to the Player</td><td>The Enemy moved towarss the game origin rather than the player</td><td>Fail</td></tr><tr><td>3</td><td>Run code</td><td>One Enemy to spawn inside the level</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Run code</td><td>Multiple enemies to spawn inside the level</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Destroy all enemies in the level</td><td>To move on to the next level</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Destroy all enemies in the level</td><td>To move on to the next level and all bullets to be removed from the game</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Generate a new Level by destroying all the enemies</td><td>New enemies to spawn at random</td><td>As expected </td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>One Enemy to spawn inside the level and Pathfind to the Player</td><td>The Enemy spawned outside the level</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>One Enemy to spawn inside the level and Pathfind to the Player</td><td>The Enemy moved towards the game origin rather than the player</td><td>Fail</td></tr><tr><td>3</td><td>Run code</td><td>One Enemy to spawn inside the level</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Run code</td><td>Multiple enemies to spawn inside the level</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Destroy all enemies in the level</td><td>To move on to the next level</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Destroy all enemies in the level</td><td>To move on to the next level and all bullets to be removed from the game</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Generate a new Level by destroying all the enemies</td><td>New enemies to spawn at random</td><td>As expected </td><td>Pass</td></tr></tbody></table>
+
+### Testing Evidence
+
+#### Test 1
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+
+The enemy spawned outside of the level (evidenced by the above screenshot). This was a simple fix as I had incorrectly set the enemy spawn boundaries.&#x20;
+
+#### Test 2
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+
+Instead of moving towards the player, the Goblin enemy would move towards the origin (0,0). This was found to be a bug where the player's transform was incorrectly referenced so the transform's position would go back to the default of (0,0).
 
 ### Evidence
 
@@ -123,4 +137,4 @@ The video above shows the fifth cycle of my game ([https://youtu.be/8r4hyxzmFZ4]
 
 The video above shows the new dungeon progression system working as well as enemies spawning at random positions in the level away from the player. The console also logs the position of the newly spawned enemy (shown briefly at the beginning of the video).
 
-In the video, the player reaches the final level and is forced to repeatedly play it. This is because I haven't added a win condition or lose condition which I will add in a future game development cycle.
+In the video, the player reaches the final level and is forced to repeatedly play it. This is because I haven't added a win condition or lose condition as I am going to increase the number of levels in the game to give it more arcade-style gameplay.

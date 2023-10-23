@@ -2,7 +2,7 @@
 
 ## Soul Knight
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Cover image for the Nintendo Switch version of Soul Knight (<a href="references.md#soul-knight">Nintendo of Europe, 2019</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Cover image for the Nintendo Switch version of Soul Knight (<a href="references.md#soul-knight">Nintendo of Europe, 2019</a>)</p></figcaption></figure>
 
 ### Overview
 
@@ -72,7 +72,7 @@ Moonlighter uses the WASD keys for movement and the keys depicted in the picture
 
 ### Overview
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Enter the Gungeon Box Art (<a href="references.md#enter-the-gungeon">Crooks, 2016</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Enter the Gungeon Box Art (<a href="references.md#enter-the-gungeon">Crooks, 2016</a>)</p></figcaption></figure>
 
 One of the main mechanics of this game is the dodge roll (which the creators liked so much they named their company after it) which is designed to help players avoid the onslaught of projectiles fired at them from the bad guys.
 

@@ -40,7 +40,7 @@ The camera will be an orthographic camera, which is a camera that renders everyt
 
 #### Sprite Inspiration
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3).png">image (3).png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3) (1).png">image (3) (1).png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
 
 My character will be a mixture of all three of these designs with the pixel art style. I have named him "Bucket Knight".
 
@@ -58,7 +58,7 @@ Both players and enemies will have a set number of hit-points (HP) which will de
 
 The more damage the weapon does results in more HP being depleted and, when HP goes below or is equal to 0, the entity will be destroyed. If this entity is the player, the game will end and display a game on the screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#hp-and-damage">Digital Sun, 2020</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#hp-and-damage">Digital Sun, 2020</a>)</p></figcaption></figure>
 
 This system is used in all three previously mentioned games ([Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon))
 
@@ -70,7 +70,7 @@ The player will pick up weapons they find along the way in [chests](features-of-
 
 Each weapon will have a good and bad weapon match-up similar to the types in Pokémon.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Pokemon type match-ups (<a href="references.md#weapons">Kryshak-Karwowski, 2016</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Pokemon type match-ups (<a href="references.md#weapons">Kryshak-Karwowski, 2016</a>)</p></figcaption></figure>
 
 {% hint style="info" %}
 For my game:
@@ -120,7 +120,7 @@ Melee class enemies have high health and try to get close to the player to deal 
 
 ### Ranger Class Enemies
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Ranger enemies in <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Ranger enemies in <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
 
 Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#soul-knight)'s enemy bow users (as seen above). Enemies with a bow will require some charge-up time before they fire at the player. These characters will have high damage output but low health which will encourage the player to close in on them with a melee weapon which may put them at risk from other attackers (such as [Melee Class Enemies](features-of-the-proposed-solution.md#melee-class-enemies)).
 
@@ -128,7 +128,7 @@ Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#s
 
 These enemies will provide constant pressure towards the player due to their high projectile output.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Screenshot from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Simons, 2017</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Screenshot from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#enemies">Simons, 2017</a>)</p></figcaption></figure>
 
 These enemies will act similarly to the enemies in [Soul Knight](research-the-problem.md#soul-knight) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) that use guns as they will constantly shoot at the player whenever they can. I have replaced the guns, however, with magic staffs as it fits the loose Medieval setting I am going for in the game's [story](features-of-the-proposed-solution.md#my-story) even though they share similar functionality. These enemies will have a moderate amount of health and low damage output per bullet.
 
@@ -146,7 +146,7 @@ There will be 3 mini bosses and a final boss which will appear at the end of the
 
 In every room, there will be a small chance to contain a chest (similar to [Moonlighter](research-the-problem.md#moonlighter)).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#progression">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#progression">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
 
 In these chests, there will be either a new weapon or a health pickup so the player can keep on going for longer. As the player travels deeper into the dungeon their weapons will become worse compared to the level of the enemies (enemies grow stronger after each level). I have solved this problem by adding weapon rarities. This means that the weapons will have the same function but more damage per projectile.
 
@@ -254,7 +254,7 @@ Though I have included weapons I do not have the time to program and design more
 
 However, I will include rarities for weapons so players feel like there are more weapons than there are.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a> weapon tier list (<a href="references.md#limitations">chocolateChemist, 2019</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a> weapon tier list (<a href="references.md#limitations">chocolateChemist, 2019</a>)</p></figcaption></figure>
 
 ### Graphics
 

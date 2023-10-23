@@ -10,7 +10,7 @@ Cycle 2 revolves around the game's tile system which will work by accessing exte
 
 An example of what may be in the external file is shown below where the 0s and 1s correspond to different tiles, to be rendered, from the tile set.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
 
 ### Objectives
 
@@ -183,6 +183,14 @@ The main challenge was creating the tilemap system where you can use external fi
 ## Testing
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>All tiles were jumbled.</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>Tiles are in the shape of a smiley face.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Move the player into the wall</td><td>A console log stating there has been a collision between the player and the wall.</td><td>As expected</td><td>Pass</td></tr></tbody></table>
+
+### Testing Evidence
+
+#### Test 1
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A screenshot from the game</p></figcaption></figure>
+
+In the screenshot, all the tiles were jumbled up so they didn't resemble the intended picture. This was caused by the x-axis value being set incorrectly which caused the tiles to be arranged in the wrong order.
 
 ### Evidence
 
