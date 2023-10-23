@@ -57,7 +57,7 @@ The game must have as few errors as possible and, if an error occurs, it should 
 
 ### Easy To Learn
 
-The game should be intuitive and not over-complicated as players often get frustrated when the game isn't responding to what they want to do. I will make the controls similar to other games so players can easily pick them up if they've played similar games. The controls also will be simple so new gamers can quickly learn how to play the game.
+A game that's easy to learn is defined by how newcomers respond to the game. The game should be intuitive and not over-complicated as players often get frustrated when the game isn't responding to what they want to do. I will make the controls similar to other games so players can easily pick them up if they've played similar games. The controls also will be simple so new gamers can quickly learn how to play the game.
 
 The "how to play" screen will also help players understand the [controls](../analysis/features-of-the-proposed-solution.md#controls).
 

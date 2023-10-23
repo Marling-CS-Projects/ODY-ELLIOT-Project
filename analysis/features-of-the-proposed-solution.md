@@ -40,7 +40,7 @@ The camera will be an orthographic camera, which is a camera that renders everyt
 
 #### Sprite Inspiration
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (1).png">image (1).png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3).png">image (3).png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
 
 My character will be a mixture of all three of these designs with the pixel art style. I have named him "Bucket Knight".
 
@@ -58,7 +58,7 @@ Both players and enemies will have a set number of hit-points (HP) which will de
 
 The more damage the weapon does results in more HP being depleted and, when HP goes below or is equal to 0, the entity will be destroyed. If this entity is the player, the game will end and display a game on the screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#hp-and-damage">Digital Sun, 2020</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#hp-and-damage">Digital Sun, 2020</a>)</p></figcaption></figure>
 
 This system is used in all three previously mentioned games ([Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon))
 
@@ -70,7 +70,7 @@ The player will pick up weapons they find along the way in [chests](features-of-
 
 Each weapon will have a good and bad weapon match-up similar to the types in Pokémon.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Pokemon type match-ups (<a href="references.md#weapons">Kryshak-Karwowski, 2016</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Pokemon type match-ups (<a href="references.md#weapons">Kryshak-Karwowski, 2016</a>)</p></figcaption></figure>
 
 {% hint style="info" %}
 For my game:

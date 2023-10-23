@@ -6,7 +6,7 @@ Cycle 2 revolves around the game's tile system which will work by accessing exte
 
 An example of what may be in the external file is shown below where the 0s and 1s correspond to different tiles, to be rendered, from the tile set.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="504"><figcaption><p>This tile-map is of a 'Smiley-Face'</p></figcaption></figure>
 
 ### Objectives
 

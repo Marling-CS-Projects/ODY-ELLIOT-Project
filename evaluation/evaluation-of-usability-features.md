@@ -28,12 +28,12 @@ The game's Main Menu consists of two buttons: the Play button and the How-To-Pla
 
 ### Feature 4
 
-The game has very basic controls which are easy to use making the game easy to pick up and play. The game's controls are now responsive (thanks to the fixes in [Cycle 11](../design-and-development/cycle-11.md)) so this feature won't need to be developed further unless new abilities are added which require their own keybinds.
+The game has very basic controls which are easy to use making the game easy to pick up and play. The game's controls are now responsive (thanks to the fixes in [Cycle 12](../design-and-development/cycle-12.md)) so this feature won't need to be developed further unless new abilities are added which require their own keybinds.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A graph showing responses to the question "How responsive were the controls?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Graph showing the responses to the question "How responsive were the controls?"</p></figcaption></figure>
 
 {% hint style="info" %}
-The form was created before [Cycle 11](../design-and-development/cycle-11.md) so some of the respondents played the game before the v1.1 Patch.
+The form was created before [Cycle 12](../design-and-development/cycle-12.md) so some of the respondents played the game before the v1.2 Patch.
 {% endhint %}
 
 ## Engaging

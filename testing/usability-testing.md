@@ -20,7 +20,7 @@ The form was created after [Cycle 10](../design-and-development/cycle-10.md) so 
 
 ### Effective
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
 
 The majority of people who responded to this question understood the game well / very well. This is great as it is extremely important that the players know what to do or they won't find the game entertaining. This is probably because of the simplicity of the game due to its arcade-style gameplay.
 
@@ -32,9 +32,13 @@ The majority of users found the game's controls responsive. However, two users f
 
 ### Engaging
 
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the art?"</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the audio"</p></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Graph showing the responses to the question "How long did you play the game for?"</p></figcaption></figure>
 
-The majority of users played the game for a long time which suggests they found the game entertaining and fun. This was a great response to have as it made me quite happy to see people were finding my game engaging.
+The majority of users played the game for a long time, liked the artwork, and liked the game's audio which suggests they found the game entertaining and fun to play. This was a great response to receive as it made me quite happy to see people were finding my game engaging. This also means my main goal was successful as the main goal of a game is to be entertaining.
 
 ### Error Tolerant
 
@@ -54,7 +58,7 @@ In response to the bugs found in my game, I created two patches (v1.1 and v1.2),
 
 ### Easy to Learn
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "How well did you understand the game?"</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Graph showing the responses to the question "How helpful was the 'How-To-Play' screen?"</p></figcaption></figure>
 
