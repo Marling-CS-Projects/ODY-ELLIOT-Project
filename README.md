@@ -50,3 +50,7 @@ layout:
 {% embed url="https://app.gitbook.com/o/-MM_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/" %}
 ([https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/](https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/))
 {% endembed %}
+
+Alternatively, you could use the link [https://bit.ly/Elliot-Ody-Project](https://bit.ly/Elliot-Ody-Project) or scan the QR code below.
+
+<figure><img src=".gitbook/assets/bit.ly_Elliot-Ody-Project.png" alt="" width="360"><figcaption></figcaption></figure>
