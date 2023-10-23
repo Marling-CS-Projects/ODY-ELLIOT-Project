@@ -124,6 +124,10 @@ description: A list of all the references used in this project (Harvard style)
 
 ## [1.4a Features of Proposed Solution](features-of-the-proposed-solution.md)
 
+### [Player](features-of-the-proposed-solution.md#player)
+
+[Contributors to Enter the Gungeon Wiki, 2016. Dodge Roll (Move). Fandom, Inc.](https://enterthegungeon.fandom.com/wiki/Dodge\_Roll\_\(Move\))
+
 ### [Camera](features-of-the-proposed-solution.md#camera)
 
 [Prusa, J., 2021. Perspective/orthographic camera \[WWW Document\]. Prusa Knowledge Base. URL https://help.prusa3d.com/article/perspective-orthographic-camera\_1760.](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)

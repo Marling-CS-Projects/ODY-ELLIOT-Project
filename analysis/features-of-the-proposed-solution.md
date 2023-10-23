@@ -22,7 +22,7 @@ A combination of these inputs will allow diagonal movement (e.g. W and D will ca
 
 #### Rolling
 
-<figure><img src="../.gitbook/assets/Dodgeroll.webp" alt=""><figcaption><p><a href="https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)">https://enterthegungeon.fandom.com/wiki/Dodge_Roll_(Move)</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dodgeroll.webp" alt=""><figcaption><p>The Dodge Roll (<a href="references.md#player">Contributors to Enter the Gungeon Wiki, 2016</a>)</p></figcaption></figure>
 
 In both [Moonlighter](research-the-problem.md#moonlighter) and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon) the roll mechanic is vital for dodging attacks as well as movement around the dungeons. The roll ability will grant the player increased velocity in their current direction as well as invincibility for a short period of time.
 
