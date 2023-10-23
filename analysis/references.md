@@ -207,3 +207,7 @@ description: A list of all the references used in this project (Harvard style)
 [Barik, S., 2016. “Not Too Hard, Not Too Easy, Just Right,” Says The Goldilock’s Principle – YourDOST Blog \[WWW Document\]. Your Dost. URL https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html&.](https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html)
 
 [Corona, V., 2020. What Makes Video Games So Fun and Entertaining? \[WWW Document\]. Scholarly Open Access 2023. URL https://scholarlyoa.com/what-makes-video-games-so-fun/.](https://scholarlyoa.com/what-makes-video-games-so-fun/)
+
+## [1.6 Hardware and Software Requirements](references.md#1.6-hardware-and-software-requirements)
+
+##
