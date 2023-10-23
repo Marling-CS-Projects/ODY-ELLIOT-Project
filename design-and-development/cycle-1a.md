@@ -220,6 +220,6 @@ In the video above, the player has double the intended speed due to the player b
 
 In the video above a black, resizable screen is created as well as a player in the top left. This player has a rendered sprite attached to it and can move around the window using the WASD keys.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>This is a screenshot from the video above</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>This is a screenshot from the video above</p></figcaption></figure>
 
 The console logs the current position of the player as well as when the game is initialized, when the window is created, and when the game is cleaned (the game cleaned output message isn't shown in the video).

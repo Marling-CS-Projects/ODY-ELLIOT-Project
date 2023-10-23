@@ -112,4 +112,12 @@ description: A list of all the references used in this project (Harvard style)
 
 [Nintendo of Europe, 2018. Every adventure has to pay off! \[WWW Document\]. Nintendo of Europe GmbH. URL https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Moonlighter-1423773.html.](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Moonlighter-1423773.html)
 
-###
+### [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)
+
+[Crooks, D., 2016. Enter the Gungeon. IMDb.](https://www.imdb.com/title/tt5886006/)
+
+[Mr.Nails, 2016. What are all of the controls? \[WWW Document\]. Arqade. URL https://gaming.stackexchange.com/questions/277008/what-are-all-of-the-controls.](https://gaming.stackexchange.com/questions/277008/what-are-all-of-the-controls)
+
+[Robinson, A., 2016. Video of \[WWW Document\]. Family Gaming Database. URL https://www.familygamingdatabase.com/en-gb/game/Enter+The+Gungeon.](https://www.familygamingdatabase.com/en-gb/game/Enter+The+Gungeon)
+
+[Williams, M., 2016. Enter the Gungeon PC Review: A Fistful of Bullets. VG247.](https://www.vg247.com/enter-the-gungeon-pc-review-a-fistful-of-bullets)

@@ -72,21 +72,23 @@ Moonlighter uses the WASD keys for movement and the keys depicted in the picture
 
 ### Overview
 
-<figure><img src="../.gitbook/assets/image (2) (5).png" alt=""><figcaption><p><a href="https://www.nintendo.com/store/products/enter-the-gungeon-switch/">https://www.nintendo.com/store/products/enter-the-gungeon-switch/</a></p></figcaption></figure>
-
-Enter the Gungeon is a bullet hell rogue-like (rated PEGI 7) made for console and PC by Dodge Roll. You take on the role of a Gungeoneer with unique abilities and a weapon and must venture into the Gungeon to find a gun that can kill the past. In the Gungeon the player will encounter many enemies and bosses, each firing loads of projectiles, and, in true rogue-like fashion, the player will lose everything upon death (permadeath). It also has multiplayer options.
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Enter the Gungeon Box Art (<a href="references.md#enter-the-gungeon">Crooks, 2016</a>)</p></figcaption></figure>
 
 One of the main mechanics of this game is the dodge roll (which the creators liked so much they named their company after it) which is designed to help players avoid the onslaught of projectiles fired at them from the bad guys.
 
+
+
+Enter the Gungeon is a bullet hell rogue-like, rated PEGI 7, made for console and PC by Dodge Roll ([Robinson, 2016](references.md#enter-the-gungeon)). You take on the role of a Gungeoneer with unique abilities and a weapon and must venture into the Gungeon to find a gun that can kill the past. In the Gungeon the player will encounter many enemies and bosses, each firing loads of projectiles, and, in true rogue-like fashion, the player will lose everything upon death (permadeath). It also has multiplayer options.
+
 ### Controls
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p><a href="https://www.vg247.com/enter-the-gungeon-pc-review-a-fistful-of-bullets">https://www.vg247.com/enter-the-gungeon-pc-review-a-fistful-of-bullets</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>A screenshot from Enter the Gungeon (<a href="references.md#enter-the-gungeon">Williams, 2016</a>)</p></figcaption></figure>
 
 The main controls revolve around the WASD keys and the mouse (in the PC version). WASD is used for 8-directional movement. The mouse is used for aiming your gun and left click fires your gun. As well as that, the right click activates the dodge roll ability so the player can avoid bullets.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p><a href="https://gaming.stackexchange.com/questions/277008/what-are-all-of-the-controls">https://gaming.stackexchange.com/questions/277008/what-are-all-of-the-controls</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Control screen from Enter the Gungeon (<a href="references.md#enter-the-gungeon">Mr.Nails, 2016</a>)</p></figcaption></figure>
 
-There are a lot more controls in Enter the Gungeon than just those few (as shown above) which can be confusing for new players (especially if they haven't played many games beforehand).
+There are a lot more controls in Enter the Gungeon than just those few (as shown above) which can be confusing for new players (especially if they haven't played many video games beforehand).
 
 ### Features
 

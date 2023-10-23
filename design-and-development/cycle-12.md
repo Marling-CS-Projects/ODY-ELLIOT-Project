@@ -4,7 +4,7 @@
 
 This cycle was to add features in response to player requests I received from the [Bucket Knight Response Form](https://docs.google.com/forms/d/e/1FAIpQLSewdKSRPxViHy7iZwTl3iMBZkAM8XL76dQIEQXJQ5ZiwxuIdg/viewform). Most requests were to improve the balance of the weapons in the game, but there were some highly requested features I had to implement (such as a game-over screen).
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Requests for a Game Over screen and a Pause Menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Requests for a Game Over screen and a Pause Menu</p></figcaption></figure>
 
 ### Objectives
 
