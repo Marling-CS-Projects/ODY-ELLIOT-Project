@@ -176,4 +176,10 @@ description: A list of all the references used in this project (Harvard style)
 
 [Contributors to Soul Knight Wiki, 2017. Chests. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Chests)
 
-### [Procedural Generation](features-of-the-proposed-solution.md#procedural-generation)
+### [Controls](features-of-the-proposed-solution.md#controls)
+
+[uxwing, n.d. Mouse Scroll Wheel icon PNG and SVG Vector Free Download \[WWW Document\]. UXWing. URL https://uxwing.com/mouse-scroll-wheel-icon/.](https://uxwing.com/mouse-scroll-wheel-icon/)
+
+[White Barbie, n.d. Mouse Buttons Vector Illustration Demonstration Left Stock Vector (Royalty Free) 301091408 \[WWW Document\]. Shutterstock. URL https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408.](https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408)
+
+### [Story](features-of-the-proposed-solution.md#story)
