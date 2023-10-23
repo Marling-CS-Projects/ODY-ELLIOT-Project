@@ -26,13 +26,13 @@ Thinking procedurally and decomposition in computer science involve breaking dow
 
 Example:
 
-* When making a cup of tea you can decompose the task into sub-tasks like 'boil the kettle' and 'get the milk out of the fridge'. Then you can create a procedure to follow these sub-tasks in order and eventually make a cup of tea.
+* When making a cup of tea you can break up the task into sub-tasks such as 'boil the kettle' and 'get the milk out of the fridge'. From there, you can create a procedure to follow these sub-tasks in order and eventually make a cup of tea.
 
-Thinking procedurally and decomposition goes well with visualization as the diagrams created are done step-by-step.
+Thinking procedurally and decomposition goes well with the idea of abstraction and visualization as the diagrams created are done step-by-step.
 
 ## Thinking Logically
 
-Thinking logically in computer science involves systematically analyzing problems and breaking them down into smaller parts, identifying patterns, and using logic to arrive at accurate conclusions. It is crucial for problem-solving, algorithm design, and programming as it enables programmers to create logical sequences and address errors. Logical thinking helps computer scientists develop effective solutions for complex computational problems.
+Thinking logically in computer science involves systematically analyzing problems and breaking them down into smaller parts, identifying their patterns, and then using logic to arrive at an accurate conclusion. It is needed by computer scientists for problem-solving and algorithm design as it helps programmers create working code. Logical thinking can also be used in addressing errors (debugging) as it can determine the cause of the problem. Logical thinking is essential for good game design as it helps us to develop effective solutions for complex computational problems.
 
 Examples:
 
