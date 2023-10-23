@@ -98,10 +98,10 @@ There are a lot more controls in Enter the Gungeon than just those few (as shown
 {% endtab %}
 
 {% tab title="Features I won't include" %}
-<table><thead><tr><th width="217">Feature</th><th>Justification</th></tr></thead><tbody><tr><td>Different Starting Characters </td><td>Due to constraints on this project I feel like I cannot make each character unique enough to justify its existence in the game.</td></tr><tr><td>Multiplayer</td><td>Multiplayer will be difficult to implement so I will leave it out of this project.</td></tr><tr><td>Loads of Weapons</td><td>This will be hard to implement and may just result in weapons being buffed / nerfed reskins of other weapons.</td></tr></tbody></table>
+<table><thead><tr><th width="217">Feature</th><th>Justification</th></tr></thead><tbody><tr><td>Different Starting Characters </td><td>Due to constraints on this project I feel like I cannot make each character unique enough to justify its existence in the game.</td></tr><tr><td>Multiplayer</td><td>Multiplayer will be difficult to implement so I will leave it out of this project.</td></tr><tr><td>Loads of Weapons</td><td>This will be hard to implement and may result in weapons being buffed/nerfed reskins of other weapons.</td></tr><tr><td>References to Tobacco and other Adult Themes</td><td>Though it is rated PEGI 7, Enter the Gungeon has references to topics that would raise my PEGI rating (which goes against what I've said in <a href="stakeholders.md">Stakeholders</a>).</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
 ## PEGI Rating
 
-My game is going to have aspects of all these games and these games are all rated PEGI 7 which will fit my criteria of a low-rated game as previously mentioned in my [Stakeholders](stakeholders.md) section.
+My game is going to have aspects of all these games and these games are all rated PEGI 7 and contain more adult themes (such as references and use of tobacco) so my game will definitely fit my criteria of a low-rated game (previously mentioned in my [Stakeholders](stakeholders.md) section).

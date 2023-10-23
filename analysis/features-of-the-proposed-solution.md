@@ -38,6 +38,8 @@ The camera will be an orthographic camera, which is a camera that renders everyt
 
 ### Character
 
+The character of Bucket Knight will have a cartoonish look to fit in with the low PEGI rating mentioned in [Stakeholders](stakeholders.md).
+
 #### Sprite Inspiration
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3) (1).png">image (3) (1).png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
@@ -270,7 +272,7 @@ I leaving multiple starting characters out of the game (like [Moonlighter](resea
 
 ### Sounds
 
-As I am not a professional composer or floey artist, the original sound for my game will be difficult to create. However, I will include uncopyrighted sound effects and music in my game, even if it isn't original, in order to retain a higher level of player engagement as it generates user feedback and immersion ([Porokh, 2023](references.md#limitations)).
+As I am not a professional composer or floey artist, the original sound for my game will be difficult to create. However, I will include uncopyrighted sound effects and music in my game, even if it isn't original, in order to retain a higher level of player engagement as it generates user feedback and immersion ([Porokh, 2023](references.md#limitations)). The sounds will resemble arcade-style sounds and won't contain any inappropiate words or phrases to fit in with my wanted PEGI rating ([Stakeholders](stakeholders.md)).
 
 ## Other&#x20;
 
