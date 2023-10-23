@@ -27,7 +27,7 @@ I am currently unaware of any bugs that are in the current release of Bucket Kni
 
 #### Code Clean Up
 
-Some parts of my code can be described as Spaghetti code, as it has no defined structure, so will be hard for other people to understand my code. This would make it impossible for efficient collaboration as the majority of the time spent working on the project would be understanding what is already there. To clean up the code I would make more features self-contained as well as stick to more code conventions (such as making Get functions for variables so they cannot be changed outside of their class).
+Some parts of my code can be described as Spaghetti code, as it has no defined structure, so will be hard for other people to understand my code. This would make it impossible for efficient collaboration as the majority of the time spent working on the project would be understanding what is already there. To clean up the code I would make more features self-contained as well as stick to more code conventions (such as making Get functions for variables so they cannot be changed outside of their class). I could also add descriptive comments to my code to help people understand what is going on.
 
 #### Level Variation
 

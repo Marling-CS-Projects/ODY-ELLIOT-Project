@@ -171,3 +171,7 @@ description: A list of all the references used in this project (Harvard style)
 [Simons, H., 2017. Soul Knight and Narcissus: this week’s top mobile games \[WWW Document\]. Gearburn. URL https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/.](https://memeburn.com/gearburn/2017/02/soul-knight-and-narcissus-this-weeks-top-mobile-games/)
 
 ### [Progression](features-of-the-proposed-solution.md#progression)
+
+[Contributors to Fortnite Wiki, 2017. Rarity. Fandom, Inc.](https://fortnite.fandom.com/wiki/Rarity)
+
+[Contributors to Soul Knight Wiki, 2017. Chests. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Chests)

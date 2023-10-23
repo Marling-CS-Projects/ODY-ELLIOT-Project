@@ -146,11 +146,9 @@ There will be 3 mini bosses and a final boss which will appear at the end of the
 
 In every room, there will be a small chance to contain a chest (similar to [Moonlighter](research-the-problem.md#moonlighter)).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> <a href="https://soul-knight.fandom.com/wiki/Chests">https://soul-knight.fandom.com/wiki/Chests</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#progression">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
 
-In these chests, there will be either a new weapon or a health pickup so the player can keep on going for longer.
-
-As the player travels deeper into the dungeon their weapons will become worse compared to the level of the enemies (enemies grow stronger after each level). I have solved this problem by adding weapon rarities. This means that the weapons will have the same function but so more damage per projectile.
+In these chests, there will be either a new weapon or a health pickup so the player can keep on going for longer. As the player travels deeper into the dungeon their weapons will become worse compared to the level of the enemies (enemies grow stronger after each level). I have solved this problem by adding weapon rarities. This means that the weapons will have the same function but more damage per projectile.
 
 > <mark style="color:yellow;">Legendary</mark> - Adds +3 damage and even faster firing speed
 >
@@ -164,7 +162,7 @@ As the player travels deeper into the dungeon their weapons will become worse co
 
 Each weapon can be legendary or common etc depending on the player's luck (which will increase every level).
 
-The colouring system of these rarities is similar to Fortnite ([https://fortnite.fandom.com/wiki/Rarity](https://fortnite.fandom.com/wiki/Rarity)) and other games which will help the player realize which weapon is better (the weapon name text will be coloured to match its rarity).&#x20;
+The colouring system of these rarities is similar to Fortnite ([Contributors to Fortnite Wiki, 2017](references.md#progression)) and other games which will help the player realize which weapon is better (the weapon name text will be coloured to match its rarity).&#x20;
 
 These rarities will also apply to enemies allowing enemies to grow in strength as the character gets stronger allowing for later levels to be more challenging than the previous ones. However, enemy rarities will buff the enemies' stats as a whole rather than just their weapons.
 
