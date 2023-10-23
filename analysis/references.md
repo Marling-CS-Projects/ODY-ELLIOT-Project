@@ -208,6 +208,8 @@ description: A list of all the references used in this project (Harvard style)
 
 [Corona, V., 2020. What Makes Video Games So Fun and Entertaining? \[WWW Document\]. Scholarly Open Access 2023. URL https://scholarlyoa.com/what-makes-video-games-so-fun/.](https://scholarlyoa.com/what-makes-video-games-so-fun/)
 
+## [1.4b Computational Methods](references.md#1.4b-computational-methods)
+
 ## [1.6 Hardware and Software Requirements](references.md#1.6-hardware-and-software-requirements)
 
 [PCGameBenchmark, n.d. .EXE System Requirements - Can I Run It? \[WWW Document\]. PCGameBenchmark. URL https://www.pcgamebenchmark.com/exe-system-requirements.](https://www.pcgamebenchmark.com/exe-system-requirements)
