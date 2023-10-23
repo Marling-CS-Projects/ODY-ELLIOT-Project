@@ -210,6 +210,8 @@ description: A list of all the references used in this project (Harvard style)
 
 ## [1.4b Computational Methods](references.md#1.4b-computational-methods)
 
+[Francis, J., 2022. What is Workflow Diagram? - How to Create & Use Them. Kissflow.](https://kissflow.com/workflow/workflow-diagrams-jargon-free-guide/)
+
 ## [1.6 Hardware and Software Requirements](references.md#1.6-hardware-and-software-requirements)
 
 [PCGameBenchmark, n.d. .EXE System Requirements - Can I Run It? \[WWW Document\]. PCGameBenchmark. URL https://www.pcgamebenchmark.com/exe-system-requirements.](https://www.pcgamebenchmark.com/exe-system-requirements)

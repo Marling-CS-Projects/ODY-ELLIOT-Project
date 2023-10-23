@@ -12,7 +12,7 @@ Examples:
 
 After abstracting problems, we can use diagrams to visualize the steps required to get to the solution and solve the large problem step-by-step.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>(Francis, 2022)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>A flowchart can be used to represent abstracted processes (Image: <a href="references.md#1.4b-computational-methods">Francis, 2022</a>)</p></figcaption></figure>
 
 ## Thinking Ahead
 
