@@ -1,5 +1,9 @@
 # 2.2.2 Cycle 2
 
+{% hint style="danger" %}
+Most of the code added in this cycle was created by Let's Make Games on YouTube ([https://www.youtube.com/@CarlBirch](https://www.youtube.com/@CarlBirch)). The tutorials he created helped me learn C++ and SDL2 so I could go on to later create the rest of the game.
+{% endhint %}
+
 ## Design
 
 Cycle 2 revolves around the game's tile system which will work by accessing external '.txt' files and then creating a tile map using the external files and the tile set.

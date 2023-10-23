@@ -8,7 +8,7 @@ The diagram above shows different sections of the game which I'll focus on makin
 
 ## Usability Features
 
-Usability is a vital aspect of my game as I want my game to be enjoyed by as many people as possible. To create the best possible user experience there are five key points which I will use while developing my project.
+Usability is a vital aspect of my game as I want my game to be enjoyed by as many people as possible. To generate the best possible user experience, for my game Bucket Knight, there are five key points which I will use while developing my project.
 
 These are:
 
@@ -48,7 +48,7 @@ Engagement is arguably the most important usability feature as it requires the s
 
 ### Error Tolerant
 
-The game must have as few errors as possible and, if an error occurs, it should be corrected by the solution. To do this, I will write code to manage a variety of scenarios and keep testing the game (trying to break it) to prevent it from crashing or breaking the game when someone is playing it.
+The game must have as few errors as possible as it would damage a player's experience. To do this, the game will be vigorously tested (with the intent to break the game) in order to find identity and fix the bugs in my game so that errors that do exist will only be seen by me or a play-tester and not a real user.
 
 #### Aims
 
@@ -57,7 +57,7 @@ The game must have as few errors as possible and, if an error occurs, it should 
 
 ### Easy To Learn
 
-A game that's easy to learn is defined by how newcomers respond to the game. The game should be intuitive and not over-complicated as players often get frustrated when the game isn't responding to what they want to do. I will make the controls similar to other games so players can easily pick them up if they've played similar games. The controls also will be simple so new gamers can quickly learn how to play the game.
+A game that's easy to learn is defined by how newcomers respond to the game. The game should be intuitive as players often get frustrated when the game isn't responding to what they want the character to do. I will also make the controls similar to other games (such as the user of WASD for movement controls) so players can easily pick them up if they've played similar games. The controls also will be simple so new gamers can quickly learn how to play the game.
 
 The "how to play" screen will also help players understand the [controls](../analysis/features-of-the-proposed-solution.md#controls).
 

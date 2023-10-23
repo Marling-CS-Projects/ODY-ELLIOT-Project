@@ -1,5 +1,9 @@
 # 2.2.1a Cycle 1a
 
+{% hint style="danger" %}
+Most of the code added in this cycle was created by Let's Make Games on YouTube ([https://www.youtube.com/@CarlBirch](https://www.youtube.com/@CarlBirch)). The tutorials he created helped me learn C++ and SDL2 so I could go on to later create the rest of the game.
+{% endhint %}
+
 ## Design
 
 This is the first cycle of my game 'Bucket Knight' so the primary goal is to set-up the project by incorporating the SDL2 library into the solution and creating a basic player.
@@ -26,17 +30,17 @@ Sprite Contrast - The sprite will have a white outline to contrast with the blac
 {% code title="Game Loop" %}
 ```cpp
 game = new Game();  // Create a new instance of the Game class
-game->initialize_game(title, size);  // Initialize the game with specified title and size
+game->initialize_game(title, size);  // Initialize the game with specified title and screen size
 
 // Main game loop
 while (game is running)
 {
     game->get_inputs();  // Get user inputs
-    game->update();  // Update the game state
-    game->render();  // Render the game to the screen
+    game->update();  // Update the game
+    game->render();  // Render the game's sprites to the screen
 }
 
-game->clean_memory();  // Clean up memory to free resources before exiting
+game->clean_memory();  // Clean up memory to free RAM before exiting
 ```
 {% endcode %}
 
@@ -49,7 +53,7 @@ if W is pressed:
     // If 'W' is pressed, move the character UP at a specified speed
     move(UP, speed)
 
-// Check if the 'S' key is pressed, but only if 'W' is not pressed (avoid conflicting input)
+// Else check if the 'S' key is pressed
 else if S is pressed:
     // If 'S' is pressed, move the character DOWN at a specified speed
     move(DOWN, speed)
@@ -59,7 +63,7 @@ if A is pressed:
     // If 'A' is pressed, move the character LEFT at a specified speed
     move(LEFT, speed)
 
-// Check if the 'D' key is pressed, but only if 'A' is not pressed (avoid conflicting input)
+// Else check if the 'D' key is pressed
 else if D is pressed:
     // If 'D' is pressed, move the character RIGHT at a specified speed
     move(RIGHT, speed)
@@ -119,7 +123,7 @@ int main(int argc, char *arg[])
         }
     }
 
-    game->clean(); // Clean up and free resources
+    game->clean(); // Clean up and free resources when the game ends
 
     return 0;
 }
@@ -131,7 +135,7 @@ int main(int argc, char *arg[])
 As well as that, `main.cpp` sets the frame rate to 60FPS in order to make the game the same for all devices.
 
 {% hint style="info" %}
-When the game is run without the frame rate set to 60FPS, the game will run at the maximum possible frame rate resulting in faster computers calling the update function more frequently than slower computers. By setting the frame rate, all users will experience the game as intended.
+When the game is run without the frame rate set to 60FPS, the game will run at the maximum possible frame rate resulting in faster computers calling the update function more frequently than slower computers. By setting the frame rate, all users will experience the game as intended and won't use all of their computer's resources.
 {% endhint %}
 
 {% code title="Player Input Controller" %}
@@ -146,46 +150,46 @@ public:
 
     void init() override
     {
-        // Initialize the pointer to the TransformComponent
+        // Initialize the pointer to the transform component
         transform = &entity->getComponent<TransformComponent>();
     }
 
     void update() override
     {
-        // Check for key presses and set the velocity of the entity's transform accordingly
+        // Check for key presses
         if (Game::event.type == SDL_KEYDOWN)
         {
             switch (Game::event.key.keysym.sym)
             {
-            case SDLK_w:
-                transform->velocity.y = -1; // Move upward (negative Y velocity) when 'W' key is pressed
+            case SDLK_w: // W key is held down
+                transform->velocity.y = -1; // Move upward (negative Y velocity)
                 break;
-            case SDLK_s:
-                transform->velocity.y = 1; // Move downward (positive Y velocity) when 'S' key is pressed
+            case SDLK_s: // S key is held down
+                transform->velocity.y = 1; // Move downward (positive Y velocity)
                 break;
-            case SDLK_d:
-                transform->velocity.x = 1; // Move rightward (positive X velocity) when 'D' key is pressed
+            case SDLK_d: // D key is held down
+                transform->velocity.x = 1; // Move rightward (positive X velocity)
                 break;
-            case SDLK_a:
-                transform->velocity.x = -1; // Move leftward (negative X velocity) when 'A' key is pressed
+            case SDLK_a: // A key is held down
+                transform->velocity.x = -1; // Move leftward (negative X velocity)
                 break;
             default:
                 break;
             }
         }
 
-        // Check for key releases and reset the velocity of the entity's transform accordingly
+        // Check for key releases
         if (Game::event.type == SDL_KEYUP)
         {
             switch (Game::event.key.keysym.sym)
             {
             case SDLK_w:
             case SDLK_s:
-                transform->velocity.y = 0; // Stop vertical movement when 'W' or 'S' key is released
+                transform->velocity.y = 0; // Stop the vertical movement when the 'W' or 'S' key is released
                 break;
             case SDLK_d:
             case SDLK_a:
-                transform->velocity.x = 0; // Stop horizontal movement when 'D' or 'A' key is released
+                transform->velocity.x = 0; // Stop the horizontal movement when the 'D' or 'A' key is released
                 break;
             default:
                 break;
@@ -196,7 +200,7 @@ public:
 ```
 {% endcode %}
 
-In `InputComponent.h` the entities transform component's velocity (which should have been direction due to it creating a direction vector) is updated using the player's inputs (which is handled by the SDL library). The keyboard controller class inherits from the component class which is defined in the `ECS.h` file. Components are gone into more detail in [Cycle 1b](cycle-1b.md) (which is a sub-section of this cycle).
+In `InputComponent.h` the entities transform component's velocity (which should have been direction due to it creating a direction vector) is updated using the player's inputs (which are handled by the SDL library). The keyboard controller class inherits from the component class which is defined in the `ECS.h` file. Components are gone into more detail in [Cycle 1b](cycle-1b.md) (which is a sub-section of this cycle).
 
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%201).
 

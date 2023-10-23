@@ -32,13 +32,19 @@ The majority of users found the game's controls responsive. However, two users f
 
 ### Engaging
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the art?"</p></figcaption></figure>
+<div>
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the audio"</p></figcaption></figure>
 
+ 
+
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>A graph showing responses to the question "How much did you like the art?"</p></figcaption></figure>
+
+</div>
+
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Graph showing the responses to the question "How long did you play the game for?"</p></figcaption></figure>
 
-The majority of users played the game for a long time, liked the artwork, and liked the game's audio which suggests they found the game entertaining and fun to play. This was a great response to receive as it made me quite happy to see people were finding my game engaging. This also means my main goal was successful as the main goal of a game is to be entertaining.
+The majority of users played the game for a long time, liked the artwork, and liked the game's audio which suggests they found the game entertaining and fun to play. This also implies there was enough variety in the game as it kept users engaged for a long time. This was a great response to receive as it made me quite happy to see people were finding my game engaging. This also means my main goal was successful as the main goal of a game is to be entertaining.
 
 ### Error Tolerant
 

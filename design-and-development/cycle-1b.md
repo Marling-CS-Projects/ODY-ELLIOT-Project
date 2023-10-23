@@ -1,8 +1,12 @@
 # 2.2.1b Cycle 1b
 
+{% hint style="danger" %}
+Most of the code added in this cycle was created by Let's Make Games on YouTube ([https://www.youtube.com/@CarlBirch](https://www.youtube.com/@CarlBirch)). The tutorials he created helped me learn C++ and SDL2 so I could go on to later create the rest of the game.
+{% endhint %}
+
 ## Design
 
-In this cycle, I aim to create an Entity Component System (ECS) which will streamline development by handling everything about the entities in the game (such as position). The ECS is the backbone of the game's game engine.
+In this cycle, I added an Entity Component System (ECS) to my project which will streamline development by handling everything about the entities in the game (such as position). The ECS is the backbone of the game's game engine.
 
 This cycle is a sub-section of[ Cycle 1a](cycle-1a.md).
 
@@ -11,7 +15,7 @@ This cycle is a sub-section of[ Cycle 1a](cycle-1a.md).
 In this cycle, I will:
 
 * [x] Create an Entity Management System
-* [x] Create a Transform Component (to manage an entities position)
+* [x] Create a Transform Component (to manage an entity's position)
 * [x] Create a Sprite Component (to render the entity to the screen)
 * [x] An Input Component (for player input)
 
@@ -25,11 +29,11 @@ manager = new Manager()
 // Create a player entity and add it to the manager
 player = manager.AddEntity()
 
-// Game initialization
+// Game initialization function
 function Game.init():
     // Other initialization code here
     
-    // Add necessary components to the player entity
+    // Add the necessary components to the player entity
     player.AddComponent(TransformComponent)
     player.AddComponent(SpriteComponent)
     player.AddComponent(InputComponent)
@@ -70,7 +74,7 @@ class Transform : Component
 class Sprite : Component
 {
     SDL_Texture texture;
-    Transform transform;  // Reference to the object's transform component
+    Transform transform;  // Reference to the entity's transform component
 
     // Initialize the sprite with a texture loaded from a file path
     void init(path)
