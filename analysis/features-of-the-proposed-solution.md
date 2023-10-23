@@ -40,17 +40,17 @@ The camera will be an orthographic camera, which is a camera that renders everyt
 
 #### Sprite Inspiration
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348">https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348</a></td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td><a href="https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/">https://www.pngkit.com/view/u2w7r5e6e6w7y3y3_shovel-knight-shovel-knight-pixel-sprite/</a></td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image (3) (2) (1).png">image (3) (2) (1).png</a></td></tr><tr><td><br><a href="https://soul-knight.fandom.com/es/wiki/Caballero">https://soul-knight.fandom.com/es/wiki/Caballero</a></td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#character">Don’t Pocket Me, 2020</a>)</td><td>I like the simplicity of the Gungeoneers' designs in <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a>.</td><td><a href="../.gitbook/assets/image (5) (2) (1).png">image (5) (2) (1).png</a></td></tr><tr><td>(<a href="references.md#character">CharacterArt, 2015</a>)</td><td>I like how Shovel Knight's helmet is designed. I particularly like the "T" being colored black. </td><td><a href="../.gitbook/assets/image.png">image.png</a></td></tr><tr><td>(<a href="references.md#character">Contributors to Soul Knight Wiki, 2017</a>)</td><td>I like how the Knight character from <a href="research-the-problem.md#soul-knight">Soul Knight</a> is textured and colored.</td><td><a href="../.gitbook/assets/image (11) (1).png">image (11) (1).png</a></td></tr></tbody></table>
 
 My character will be a mixture of all three of these designs with the pixel art style. I have named him "Bucket Knight".
 
-<figure><img src="../.gitbook/assets/Bucket Knight Concept.png" alt=""><figcaption><p>A early rendition of "Bucket Knight"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bucket Knight Concept.png" alt=""><figcaption><p>Bucket Knight Sprite</p></figcaption></figure>
 
 #### Animation
 
-<figure><img src="../.gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption><p><a href="https://www.spriters-resource.com/pc_computer/enterthegungeon/sheet/155740/">https://www.spriters-resource.com/pc_computer/enterthegungeon/sheet/155740/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption><p>Sprites for the Convict from <a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a> (<a href="references.md#character">Dr. FLavin, 2016</a>)</p></figcaption></figure>
 
-I like to [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)'s bouncy animations (as shown in the sprite sheet above) as it gives the game a good amount of character. This combined with [Soul Knight](research-the-problem.md#soul-knight)'s paper cut-out animation style would make for a great, unique animation style.
+I like to [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)'s bouncy animations (as shown in the sprite sheet above) as they give the game a good amount of character. This combined with [Soul Knight](research-the-problem.md#soul-knight)'s paper cut-out animation style would make for a great, unique animation style.
 
 ## HP and Damage
 
@@ -120,7 +120,7 @@ Melee class enemies have high health and try to get close to the player to deal 
 
 ### Ranger Class Enemies
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Enemies">https://soul-knight.fandom.com/wiki/Enemies</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Enemies">https://soul-knight.fandom.com/wiki/Enemies</a></p></figcaption></figure>
 
 Ranger-class enemies will be inspired by [Soul Knight](research-the-problem.md#soul-knight)'s enemy bow users (as seen above). Enemies with a bow will require some charge-up time before they fire at the player. These characters will have high damage output but low health which will encourage the player to close in on them with a melee weapon which may put them at risk from other attackers (such as [Melee Class Enemies](features-of-the-proposed-solution.md#melee-class-enemies)).
 
@@ -146,7 +146,7 @@ There will be 3 mini bosses and a final boss which will appear at the end of the
 
 In every room, there will be a small chance to contain a chest (similar to [Moonlighter](research-the-problem.md#moonlighter)).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> <a href="https://soul-knight.fandom.com/wiki/Chests">https://soul-knight.fandom.com/wiki/Chests</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Chest from <a href="research-the-problem.md#soul-knight">Soul Knight</a> <a href="https://soul-knight.fandom.com/wiki/Chests">https://soul-knight.fandom.com/wiki/Chests</a></p></figcaption></figure>
 
 In these chests, there will be either a new weapon or a health pickup so the player can keep on going for longer.
 
@@ -256,7 +256,7 @@ Though I have included weapons I do not have the time to program and design more
 
 However, I will include rarities for weapons so players feel like there are more weapons than there are.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/">https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/">https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/</a></p></figcaption></figure>
 
 ### Graphics
 

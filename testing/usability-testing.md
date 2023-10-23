@@ -38,7 +38,7 @@ The majority of users played the game for a long time which suggests they found 
 
 ### Error Tolerant
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "Did the game download and run correctly?"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Graph showing the responses to the question "Did the game download and run correctly?"</p></figcaption></figure>
 
 {% hint style="info" %}
 The one person whose game didn't run correctly was mentioned in [Testing for Function and Robustness](testing-for-function-and-robustness.md) and the problem came from them running the game on MacOS.

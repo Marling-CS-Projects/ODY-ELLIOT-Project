@@ -127,3 +127,13 @@ description: A list of all the references used in this project (Harvard style)
 ### [Camera](features-of-the-proposed-solution.md#camera)
 
 [Prusa, J., 2021. Perspective/orthographic camera \[WWW Document\]. Prusa Knowledge Base. URL https://help.prusa3d.com/article/perspective-orthographic-camera\_1760.](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)
+
+### [Character](features-of-the-proposed-solution.md#character)
+
+[CharacterArt, 2015. Shovel Knight (8-Bit) \[WWW Document\]. Grid Paint. URL https://grid-paint.com/images/details/5070457833259008.](https://grid-paint.com/images/details/5070457833259008)
+
+[Contributors to Soul Knight Wiki, 2017. Caballero. Fandom, Inc.](https://soul-knight.fandom.com/es/wiki/Caballero)
+
+[Don’t Pocket Me, 2020. Steam Community :: Guide :: Beginning the Gungeon : Who should I play? \[WWW Document\]. Steam Community. URL https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348.](https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348)
+
+[Dr. FLavin, 2016. PC / Computer - Enter the Gungeon - The Convict \[WWW Document\]. The Spriters Resource. URL https://www.spriters-resource.com/pc\_computer/enterthegungeon/sheet/155740/.](https://www.spriters-resource.com/pc\_computer/enterthegungeon/sheet/155740/)
