@@ -119,13 +119,13 @@ There were also errors caused by the trigger objects. However, this didn't need 
 
 #### Test 1
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
 
 The enemy spawned outside of the level (evidenced by the above screenshot). This was a simple fix as I had incorrectly set the enemy spawn boundaries.&#x20;
 
 #### Test 2
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
 
 Instead of moving towards the player, the Goblin enemy would move towards the origin (0,0). This was found to be a bug where the player's transform was incorrectly referenced so the transform's position would go back to the default of (0,0).
 

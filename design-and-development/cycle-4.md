@@ -302,13 +302,13 @@ Another challenge was adding the cooldown to the player so the player couldn't b
 
 #### Test 2
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
 
 In the screenshot, the bullets are slightly offset from the mouse's position (the white dot represents where the mouse should be as Snipping Tool removes the mouse). This was fixed by decreasing the size of the bullet sprite.
 
 #### Test 5
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
 
 The player was instantly killed by the enemy as there weren't any cooldowns. This meant that the player lost all of their health in three frames as the enemy could attack the player once every frame. To solve this, I added a cooldown to indicate whether or not the player could be hit which makes the player invincible for a while.
 

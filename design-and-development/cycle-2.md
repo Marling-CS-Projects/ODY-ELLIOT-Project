@@ -188,7 +188,7 @@ The main challenge was creating the tilemap system where you can use external fi
 
 #### Test 1
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A screenshot from the game</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>A screenshot from the game</p></figcaption></figure>
 
 In the screenshot, all the tiles were jumbled up so they didn't resemble the intended picture. This was caused by the x-axis value being set incorrectly which caused the tiles to be arranged in the wrong order.
 

@@ -154,6 +154,14 @@ To create the pause function I stopped the majority of the `update` function fro
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>Enemies stop moving but still shoot bullets</td><td>Fail</td></tr><tr><td>3</td><td>Press 'P' after the game has started</td><td>The pause menu appears on screen and all entities stop updating</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Let the player die</td><td>The game-over screen should be displayer</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Test out all the weapons</td><td>The stats should be changed</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Test for input lag</td><td>No input lag should occur</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
+### Testing Evidence
+
+#### Test 2
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot from Bucket Knight</p></figcaption></figure>
+
+This bug was caused by the enemy cooldowns being based on the game's ticks (how many frames have passed) rather than their internal ticks (which are based on how many updates they have undergone). This was changed so the enemy cooldowns are now internal which means, when they stop updating, the bullets stop being shot at the player.
+
 ### Evidence
 
 {% embed url="https://www.youtube.com/watch?v=XrXzbDvoiRU" %}

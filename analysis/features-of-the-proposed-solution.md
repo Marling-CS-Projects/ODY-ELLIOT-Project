@@ -34,7 +34,7 @@ The game will have a top-down camera system (like [Soul Knight](research-the-pro
 
 The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([Prusa, 2021](references.md#camera)), which is ideal for 2D games as everything needs to look the same distance away.
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>A picture depicting the differences between a perspective camer and an orthagraphic camera (<a href="references.md#camera">Prusa, 2021</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption><p>A picture depicting the differences between a perspective camer and an orthagraphic camera (<a href="references.md#camera">Prusa, 2021</a>)</p></figcaption></figure>
 
 ### Character
 
@@ -212,7 +212,7 @@ A common video game trope is "Save the Princess" ([Contributors to Tropedia, 202
 
 ### Examples
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#story">MarioSuperstarsGaming, 2020</a>)<br><br>In NEW Super Mario Brothers Wii the main goal of the game is to save Princess Peach from Bowser's Castle.</td><td></td><td><a href="../.gitbook/assets/image (12) (1).png">image (12) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Yates, 2022</a>)</td><td>In Jump King the goal of the game is to reach the top of the tower to reach the "Smoking Hot Babe".</td><td><a href="../.gitbook/assets/image (6) (2) (1) (1).png">image (6) (2) (1) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Josh the Wolf, 2020</a>)</td><td>In Legend of Zelda: Breath of the Wild Link has to save Princess Zelda and defeat the Calamity in order to save Hyrule.</td><td><a href="../.gitbook/assets/image (10).png">image (10).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#story">MarioSuperstarsGaming, 2020</a>)<br><br>In NEW Super Mario Brothers Wii the main goal of the game is to save Princess Peach from Bowser's Castle.</td><td></td><td><a href="../.gitbook/assets/image (12) (1).png">image (12) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Yates, 2022</a>)</td><td>In Jump King the goal of the game is to reach the top of the tower to reach the "Smoking Hot Babe".</td><td><a href="../.gitbook/assets/image (6) (2) (1) (1) (1).png">image (6) (2) (1) (1) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Josh the Wolf, 2020</a>)</td><td>In Legend of Zelda: Breath of the Wild Link has to save Princess Zelda and defeat the Calamity in order to save Hyrule.</td><td><a href="../.gitbook/assets/image (10).png">image (10).png</a></td></tr></tbody></table>
 
 ### My Story
 
@@ -224,7 +224,7 @@ In my game, placed in a loose Medieval setting, you will be playing a character 
 
 ### Pause Menu
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot of the Pause Menu from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#ui-and-hud">Contributors to Soul Knight Wiki, 2017)</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Screenshot of the Pause Menu from <a href="research-the-problem.md#soul-knight">Soul Knight</a> (<a href="references.md#ui-and-hud">Contributors to Soul Knight Wiki, 2017)</a></p></figcaption></figure>
 
 In this pause menu mock-up (shown above) there is a "Play Button" (represented by '▶️') which will resume the game, a "How to Play Button" (represented by '❓') which will display an image demonstrating the controls of the game, and a "Quit Button" (represented by '❎') which will exit the current play session and go back the&#x20;
 
