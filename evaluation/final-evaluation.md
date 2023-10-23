@@ -31,3 +31,15 @@ You can find the Patch Notes on the Store Page.
 {% endembed %}
 
 Use this link to load the [Bucket Knight Playlist](https://www.youtube.com/watch?v=wLS\_OUcNmBI\&list=PLxQjwwureivQ5SoK\_HWc\_BNH2XI3o78MY\&pp=gAQBiAQB) on YouTube.
+
+### GitBook
+
+I used GitBook to document my entire project so I strongly recommend assessing the documentation how it was intended to be.
+
+{% embed url="https://app.gitbook.com/o/-MM_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/" %}
+([https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/](https://app.gitbook.com/o/-MM\_7qMOfSgqBidGd9EN/s/bPgaYhVVrxR02AEMkPnf/))
+{% endembed %}
+
+Alternatively, you could use the link [https://bit.ly/Elliot-Ody-Project](https://bit.ly/Elliot-Ody-Project) or scan the QR code below.
+
+<figure><img src="../.gitbook/assets/bit.ly_Elliot-Ody-Project.png" alt="" width="360"><figcaption></figcaption></figure>
