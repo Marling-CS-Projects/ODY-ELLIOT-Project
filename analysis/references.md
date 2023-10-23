@@ -183,3 +183,13 @@ description: A list of all the references used in this project (Harvard style)
 [White Barbie, n.d. Mouse Buttons Vector Illustration Demonstration Left Stock Vector (Royalty Free) 301091408 \[WWW Document\]. Shutterstock. URL https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408.](https://www.shutterstock.com/image-vector/mouse-buttons-vector-illustration-demonstration-left-301091408)
 
 ### [Story](features-of-the-proposed-solution.md#story)
+
+[Contributors to Tropedia, 2023. Save the Princess. Fandom, Inc.](https://tropedia.fandom.com/wiki/Save\_the\_Princess)
+
+[Josh the Wolf, 2020. Link saves Zelda - Breath of the Wild CUTSCENE \*FHD 60fps\*. YouTube.](https://www.youtube.com/watch?v=VsIpIVm1xKk)
+
+[MarioSuperstarsGaming, 2020. New Super Mario Bros Wii - Final Castle & Ending. YouTube.](https://www.youtube.com/watch?v=90x2-E3DdxY)
+
+[Yates, A., 2022. Jump King Speedrun Guide – It’s Rude to Keep a Lady Waiting! - Avid Achievers \[WWW Document\]. Natalia Bickell. URL https://avidachievers.com/speedruns/jump-king-speedrun-guide/.](https://avidachievers.com/speedruns/jump-king-speedrun-guide/)
+
+### UI and HUD

@@ -208,11 +208,11 @@ The mouse will be used to aim the player's weapons at the enemy. The mouse posit
 
 ## Story
 
-A common video game trope is "Save the Princess"([https://tropedia.fandom.com/wiki/Save\_the\_Princess](https://tropedia.fandom.com/wiki/Save\_the\_Princess)) as it provides a simple goal for the player to achieve and gives them a sense of fulfilment as well.
+A common video game trope is "Save the Princess" ([Contributors to Tropedia, 2023](references.md#story)) as it provides a simple goal for the player to achieve and gives them a sense of fulfilment as they get to be the hero. This also has a large appeal to male gamers which is good as they make up the majority of people who play video games ([1.2 Stakeholders](stakeholders.md)).&#x20;
 
-### Examples of Games that "Save the Princess"
+### Examples
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a href="https://www.youtube.com/watch?v=90x2-E3DdxY">https://www.youtube.com/watch?v=90x2-E3DdxY</a><br><br>In NEW Super Mario Brothers Wii the main goal of the game is to save Princess Peach from Bowser's Castle.</td><td></td><td><a href="../.gitbook/assets/image (12) (1).png">image (12) (1).png</a></td></tr><tr><td><a href="https://avidachievers.com/speedruns/jump-king-speedrun-guide/">https://avidachievers.com/speedruns/jump-king-speedrun-guide/</a></td><td>In Jump King the goal of the game is to reach the top of the tower to reach the "Smoking Hot Babe".</td><td><a href="../.gitbook/assets/image (6) (2) (1) (1).png">image (6) (2) (1) (1).png</a></td></tr><tr><td><a href="https://www.youtube.com/watch?v=VsIpIVm1xKk">https://www.youtube.com/watch?v=VsIpIVm1xKk</a></td><td>In Legend of Zelda: Breath of the Wild Link has to save Princess Zelda and defeat the Calamity in order to save Hyrule.</td><td><a href="../.gitbook/assets/image (10).png">image (10).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>(<a href="references.md#story">MarioSuperstarsGaming, 2020</a>)<br><br>In NEW Super Mario Brothers Wii the main goal of the game is to save Princess Peach from Bowser's Castle.</td><td></td><td><a href="../.gitbook/assets/image (12) (1).png">image (12) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Yates, 2022</a>)</td><td>In Jump King the goal of the game is to reach the top of the tower to reach the "Smoking Hot Babe".</td><td><a href="../.gitbook/assets/image (6) (2) (1) (1).png">image (6) (2) (1) (1).png</a></td></tr><tr><td>(<a href="references.md#story">Josh the Wolf, 2020</a>)</td><td>In Legend of Zelda: Breath of the Wild Link has to save Princess Zelda and defeat the Calamity in order to save Hyrule.</td><td><a href="../.gitbook/assets/image (10).png">image (10).png</a></td></tr></tbody></table>
 
 ### My Story
 
