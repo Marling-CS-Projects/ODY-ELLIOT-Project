@@ -121,3 +121,9 @@ description: A list of all the references used in this project (Harvard style)
 [Robinson, A., 2016. Video of \[WWW Document\]. Family Gaming Database. URL https://www.familygamingdatabase.com/en-gb/game/Enter+The+Gungeon.](https://www.familygamingdatabase.com/en-gb/game/Enter+The+Gungeon)
 
 [Williams, M., 2016. Enter the Gungeon PC Review: A Fistful of Bullets. VG247.](https://www.vg247.com/enter-the-gungeon-pc-review-a-fistful-of-bullets)
+
+## [1.4a Features of Proposed Solution](features-of-the-proposed-solution.md)
+
+### [Camera](features-of-the-proposed-solution.md#camera)
+
+[Prusa, J., 2021. Perspective/orthographic camera \[WWW Document\]. Prusa Knowledge Base. URL https://help.prusa3d.com/article/perspective-orthographic-camera\_1760.](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)

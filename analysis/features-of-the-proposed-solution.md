@@ -32,9 +32,9 @@ The roll ability will have a short cool-down so the player can't keep constantly
 
 The game will have a top-down camera system (like [Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon)) which follows the player so the player can see where they are currently going and what they are doing.
 
-The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([https://help.prusa3d.com/article/perspective-orthographic-camera\_1760](https://help.prusa3d.com/article/perspective-orthographic-camera\_1760)), which is ideal for 2D games as everything needs to look the same distance away.
+The camera will be an orthographic camera, which is a camera that renders everything to the same scale ([Prusa, 2021](references.md#camera)), which is ideal for 2D games as everything needs to look the same distance away.
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p><a href="https://help.prusa3d.com/article/perspective-orthographic-camera_1760">https://help.prusa3d.com/article/perspective-orthographic-camera_1760</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>A picture depicting the differences between a perspective camer and an orthagraphic camera (<a href="references.md#camera">Prusa, 2021</a>)</p></figcaption></figure>
 
 ### Character
 
