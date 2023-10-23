@@ -254,7 +254,7 @@ Though I have included weapons I do not have the time to program and design more
 
 However, I will include rarities for weapons so players feel like there are more weapons than there are.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/">https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my_gun_tier_list_template_explanation_in_comments/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="research-the-problem.md#enter-the-gungeon">Enter the Gungeon</a> weapon tier list (<a href="references.md#limitations">chocolateChemist, 2019</a>)</p></figcaption></figure>
 
 ### Graphics
 

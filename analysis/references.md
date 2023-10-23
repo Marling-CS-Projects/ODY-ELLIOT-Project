@@ -197,3 +197,9 @@ description: A list of all the references used in this project (Harvard style)
 [Contributors to Soul Knight Wiki, 2017. Pause Menu. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Pause\_Menu)
 
 [Pluralsight, 2014. HUD Design That Works for Your Game \[WWW Document\]. Pluralsight. URL https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game.](https://www.pluralsight.com/blog/film-games/designing-a-hud-that-works-for-your-game)
+
+### [Limitations](features-of-the-proposed-solution.md#limitations)
+
+[chocolateChemist, 2019. My Gun Tier List! (template + explanation in comments) : r/EnterTheGungeon \[WWW Document\]. Reddit. URL https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my\_gun\_tier\_list\_template\_explanation\_in\_comments/.](https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my\_gun\_tier\_list\_template\_explanation\_in\_comments/?rdt=40350)
+
+### [Other](features-of-the-proposed-solution.md#other)
