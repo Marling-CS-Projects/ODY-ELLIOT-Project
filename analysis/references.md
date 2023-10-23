@@ -4,6 +4,8 @@ description: A list of all the references used in this project (Harvard style)
 
 # 📖 References
 
+Some of these references are too Fandom pages which aren't 100% reliable. However, most things referenced in these pages are images and screenshots.
+
 ## [1.1 Problem Identification](problem-identification.md)
 
 ### [The current state of the game industry](problem-identification.md#the-current-state-of-the-game-industry)
