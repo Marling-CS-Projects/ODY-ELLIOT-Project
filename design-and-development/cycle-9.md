@@ -219,10 +219,18 @@ Another feature I added was to make each enemy unique by randomizing their stats
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Go through the levels</td><td>Enemies to spawn in the sequence 1,1,2,2,3,3,... (excluding the first level)</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Go through the levels</td><td>Different enemy types spawn</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Get shot by Wizard enemy</td><td>The player to take damage</td><td>The player dies instantly</td><td>Fail (as the player should still be alive after being hit)</td></tr><tr><td>4</td><td>Get shot by Wizard enemy</td><td>The player to take damage</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Spawn a Furball enemy</td><td>The enemy should move towards the player and shoot</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Get shot by a Furball enemy</td><td>The player to take damage</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>See if all the enemy types contain variation</td><td>The enemies to have slightly different stats to their counterparts</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Shoot the Wizard enemy once with the Gun weapon</td><td>The enemy to die as the Gun weapon deals 1HP and the Wizard has 1HP</td><td>As expected</td><td>Pass</td></tr><tr><td>9</td><td>Shoot the Furball enemy twice with the Gun weapon</td><td>The enemy to die after the second shot as the Gun weapon deals 1HP and the Furball has 2HP</td><td>As expected</td><td>Pass</td></tr><tr><td>10</td><td>Kill the enemies using the other weapons</td><td>The enemies to be destroyed correctly (based on the weapon's damage and health)</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
+### Testing Evidence
+
+#### Test 3
+
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Screenshot</p></figcaption></figure>
+
+In the console of the screenshot above, it shows that the player only once was hit and the game was immediately ended. The player was hit by a Wizard projectile which is meant to do one damage but turned out to do three so this was quickly fixed.
+
 ### Evidence
 
 {% embed url="https://www.youtube.com/watch?t=2s&v=Z4aXRpog_YY" %}
 The video above shows the ninth cycle of my game ([https://www.youtube.com/watch?v=Z4aXRpog\_YY](https://www.youtube.com/watch?v=Z4aXRpog\_YY))
 {% endembed %}
 
-The video above shows enemies spawning in the sequence 1,1,2,2,3,3,... (excluding the first level) as well as the different enemies and their behaviours.
+The video above shows enemies spawning in the sequence 1,1,2,2,3,3,... (excluding the first level which is always 1 enemy) as well as the different enemies and their behaviours.

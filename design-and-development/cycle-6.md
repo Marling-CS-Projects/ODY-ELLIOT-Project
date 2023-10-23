@@ -224,6 +224,12 @@ This cycle had many bugs arising from attempting to reset the game scene. The ma
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>The Main Menu Appears</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Press the Play Button</td><td>The Game starts</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Press the Play Button and let the Player die</td><td>The Game reverts back to the Main Menu</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>A read access violation occurs as the pointer points to a memory location that no longer exists</td><td>Fail</td></tr><tr><td>5</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>Write access violation as the pointer cannot access the correct memory location to write the new data onto</td><td>Fail</td></tr><tr><td>6</td><td>Press the Play Button and let the Player die then attempt to start the Game again</td><td>The Game starts</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Go through the Dungeon by defeating the enemies in each room</td><td>The Score should increment correctly</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
+### Testing Evidence
+
+#### Tests 4 & 5
+
+These tests failed due to the previous game's entities not being removed from the game correctly. This was solved by clearing the game's lists in the end-game function as this removed the pointers to empty memory locations in the game.
+
 ### Evidence
 
 {% embed url="https://youtu.be/VF2-2tVXJ2I" %}

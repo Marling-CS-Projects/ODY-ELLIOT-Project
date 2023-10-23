@@ -102,6 +102,12 @@ The main challenge was identifying the cause of the bugs that occurred in the ga
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>The player remained at the same position</td><td>Fail</td></tr><tr><td>2</td><td>Collide with the wall and defeat all the enemies</td><td>The player to teleport to the default position</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Reach later levels in the game</td><td>Everything to function as normal (i.e. no lag and no random projectiles)</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
+### Testing Evidence
+
+#### Test 1
+
+The problem arose from the player being set to their previous position when colliding with walls so this was fixed by setting both the previous position and the player's current position to the level starting position the player was meant to be at.&#x20;
+
 ### Evidence
 
 {% embed url="https://youtu.be/a-GtOMCnsjA" %}

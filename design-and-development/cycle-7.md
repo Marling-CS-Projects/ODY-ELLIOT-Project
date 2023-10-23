@@ -123,6 +123,12 @@ I also made a small tweak as I learned the objects were being updated before mov
 
 <table><thead><tr><th width="90">Test</th><th width="141">Instructions</th><th>What I expect</th><th width="163">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Music to be playing</td><td>No music played and an error was printed out to the console reading "Failed to Load Music -> Unrecognised File Format"</td><td>Fail</td></tr><tr><td>2</td><td>Run code</td><td>Music to be playing</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Press the How-To-Play button</td><td>The scene to switch to the How-To-Play screen</td><td>As expected</td><td>Pass</td></tr><tr><td>4</td><td>Press the Back Button </td><td>The scene to revert back to the Main Menu</td><td>As expected</td><td>Pass</td></tr><tr><td>5</td><td>Click the Menu buttons</td><td>The menuClick sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>6</td><td>Recieve damage from an enemy</td><td>The playerHit sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>7</td><td>Deal damage to an enemy</td><td>The enemyHit sound to play</td><td>As expected</td><td>Pass</td></tr><tr><td>8</td><td>Destroy all enemies in a level</td><td>The level to change so the newLevel sound plays</td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
+### Testing Evidence
+
+#### Test 1
+
+The music didn't play when the game was started because I hadn't yet allowed the Mixer to take in MP3 files. This was fixed by adding the line `Mix_Init(MIX_INIT_MP3);`.
+
 ### Evidence
 
 {% embed url="https://youtu.be/rmDgmbXZ_yc" %}
