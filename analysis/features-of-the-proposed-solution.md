@@ -278,5 +278,5 @@ As I am not a professional composer or sound effect artist, original sound for m
 * Loading times should be reduced as much as possible as long loading times may cause the player to be less invested in the game as they get bored between loads. Also, long loading times between scenes will make the game less seamless between levels.
 * The game should run at a consistent frame rate of 60FPS so the game doesn't lag.
 * The game shouldn't crash.
-* The game should be fun as the main goal of a video game is to provide entertainment ([Corona, 2020](references.md#risk-and-reward-in-computer-games)). `//don't forget to update references//`
-* According to the Goldilox Principle ([https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html&](https://yourdost.com/blog/2016/10/goldilocks-principle.html?q=/blog/2016/10/goldilocks-principle.html&)), the game should be neither too easy nor too hard as this will discourage the player from playing the game again.
+* The game should be fun as the main goal of a video game is to provide entertainment ([Corona, 2020](references.md#risk-and-reward-in-computer-games)).
+* According to the Goldilox Principle ([Barik, 2016](references.md#other)), the game should be neither too easy nor too hard as this will discourage the player from playing the game again.
