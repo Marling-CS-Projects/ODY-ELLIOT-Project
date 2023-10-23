@@ -33,6 +33,10 @@ Some parts of my code can be described as Spaghetti code, as it has no defined s
 
 Something I could add in the short-term would be level variation. This would work by adding another tilemap file which would store the positions of objects to place in the levels (such as destructible crates). I could also add item pickups (such as a health potion) on these tilemaps or in the crates.
 
+#### New Gamers Consideration
+
+Nowhere in the game explains how the features in the game work (such as weapon switching). Players normally learn how the game works after three or four rounds but this feature will need improvement as users are often surprised at features, such as weapons switching, when they first encounter it. A solution to this is creating a better How-To-Play screen which doesn't only contain the controls for the game but also text explaining the features in the game which may be confusing to newcomers. This could also be fixed by changing it into a tutorial, which is more engaging for the player, but this solution would require more work to implement.
+
 ### Long-Term Plan
 
 #### Art

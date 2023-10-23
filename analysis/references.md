@@ -202,6 +202,8 @@ Some of these references are too Fandom pages which aren't 100% reliable. Howeve
 
 ### [Limitations](features-of-the-proposed-solution.md#limitations)
 
+[Porokh, A., 2023. Harnessing the Potential of Video Game Sound Design - Kevuru Games \[WWW Document\]. Kevurugames - Game Art Studio. URL https://kevurugames.com/blog/harnessing-the-potential-of-video-game-sound-design/](https://kevurugames.com/blog/author/olenaporokh/)
+
 [chocolateChemist, 2019. My Gun Tier List! (template + explanation in comments) : r/EnterTheGungeon \[WWW Document\]. Reddit. URL https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my\_gun\_tier\_list\_template\_explanation\_in\_comments/.](https://www.reddit.com/r/EnterTheGungeon/comments/bstfpn/my\_gun\_tier\_list\_template\_explanation\_in\_comments/?rdt=40350)
 
 ### [Other](features-of-the-proposed-solution.md#other)

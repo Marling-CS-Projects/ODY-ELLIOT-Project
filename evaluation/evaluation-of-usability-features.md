@@ -2,27 +2,25 @@
 
 ## Effective
 
-| Feature No. | Description                               | Success/Fail |
-| ----------- | ----------------------------------------- | ------------ |
-| 1           | The game's objective is clear             | Success      |
-| 2           | The game provides a challenge to the user | Success      |
+| Feature No. | Description                                                  | Success/Fail |
+| ----------- | ------------------------------------------------------------ | ------------ |
+| 1           | Have a How-To-Play screen that explains the game's objective | Fail         |
+| 2           | The game's objective is clear                                | Success      |
 
 ### Feature 1
 
-Due to Bucket Knight's simplistic design, the game's goals were clear to players as they could quickly figure out what the game wanted them to do and how to achieve it (as evidenced in [3.2 Usability Testing](../testing/usability-testing.md)). This feature won't need to be developed further.
+The current How-To-Play screen only displays the controls of the game. This is not ideal as players new to gaming may not understand what to do and will stop playing after a few rounds. This needs to be fixed in future cycles.
 
 ### Feature 2
 
-The level of challenge the game provided sat in the Goldilox Zone for most users which makes the game more entertaining to play as it isn't too easy (which causes boredom) and not too hard (which causes frustration). This feature doesn't need to be improved upon further but may be affected by future development as its success relies on the game as a whole.
-
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Graph showing the responses to the question "How easy was the game?"</p></figcaption></figure>
+Due to Bucket Knight's simplistic design, the game's goals were clear to players as they could quickly figure out what the game wanted them to do and how to achieve it (as evidenced in [3.2 Usability Testing](../testing/usability-testing.md)). This feature won't need to be developed further.
 
 ## Efficient
 
-| Feature No. | Description                   | Success/Fail |
-| ----------- | ----------------------------- | ------------ |
-| 3           | Have an easy to use Main Menu | Success      |
-| 4           | Have easy to use controls     | Success      |
+| Feature No. | Description                              | Success/Fail |
+| ----------- | ---------------------------------------- | ------------ |
+| 3           | Have easy to use menus                   | Success      |
+| 4           | Have responsive and easy-to-use controls | Success      |
 
 ### Feature 3
 
@@ -30,7 +28,13 @@ The game's Main Menu consists of two buttons: the Play button and the How-To-Pla
 
 ### Feature 4
 
-The game has very basic controls which are easy to use making the game easy to pick up and play. This feature won't need to be developed further unless new abilities are added which require their own keybinds.
+The game has very basic controls which are easy to use making the game easy to pick up and play. The game's controls are now responsive (thanks to the fixes in [Cycle 11](../design-and-development/cycle-11.md)) so this feature won't need to be developed further unless new abilities are added which require their own keybinds.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A graph showing responses to the question "How responsive were the controls?"</p></figcaption></figure>
+
+{% hint style="info" %}
+The form was created before [Cycle 11](../design-and-development/cycle-11.md) so some of the respondents played the game before the v1.1 Patch.
+{% endhint %}
 
 ## Engaging
 
@@ -91,10 +95,10 @@ As shown below, there were quite a few bugs in my game on its first release. All
 
 ## Easy To Learn
 
-| Feature No. | Description                        | Success/Fail |
-| ----------- | ---------------------------------- | ------------ |
-| 12          | List the controls in-game          | Success      |
-| 13          | Explain how the game works in-game | Fail         |
+| Feature No. | Description                   | Success/Fail |
+| ----------- | ----------------------------- | ------------ |
+| 12          | List the controls in-game     | Success      |
+| 13          | Create easy-to-learn controls | Success      |
 
 ### Feature 12
 
@@ -102,4 +106,4 @@ The How-To-Play screen shows the player all the controls they need to play the g
 
 ### Feature 13
 
-Nowhere in the game explains how the features in the game work (such as weapon switching). Players normally learn how the game works after three or four rounds but this feature will need improvement in future development cycles as users are often surprised at features, such as weapons switching, when they first encounter it. A solution to this is creating a better How-To-Play screen which doesn't only contain the controls for the game but also text explaining the features in the game which may be confusing to newcomers.
+The controls share similarities with existing games and there aren't many of them. This makes the controls easy to learn and use in-game which makes this feature successful and one that doesn't have to be developed further.

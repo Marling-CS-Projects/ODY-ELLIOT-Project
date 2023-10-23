@@ -8,37 +8,43 @@ The diagram above shows different sections of the game which I'll focus on makin
 
 ## Usability Features
 
-Usability is a vital aspect of my game as I want my game to be accessible to as many people as possible. To create the best possible user experience there are 5 key points which I will use while developing my project.
+Usability is a vital aspect of my game as I want my game to be enjoyed by as many people as possible. To create the best possible user experience there are five key points which I will use while developing my project.
 
 These are:
 
 ### Effective
 
-Effective usability is when the user completes a target/goal with both completeness and accuracy. In order to achieve this, I will let the player know what their goal is via the "how to play" button in both the [Main Menu](../analysis/features-of-the-proposed-solution.md#main-menu) and the [Pause Menu](../analysis/features-of-the-proposed-solution.md#pause-menu). As well as that, the dungeon will be quite linear to the player will be naturally drawn to the goal.
+Effective usability is when the user completes a target/goal with both completeness and accuracy. In order to achieve this, I will let the player know what their goal is via the "how to play" button in both the [Main Menu](../analysis/features-of-the-proposed-solution.md#main-menu) and the [Pause Menu](../analysis/features-of-the-proposed-solution.md#pause-menu). As well as that, I want to have a clear goal for the game so players can pick up and play without reading the "how to play" screen.
+
+{% hint style="info" %}
+The "how to play" screen is intended to be used by more inexperienced gamers because more experienced gamers are likely to just head straight into the game and understand it faster.
+{% endhint %}
 
 #### Aims
 
-* Create an intuitive "How-To-Play" screen.
-* Create a linear dungeon generation algorithm to naturally draw the player to the goal.
+* Create a "How-To-Play" screen which explains the game's goals.
+* Have a clear objective for the game.
 
 ### Efficiency
 
-Efficiency refers to the speed and accuracy a user can complete a goal. To make an efficient game I will create a menu system which is intuitive and easy to navigate as well as an easy [control scheme](../analysis/features-of-the-proposed-solution.md#controls).
+Efficiency refers to the speed and accuracy a user can complete a goal. To make an efficient game I will create a menu system which is intuitive and easy to navigate as well as an easy and responsive [control scheme](../analysis/features-of-the-proposed-solution.md#controls).
 
 #### Aims
 
 * Create a menu system that is intuitive and easy to navigate.
-* Create an easy control scheme.
+* Create an easy and responsive control scheme.
 
 ### Engaging
 
-Engagement is arguably the most important usability feature as it requires the solution to be engaging for the player while playing. To achieve this, I will create a procedural algorithm for each level as well as randomise enemies and weapon drops (from chests) in order to create a unique experience for each run which will help engage the player for a long time. As well as that, the[ pixel artwork](../analysis/features-of-the-proposed-solution.md#character) will also help add to user engagement.
+Engagement is arguably the most important usability feature as it requires the solution to be engaging for the player while playing. To achieve this, I will [graphics](../analysis/features-of-the-proposed-solution.md#sprite-inspiration) for my game that correctly represent the game's feel as well as backing this up with suitable [audio](../analysis/features-of-the-proposed-solution.md#sounds) to help immerse the player in the game world. I will also create a plethora of [levels](../analysis/features-of-the-proposed-solution.md#procedural-generation), [weapons](../analysis/features-of-the-proposed-solution.md#weapons), and [enemies](../analysis/features-of-the-proposed-solution.md#enemies) in order to keep the player engaged due to the variety these features will provide.
 
 #### Aims
 
-* Create a procedural dungeon generation algorithm.
-* Random enemies and weapon spawning.
-* Pixel art for the game's sprites.
+* Suitable Game Art
+* Suitable Game Sound
+* Variety of Levels
+* Variety of Weapons
+* Variety of Enemies
 
 ### Error Tolerant
 
@@ -58,4 +64,4 @@ The "how to play" screen will also help players understand the [controls](../ana
 #### Aims
 
 * Create a "How-To-Play" screen.
-* Create intuitive controls.
+* Create easy-to-learn controls.
