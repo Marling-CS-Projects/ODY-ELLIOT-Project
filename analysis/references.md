@@ -141,3 +141,19 @@ description: A list of all the references used in this project (Harvard style)
 [Don’t Pocket Me, 2020. Steam Community :: Guide :: Beginning the Gungeon : Who should I play? \[WWW Document\]. Steam Community. URL https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348.](https://steamcommunity.com/sharedfiles/filedetails/?id=2114943348)
 
 [Dr. FLavin, 2016. PC / Computer - Enter the Gungeon - The Convict \[WWW Document\]. The Spriters Resource. URL https://www.spriters-resource.com/pc\_computer/enterthegungeon/sheet/155740/.](https://www.spriters-resource.com/pc\_computer/enterthegungeon/sheet/155740/)
+
+### [HP and Damage](features-of-the-proposed-solution.md#hp-and-damage)
+
+[Digital Sun, 2020. Moonlighter: Between Dimensions – Console Release Date Reveal \[WWW Document\]. Moonlighter | Every adventure has to pay off. URL https://moonlighterthegame.com/console\_date\_reveal/.](https://moonlighterthegame.com/console\_date\_reveal/)
+
+### [Weapons](features-of-the-proposed-solution.md#weapons)
+
+[Bryant, J., 2018. Moonlighter review:  Merchant in the streets, hero in the deeps — Jonathan Bryant. Jonathan Bryant.](https://www.jbinthelede.com/blog/2018/6/4/moonlight-review-shopkeeper-in-the-streets-hero-in-the-deeps)
+
+[Contributors to Soul Knight Wiki, 2017. Bow. Fandom, Inc.](https://soul-knight.fandom.com/wiki/Bow)
+
+[Dunson, C., 2013. The Importance of Variety in Gaming. Game Developer.](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)
+
+[Kryshak-Karwowski, S., 2016. Summary Slide \[WWW Document\]. ffden-2.phys.uaf.edu/. URL http://ffden-2.phys.uaf.edu/webproj/211\_fall\_2016/Sabina\_Kryshak-Karwowski/sabina\_kryshakkarwowski/Slide8\_Pokedex.html.](http://ffden-2.phys.uaf.edu/webproj/211\_fall\_2016/Sabina\_Kryshak-Karwowski/sabina\_kryshakkarwowski/Slide8\_Pokedex.html) (Not secure link)
+
+T[igerSoul, 2021. All 15 Staff And Parts in New Mode Soul Knight. YouTube.](https://www.youtube.com/watch?app=desktop\&v=4UGCxX\_Dluo)

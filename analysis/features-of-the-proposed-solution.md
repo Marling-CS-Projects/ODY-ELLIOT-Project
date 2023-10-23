@@ -58,19 +58,19 @@ Both players and enemies will have a set number of hit-points (HP) which will de
 
 The more damage the weapon does results in more HP being depleted and, when HP goes below or is equal to 0, the entity will be destroyed. If this entity is the player, the game will end and display a game on the screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="https://moonlighterthegame.com/console_date_reveal/">https://moonlighterthegame.com/console_date_reveal/</a>)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Healthbar from <a href="research-the-problem.md#moonlighter">Moonlighter</a> (<a href="references.md#hp-and-damage">Digital Sun, 2020</a>)</p></figcaption></figure>
 
 This system is used in all three previously mentioned games ([Soul Knight](research-the-problem.md#soul-knight), [Moonlighter](research-the-problem.md#moonlighter), and [Enter the Gungeon](research-the-problem.md#enter-the-gungeon))
 
 ## Weapons
 
-The player will pick up weapons they find along the way in [chests](features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](features-of-the-proposed-solution.md#melee), [Ranger](features-of-the-proposed-solution.md#ranger), and [Mage](features-of-the-proposed-solution.md#mage). This will give the game some variety which makes players play for longer ([https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming](https://www.gamedeveloper.com/design/the-importance-of-variety-in-gaming)).
+The player will pick up weapons they find along the way in [chests](features-of-the-proposed-solution.md#progression). Weapons will fall under 1 of 3 classes: [Melee](features-of-the-proposed-solution.md#melee), [Ranger](features-of-the-proposed-solution.md#ranger), and [Mage](features-of-the-proposed-solution.md#mage). This will give the game some variety which makes players play for longer ([Dunson, 2013](references.md#weapons)).
 
 ### Types
 
 Each weapon will have a good and bad weapon match-up similar to the types in Pokémon.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="http://ffden-2.phys.uaf.edu/webproj/211_fall_2016/Sabina_Kryshak-Karwowski/sabina_kryshakkarwowski/Slide8_Pokedex.html">http://ffden-2.phys.uaf.edu/webproj/211_fall_2016/Sabina_Kryshak-Karwowski/sabina_kryshakkarwowski/Slide8_Pokedex.html</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Pokemon type match-ups (<a href="references.md#weapons">Kryshak-Karwowski, 2016</a>)</p></figcaption></figure>
 
 {% hint style="info" %}
 For my game:
@@ -84,19 +84,19 @@ This will add a little more strategy to the game as you only can carry two of th
 
 ### Melee
 
-<figure><img src="../.gitbook/assets/Moonlighter+greatsword.gif" alt=""><figcaption><p><a href="https://www.jbinthelede.com/blog/2018/6/4/moonlight-review-shopkeeper-in-the-streets-hero-in-the-deeps">https://www.jbinthelede.com/blog/2018/6/4/moonlight-review-shopkeeper-in-the-streets-hero-in-the-deeps</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Moonlighter+greatsword.gif" alt=""><figcaption><p><a href="research-the-problem.md#moonlighter">Moonlighter</a> melee attack animation (<a href="references.md#weapons">Bryant, 2018</a>)</p></figcaption></figure>
 
 Melee weapons will require close-quarter combat and will have above-average damage output at the expense of putting yourself in danger. Examples of melee weapons include daggers, spears, short-swords, broad-swords, and axes. These weapons won't require as much aiming.
 
 ### Ranger
 
-<figure><img src="../.gitbook/assets/Videotogif_2017.07.29_18.11.35.webp" alt=""><figcaption><p><a href="https://soul-knight.fandom.com/wiki/Bow">https://soul-knight.fandom.com/wiki/Bow</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Videotogif_2017.07.29_18.11.35.webp" alt=""><figcaption><p><a href="research-the-problem.md#soul-knight">Soul Knight</a> bow animation (<a href="references.md#weapons">Contributors to Soul Knight Wiki, 2017</a>)</p></figcaption></figure>
 
 Ranger weapons will require charge-up time before use and require aim. However, ranger weapons will have high damage output per shot. Examples of ranger weapons include longbows, crossbows, and compound bows.
 
 ### Mage
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?app=desktop&#x26;v=4UGCxX_Dluo">https://www.youtube.com/watch?app=desktop&#x26;v=4UGCxX_Dluo</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="research-the-problem.md#soul-knight">Soul Knight</a> mage weapons (<a href="references.md#weapons">TigerSoul, 2021</a>)</p></figcaption></figure>
 
 Mage-class weapons will have high projectile output and be widespread with a low amount of damage per bullet. Examples of mage-class weapons include staffs, wands, and sceptres.
 
