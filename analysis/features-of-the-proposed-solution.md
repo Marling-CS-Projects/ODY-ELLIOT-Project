@@ -80,7 +80,7 @@ Melee -> Ranger -> Mage -> Melee -> ...
 
 A good match-up will result in more damage against the opposing enemy (e.g. Melee vs Ranger Enemy) and a bad match-up will result in less damage against the opposing enemy (e.g. Melee vs Mage Enemy).
 
-This will add a little more strategy to the game as you only can carry two of the three weapon types at a time.
+This will add a little more strategy to the game as you only can carry two of the three weapon types at a time which will have to make the player think about the battle ahead as well as surviving the current one, which will increase the difficulty.
 
 ### Melee
 
@@ -230,7 +230,7 @@ In this pause menu mock-up (shown above) there is a "Play Button" (represented b
 
 ### Main Menu
 
-The Main Menu will just be a larger version of the Pause Menu with a large background image where the ❎ will quit the game. If the player stays on the screen for a while the [story](features-of-the-proposed-solution.md#my-story) of the game will be displayed.
+The Main Menu will just be a larger version of the Pause Menu with a large background image where the ❎ will quit the game. If the player stays on the screen for a while, the screen will fade to black and then the [story](features-of-the-proposed-solution.md#my-story) of the game will be displayed.
 
 ### HUD
 
