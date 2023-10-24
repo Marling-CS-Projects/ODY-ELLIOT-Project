@@ -19,6 +19,10 @@ In this cycle, I will:
 
 Game Loop - The player can now play the game multiple times without restarting the application which will reduce downtime leading to the player being engaged for longer.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>tens</td><td>stores a reference to the tens column on the scoreboard</td></tr><tr><td>ones</td><td>stores a reference to the ones column on the scoreboard</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Start Game Function" %}

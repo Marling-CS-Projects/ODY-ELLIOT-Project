@@ -19,6 +19,10 @@ In this cycle, I will:
 * [x] Create a Sprite Component (to render the entity to the screen)
 * [x] An Input Component (for player input)
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>manager</td><td>stores a pointer to the instance of the entity manager which is in charge of controlling all the entities in the scene</td></tr><tr><td>player</td><td>stores a pointer to the player entity</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Game Implementation" %}

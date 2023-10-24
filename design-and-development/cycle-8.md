@@ -31,6 +31,10 @@ In this cycle, I will:
 
 'Can Shoot' and 'Roll' Indicator - Allows the user to know when they can shoot and roll so they time their resources effectively
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>weapon</td><td>stores the current weapon the player has</td></tr><tr><td>rolling</td><td>stores whether or not the player is currently rolling</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Attack Function" %}
@@ -172,7 +176,7 @@ void Game::AttackMelee()
 ```
 {% endcode %}
 
-The Melee weapon basically is a bullet with a short range and travels slowly. This gives an illusion of being a Melee weapon when it is actually a projectile.&#x20;
+The Melee weapon basically is a bullet with a short range and travels incredibly slowly. This gives an illusion of being a true melee weapon when it is actually a projectile just like the other weapons.
 
 {% code title="Roll Ability" %}
 ```cpp
@@ -200,7 +204,7 @@ void roll(Mix_Chunk* r)
 ```
 {% endcode %}
 
-The roll ability function takes in a sound effect from `Game` and triggers two cooldowns to start (if the player can roll). The cooldowns are for how long the player can roll and how long until the player can roll again.
+The roll ability function takes in a sound effect  `Game` and triggers two cooldowns to start (if the player can roll). The cooldowns are for how long the player can roll and how long until the player can roll again.
 
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%208).
 

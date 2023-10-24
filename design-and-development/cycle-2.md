@@ -24,6 +24,10 @@ In this cycle, I aim to:
 
 Render Groups/Layers - The player's group will be rendered above the tiles group in order for the user to be aware of where they are in the scene.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>tilemapFile</td><td>stores the data found in the external text files used to store the tilemaps</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Tile Map" %}

@@ -18,7 +18,11 @@ In this cycle, I will:
 
 ### Usability Features
 
-Number of Enemies - the number of enemies are capped so the player doesn't feel like levels past a certain point are unplayable.
+Number of Enemies - the number of enemies is capped so the player doesn't feel like levels past a certain point are unplayable.
+
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>enemyNumber</td><td>stores the number of enemies that should appear in the level</td></tr></tbody></table>
 
 ### Pseudocode
 
@@ -47,6 +51,8 @@ Using the function `f(i) = i / 2` when `i` is even and `f(i) = (i + 1) / 2` when
 This goes on as `i` increases so I have capped the number of enemies to 10 so the levels don't become impossible.
 
 The first level will always have 1 enemy and the last level will always have 11 enemies as they are initialized separately to the rest of the levels.
+
+The `(numRooms - 2)` is to account for the starting room and the end room.
 
 ## Development
 
@@ -125,7 +131,7 @@ public:
 ```
 {% endcode %}
 
-The `MagicEnemy` is the component for the Wizard and will cause the enemy to shoot bullets at the player.
+The `MagicEnemy` is the component for the Wizard enemy and will cause the enemy to stand still and shoot bullets at the player. When the player is hit by a bullet, they receive damage.
 
 {% code title="Gun Enemy Component" %}
 ```cpp
@@ -205,15 +211,15 @@ public:
 ```
 {% endcode %}
 
-The `GunEnemy` is the component for the Wizard and will cause the enemy to shoot bullets at the player as well as move towards the player.
+The `GunEnemy` is the component for the Furball enemy and will cause the enemy to shoot bullets at the player as well as move towards the player.
 
 You can find the rest of the solution [here](https://github.com/Marling-CS-Projects/ODY-ELLIOT-Project/tree/cycles/Bucket%20Knight%20-%20Cycle%209).
 
 ### Challenges
 
-There were a lot of bugs when spawning enemy bullets such as them spawning in the corner for a single frame before being teleported to the correct position.
+There were a lot of bugs when spawning enemy bullets such as them spawning in the corner for a single frame before being teleported to the correct position. This was fixed by updating them before they were rendered (as opposed to after).
 
-Another feature I added was to make each enemy unique by randomizing their stats slightly. For example, the Wizard enemy could have a cooldown of 200 plus or minus 10.
+Another feature I added was to make each enemy unique by randomizing their stats slightly. For example, the Wizard enemy could have a cooldown of 200 plus or minus 10. This adds more variety to the game which makes it more interesting. It also staggers bullet shooting times to make the game more challenging as there are always bullets for the player to dodge.
 
 ## Testing
 

@@ -21,6 +21,10 @@ Outlines - Every non-player sprite (inside of the dungeon room) won't have a whi
 
 As shown above, the Melee Enemy sprite has no white outline as it is in the dungeon room and the Heart UI sprite has a white outline because it is outside of the room and relevant to the player.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>health</td><td>stores the health a living entity has (player/enemy)</td></tr><tr><td>canBeHit</td><td>stores whether the player can be hit or not to prevent the player from dying instantly from one shot from the enemy</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Normalize Function" %}
@@ -37,7 +41,7 @@ function Vector2D normalize(Vector2D source):
 ```
 {% endcode %}
 
-The `normalize` function returns a new vector with a length of 1 while preserving the vector's direction, using Pythagoras (`a² + b² = c²`).
+The `normalize` function returns a new vector with a length of 1 while preserving the vector's direction, using Pythagoras (`a² + b² = c²`). This is essential for movement diagonally as the player will move faster diagonally than horizontally/vertically without it.
 
 {% code title="Player Component" %}
 ```cpp
@@ -248,7 +252,7 @@ public:
 ```
 {% endcode %}
 
-The `MeleeEnemy` component contains everything the game needs to know about the melee-type enemy as well as allowing the enemy to pathfind to the player (as shown in the `update()` function)
+The `MeleeEnemy` component contains everything the game needs to know about the melee-type enemy as well as allowing the enemy to pathfind to the player (as shown in the `update()` function).
 
 {% code title="Game.cpp Extract" %}
 ```cpp

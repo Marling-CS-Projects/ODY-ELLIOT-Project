@@ -26,6 +26,10 @@ Pause Menu - Allowing the player to pause will let them stop playing without los
 
 Game Over Screen - This adds a delay between the player dying and the main menu to prevent accidental button presses.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>dir</td><td>stores the direction the player should travel</td></tr><tr><td>w, a, s, d</td><td>stores whether the button is being pressed or not</td></tr></tbody></table>
+
 ## Development
 
 ### Outcome

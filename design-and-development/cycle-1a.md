@@ -25,6 +25,10 @@ Controls - Simple controls as they currently will just be movement controls.
 
 Sprite Contrast - The sprite will have a white outline to contrast with the black background.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>game</td><td>stores a pointer to the instance of the game class</td></tr><tr><td>transform</td><td>stores the entity's transform component which it can use to access its position and velocity</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Game Loop" %}
@@ -206,7 +210,7 @@ You can find the rest of the solution [here](https://github.com/Marling-CS-Proje
 
 ### Challenges
 
-The main challenges of this cycle were the initial struggle of importing the SDL library, in order to render the game and creating components to allow the player to have a sprite and the ability to move.
+The main challenges of this cycle were the initial struggle of importing the SDL2 library, in order to render the game and creating components to allow the player to have a sprite and the ability to move.
 
 ## Testing
 

@@ -23,6 +23,10 @@ In this cycle, I aim to:
 
 Viewport Scaling - This allows the user to play the game at any window size.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>currentRoom</td><td>stores the room the player is currently in</td></tr><tr><td>numRooms</td><td>stores how many rooms the dungeon will have</td></tr><tr><td>currentLayout</td><td>stores the current layout of the entire dungeon (the sequence of rooms the player must progress through)</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="Dungeon Creator" %}
@@ -84,7 +88,7 @@ int currentRoom
 ```
 {% endcode %}
 
-The dungeon generator will be created as an object and will render the current level the player is in.
+The dungeon generator will be created as an entity and will render the current level the player is in.
 
 ## Development
 
@@ -161,7 +165,7 @@ Level::Level(std::string lvlName, int x, int y)
 
 Level::~Level()
 {
-    // Destructor - Currently no additional cleanup needed
+    // Destructor - Currently no additional cleanup is needed
 }
 
 void Level::SetVariables(std::string lvlName, std::string tag, int x, int y)
@@ -345,4 +349,4 @@ For reference, the trigger with the white circle is the `backTrigger` and the tr
 The video above shows the third cycle of my game ([https://youtu.be/dw7ssOx5V9M](https://youtu.be/dw7ssOx5V9M))
 {% endembed %}
 
-The YouTube video (shown above) demonstrates the dungeon generation system working correctly as well as the wall collisions working properly. It also shows the viewport scaling to the correct size.&#x20;
+The YouTube video (shown above) demonstrates the dungeon generation system working correctly as well as the wall collisions working properly. It also shows the viewport scaling to the correct size.

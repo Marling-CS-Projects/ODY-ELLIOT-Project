@@ -18,6 +18,10 @@ In this cycle, I will:
 
 Enemies Spawning Rules - The enemies will spawn away from the player so the player doesn't get damaged instantaneously.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>dGen</td><td>stores a pointer to an instance of a dungeon generator</td></tr><tr><td>bullets</td><td>stores a reference to all the bullets in the scene as an array</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="If there are no Enemies" %}

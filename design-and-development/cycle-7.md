@@ -26,6 +26,10 @@ How-To-Play - This feature will allow new players to quickly learn the game's co
 
 Volume Levels - More important SFX (sound effects) have a greater volume than others (such as the player being hit being louder than the enemies getting hit) which will alert the user to more significant events taking place above other, less significant events.
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>music</td><td>stores the music to be played in-game</td></tr><tr><td>shoot, enemyHit, playerHit, menuClick, newLevel</td><td>stores a sound effect to be played on command</td></tr></tbody></table>
+
 ### Pseudocode
 
 {% code title="How To Play Screen" %}

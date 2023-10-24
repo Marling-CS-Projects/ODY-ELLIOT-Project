@@ -16,6 +16,10 @@ In this cycle, I will:
 * [x] Release the new version
 * [x] Add the patch notes to the itch.io page
 
+### Key Variables
+
+<table><thead><tr><th width="303">Variable Name</th><th>Use</th></tr></thead><tbody><tr><td>background, enemies, foreground, bullets, players, score, oldtiles, menu</td><td>stores a reference to all of their respective entities in their groups</td></tr></tbody></table>
+
 ## Development
 
 ### Outcome
