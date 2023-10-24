@@ -1,8 +1,8 @@
-# 2.2.6 Cycle 6
+# 2.2.6 Cycle 6 - Menu & Art
 
 ## Design
 
-In this cycle, I will add a main menu which the player is sent to when they lose and an arcade-style scoring system so the player knows how far they have progressed.
+In this cycle, I will add a main menu to which the player is sent when they lose and reinforce the new arcade-style gameplay with a scoring system so the player knows how far they have progressed.
 
 As well as that, I will add a few new assets to improve the game's look.
 

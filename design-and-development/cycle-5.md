@@ -1,8 +1,10 @@
-# 2.2.5 Cycle 5
+# 2.2.5 Cycle 5 - Arcade-Style
 
 ## Design
 
-In this cycle, I will give the game a more arcade-like feel as I felt it was diverging from the original plan of the game. I will have a score at the top indicating how many rooms the player has cleared as well as the next room spawning automatically, with enemies, when the room has been cleared.
+In this cycle, I will give the game a more arcade-like feel as I felt it was diverging from the original plan of the game. I felt this way because of the game's fast-paced, small stage, and action-orientated vibe.&#x20;
+
+To do this, I will make levels spawn by themselves (with enemies) after the previous level has been cleared and I will later add an arcade-style scoring system to the game.
 
 As well as that, I will improve the object creation system as I have identified a simple way to improve it.
 
